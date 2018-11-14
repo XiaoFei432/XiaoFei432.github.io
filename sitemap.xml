@@ -2,42 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2018/11/14/post3/</loc>
+    <loc>https://XiaoFei432.github.io/2018/11/14/%E5%8D%9A%E5%AE%A2%E6%B5%8B%E8%AF%95/</loc>
     
-    <lastmod>2018-11-14T02:50:45.632Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/11/14/post2/</loc>
-    
-    <lastmod>2018-11-14T02:50:41.326Z</lastmod>
+    <lastmod>2018-11-14T11:05:58.971Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2018/11/14/post/</loc>
-    
-    <lastmod>2018-11-14T02:50:34.327Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/11/14/hello-world/</loc>
+    <loc>https://XiaoFei432.github.io/2018/11/14/hello-world/</loc>
     
     <lastmod>2018-11-14T01:50:47.933Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/repository/index.html</loc>
+    <loc>https://XiaoFei432.github.io/tags/index.html</loc>
     
     <lastmod>2018-10-04T14:11:17.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/tags/index.html</loc>
+    <loc>https://XiaoFei432.github.io/categories/index.html</loc>
+    
+    <lastmod>2018-10-04T14:11:17.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://XiaoFei432.github.io/repository/index.html</loc>
     
     <lastmod>2018-10-04T14:11:17.000Z</lastmod>
     

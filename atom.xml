@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
-  <updated>2018-11-14T02:50:45.632Z</updated>
-  <id>http://yoursite.com/</id>
+  <link href="https://XiaoFei432.github.io/"/>
+  <updated>2018-11-14T11:05:58.971Z</updated>
+  <id>https://XiaoFei432.github.io/</id>
   
   <author>
     <name>XiaoFei432</name>
@@ -17,51 +17,27 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>post3</title>
-    <link href="http://yoursite.com/2018/11/14/post3/"/>
-    <id>http://yoursite.com/2018/11/14/post3/</id>
-    <published>2018-11-14T02:50:45.000Z</published>
-    <updated>2018-11-14T02:50:45.632Z</updated>
+    <title>博客测试</title>
+    <link href="https://XiaoFei432.github.io/2018/11/14/%E5%8D%9A%E5%AE%A2%E6%B5%8B%E8%AF%95/"/>
+    <id>https://XiaoFei432.github.io/2018/11/14/博客测试/</id>
+    <published>2018-11-14T10:51:19.000Z</published>
+    <updated>2018-11-14T11:05:58.971Z</updated>
     
     <summary type="html">
     
     </summary>
     
-    
-  </entry>
-  
-  <entry>
-    <title>post2</title>
-    <link href="http://yoursite.com/2018/11/14/post2/"/>
-    <id>http://yoursite.com/2018/11/14/post2/</id>
-    <published>2018-11-14T02:50:41.000Z</published>
-    <updated>2018-11-14T02:50:41.326Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
+      <category term="杂谈" scheme="https://XiaoFei432.github.io/categories/%E6%9D%82%E8%B0%88/"/>
     
     
-  </entry>
-  
-  <entry>
-    <title>post</title>
-    <link href="http://yoursite.com/2018/11/14/post/"/>
-    <id>http://yoursite.com/2018/11/14/post/</id>
-    <published>2018-11-14T02:50:34.000Z</published>
-    <updated>2018-11-14T02:50:34.327Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
+      <category term="430" scheme="https://XiaoFei432.github.io/tags/430/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2018/11/14/hello-world/"/>
-    <id>http://yoursite.com/2018/11/14/hello-world/</id>
+    <link href="https://XiaoFei432.github.io/2018/11/14/hello-world/"/>
+    <id>https://XiaoFei432.github.io/2018/11/14/hello-world/</id>
     <published>2018-11-14T01:50:47.933Z</published>
     <updated>2018-11-14T01:50:47.933Z</updated>
     
