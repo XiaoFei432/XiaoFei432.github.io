@@ -17,42 +17,67 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am Huidong Ma, a Ph.D. candidate at the College of Computer Science, Nankai University, advised by Prof. [Xiaoguang Liu](https://cc.nankai.edu.cn/2021/0323/c13619a548878/page.htm) and Prof. [Gang Wang](https://cc.nankai.edu.cn/2021/0323/c13619a548871/page.htm). From September 2025 to August 2026, I am a Visiting Ph.D. Student at the College of Computing and Data Science (CCDS), Nanyang Technological University (NTU), working with Prof. [Wentong Cai](https://personal.ntu.edu.sg/aswtcai/). My research interests include **Data Compression**, **Deep Learning**, and **High-Performance Computing**. I have published over 10 papers in top-tier international conferences and journals, including WWW, AAAI, KDD, and ICASSP. Feel free to reach out if you are interested in my research.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+---
 
+# :page_facing_up: Publications 
+<sup>\*</sup>: Equal Contribution &emsp; <sup>#</sup>: Corresponding Author
+### First & Co-First Author Publications
+- [MSDZip: Universal Lossless Compression for Multi-source Data via Stepwise-parallel and Learning-based Prediction](https://dl.acm.org/doi/10.1145/3696410.3714655)  
+  **Huidong Ma**<sup>\*</sup>, Hui Sun<sup>\*</sup>, Liping Yi, Yanfeng Ding, Xiaoguang Liu<sup>#</sup>, Gang Wang<sup>#</sup>  
+  *The ACM Web Conference (WWW)*, 2025  
+- [Multi-source Data Lossless Compression via Parallel Expansion Mapping and xLSTM](https://ieeexplore.ieee.org/document/10889184)  
+  **Huidong Ma**, Hui Sun, Liping Yi, Xiaoguang Liu<sup>#</sup>, Gang Wang<sup>#</sup>  
+  *International Conference on Acoustics, Speech, and Signal Processing (ICASSP)*, 2025  
+- [A Survey and Benchmark Evaluation for Neural-Network-Based Lossless Universal Compressors Toward Multi-Source Data](https://link.springer.com/article/10.1007/s11704-024-40300-5)  
+  Hui Sun<sup>\*</sup>, **Huidong Ma**<sup>\*</sup>, Feng Ling, Haonan Xie, Yongxia Sun, Liping Yi, Meng Yan<sup>#</sup>, Cheng Zhong, Xiaoguang Liu, Gang Wang<sup>#</sup>  
+  *Frontiers of Computer Science (FCS)*, 2025  
+- [LRCB: A Comprehensive Benchmark Evaluation of Reference-free Lossless Compression Tools for Genomics Sequencing Long Reads Data](https://ieeexplore.ieee.org/abstract/document/10533699)  
+  Hui Sun<sup>\*</sup>, **Huidong Ma**<sup>\*</sup>, Yingfeng Zheng, Haonan Xie, Meng Yan, Cheng Zhong, Xiaoguang Liu<sup>#</sup>, Gang Wang<sup>#</sup>  
+  *Data Compression Conference (DCC)*, 2024  
+- [SR2C: A Structurally Redundant Short Reads Collapser for Optimizing DNA Data Compression](https://ieeexplore.ieee.org/document/10476304)  
+  Hui Sun<sup>\*</sup>, **Huidong Ma**<sup>\*</sup>, Yingfeng Zheng, Haonan Xie, Xiaofei Wang, Xiaoguang Liu<sup>#</sup>, Gang Wang<sup>#</sup>  
+  *International Conference on Parallel and Distributed Systems (ICPADS)*, 2023  
+- [ricME: Long-Read Based Mobile Element Variant Detection Using Sequence Realignment and Identity Calculation](https://link.springer.com/chapter/10.1007/978-981-99-7074-2_13)  
+  **Huidong Ma**, Cheng Zhong<sup>#</sup>, Hui Sun, Danyang Chen, Haixiang Lin  
+  *International Symposium on Bioinformatics Research and Applications (ISBRA)*, 2023  
+- [cnnLSV: detecting structural variants by encoding long-read alignment information and convolutional neural network](https://link.springer.com/article/10.1186/s12859-023-05243-x)  
+  **Huidong Ma**, Cheng Zhong<sup>#</sup>, Danyang Chen, Haofa He, Feng Yang  
+  *BMC Bioinformatics*, 2023  
+  
+### Collaborative Publications
+- [PMKLC: Parallel Multi-Knowledge Learning-based Lossless Compression for Large-Scale Genomics Database](https://dl.acm.org/doi/10.1145/3711896.3737083)  
+  Hui Sun, Yanfeng Ding, Liping Yi, **Huidong Ma**, Gang Wang<sup>#</sup>, Xiaoguang Liu<sup>#</sup>, Cheng Zhong, Wentong Cai  
+  *ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)*, 2025  
+- [Adaptive Lossless Compression for Genomics Data by Multiple (s, k)-mer Encoding and XLSTM](https://ieeexplore.ieee.org/abstract/document/10887721)  
+  Hui Sun<sup>\*</sup>, Yanfeng Ding<sup>\*</sup>, Liping Yi, **Huidong Ma**, Haonan Xie, Gang Wang<sup>#</sup>, Xiaoguang Liu<sup>#</sup>  
+  *International Conference on Acoustics, Speech, and Signal Processing (ICASSP)*, 2025  
+- [Genomics Data Lossless Compression with (s,k)-mer Encoding and Deep Neural Networks](https://ojs.aaai.org/index.php/AAAI/article/view/33371)  
+  Hui Sun<sup>\*</sup>, Liping Yi<sup>\*</sup>, **Huidong Ma**, Yongxia Sun, Yingfeng Zheng, Wenwen Cui, Meng Yan, Xiaoguang Liu<sup>#</sup>, Gang Wang<sup>#</sup>  
+  *Annual AAAI Conference on Artificial Intelligence (AAAI)*, 2025  
+- [PQSDC: a parallel lossless compressor for quality scores data via sequences partition and Run-Length prediction mapping](https://academic.oup.com/bioinformatics/article/40/5/btae323/7676123?login=true)  
+  Hui Sun, Yingfeng Zheng, Haonan Xie, **Huidong Ma**, Cheng Zhong, Meng Yan, Xiaoguang Liu<sup>#</sup>, Gang Wang<sup>#</sup>  
+  *Bioinformatics*, 2024  
+- [PMFFRC: a large-scale genomic short reads compression optimizer via memory modeling and redundant clustering](https://link.springer.com/article/10.1186/s12859-023-05566-9)  
+  Hui Sun, Yingfeng Zheng, Haonan Xie, **Huidong Ma**, Xiaoguang Liu<sup>#</sup>, Gang Wang<sup>#</sup>  
+  *BMC Bioinformatics*, 2023  
 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+### Selected Under Submission
+- Learned Image Compression via Sparse Attention and Adaptive Frequency  
+  **Huidong Ma**, Xinyan Shi, Sun Hui, Xiaofei Yue, xiaoguang Liu<sup>#</sup>, Gang Wang<sup>#</sup>, Wentong Cai  
+  *IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2026  
+- Efficient Learned Data Compression via Dual-Stream Feature Decoupling  
+  **Huidong Ma**, Xinyan Shi, Sun Hui, Xiaofei Yue, xiaoguang Liu<sup>#</sup>, Gang Wang<sup>#</sup>, Wentong Cai  
+  *Annual Meeting of the Association for Computational Linguistics (ACL)*, 2026  
 
-# 📝 Publications 
+---
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+# :triangular_flag_on_post: Professional Activities
+### Reviewer for Journals
+- IEEE Transactions on Network Science and Engineering, 2025
+- Information Sciences, 2026
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
-
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
-
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
-
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+### Reviewer for Conferences
+- The ACM Web Conference (WWW), 2025
+- International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2025  
