@@ -17,15 +17,16 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+# 👔 Biography
 I am Huidong Ma, a Ph.D. candidate at the College of Computer Science, Nankai University, advised by Prof. [Xiaoguang Liu](https://cc.nankai.edu.cn/2021/0323/c13619a548878/page.htm) and Prof. [Gang Wang](https://cc.nankai.edu.cn/2021/0323/c13619a548871/page.htm). From September 2025 to August 2026, I am a Visiting Ph.D. Student at the College of Computing and Data Science (CCDS), Nanyang Technological University (NTU), working with Prof. [Wentong Cai](https://personal.ntu.edu.sg/aswtcai/). My research interests include **Data Compression**, **Deep Learning**, and **High-Performance Computing**. I have published over 10 papers in top-tier international conferences and journals, including WWW, AAAI, KDD, and ICASSP. Feel free to reach out if you are interested in my research.
 
 ---
 
-# :page_facing_up: Publications 
+# 📄 Publications 
 <sup>\*</sup>: Equal Contribution &emsp; <sup>#</sup>: Corresponding Author
 ### First & Co-First Author Publications
 - [MSDZip: Universal Lossless Compression for Multi-source Data via Stepwise-parallel and Learning-based Prediction](https://dl.acm.org/doi/10.1145/3696410.3714655)  
-  **Huidong Ma**<sup>\*</sup>, Hui Sun<sup>\*</sup>, Liping Yi, Yanfeng Ding, Xiaoguang Liu<sup>#</sup>, Gang Wang<sup>#</sup>  
+  **Huidong Ma**$^\dagger$, Hui Sun$^\dagger$, Liping Yi, Yanfeng Ding, Xiaoguang Liu<sup>#</sup>, Gang Wang<sup>#</sup>  
   *The ACM Web Conference (WWW)*, 2025  
 - [Multi-source Data Lossless Compression via Parallel Expansion Mapping and xLSTM](https://ieeexplore.ieee.org/document/10889184)  
   **Huidong Ma**, Hui Sun, Liping Yi, Xiaoguang Liu<sup>#</sup>, Gang Wang<sup>#</sup>  
@@ -73,7 +74,7 @@ I am Huidong Ma, a Ph.D. candidate at the College of Computer Science, Nankai Un
 
 ---
 
-# :triangular_flag_on_post: Professional Activities
+# 🚩 Professional Activities
 ### Reviewer for Journals
 - IEEE Transactions on Network Science and Engineering, 2025
 - Information Sciences, 2026
