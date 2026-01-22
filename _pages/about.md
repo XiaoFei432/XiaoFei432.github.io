@@ -48,7 +48,8 @@ $\dagger$: Equal Contribution &emsp; *: Corresponding Author
   *International Symposium on Bioinformatics Research and Applications (ISBRA)*, 2023  
 - [cnnLSV: detecting structural variants by encoding long-read alignment information and convolutional neural network](https://link.springer.com/article/10.1186/s12859-023-05243-x)  
   **Huidong Ma**, Cheng Zhong<sup>\*</sup>, Danyang Chen, Haofa He, Feng Yang  
-  *BMC Bioinformatics*, 2023  
+  *BMC Bioinformatics*, 2023
+  
 ### Collaborative Publications
 - [PMKLC: Parallel Multi-Knowledge Learning-based Lossless Compression for Large-Scale Genomics Database](https://dl.acm.org/doi/10.1145/3711896.3737083)  
   Hui Sun, Yanfeng Ding, Liping Yi, **Huidong Ma**, Gang Wang<sup>\*</sup>, Xiaoguang Liu<sup>\*</sup>, Cheng Zhong, Wentong Cai  
@@ -64,7 +65,8 @@ $\dagger$: Equal Contribution &emsp; *: Corresponding Author
   *Bioinformatics*, 2024  
 - [PMFFRC: a large-scale genomic short reads compression optimizer via memory modeling and redundant clustering](https://link.springer.com/article/10.1186/s12859-023-05566-9)  
   Hui Sun, Yingfeng Zheng, Haonan Xie, **Huidong Ma**, Xiaoguang Liu<sup>\*</sup>, Gang Wang<sup>\*</sup>  
-  *BMC Bioinformatics*, 2023  
+  *BMC Bioinformatics*, 2023
+  
 ### Selected Under Submission
 - Learned Image Compression via Sparse Attention and Adaptive Frequency  
   **Huidong Ma**, Xinyan Shi, Sun Hui, Xiaofei Yue, Xiaoguang Liu<sup>\*</sup>, Gang Wang<sup>\*</sup>, Wentong Cai  
@@ -74,10 +76,12 @@ $\dagger$: Equal Contribution &emsp; *: Corresponding Author
   *Annual Meeting of the Association for Computational Linguistics (ACL)*, 2026  
 
 ---
+
 # 🚩 Professional Activities
 ### Reviewer for Journals
 - IEEE Transactions on Network Science and Engineering, 2025
 - Information Sciences, 2026
+
 ### Reviewer for Conferences
 - The ACM Web Conference (WWW), 2025
 - International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2025
