@@ -65,14 +65,6 @@ $\dagger$: Equal Contribution &emsp; *: Corresponding Author
 - [PMFFRC: a large-scale genomic short reads compression optimizer via memory modeling and redundant clustering](https://link.springer.com/article/10.1186/s12859-023-05566-9)  
   Hui Sun, Yingfeng Zheng, Haonan Xie, **Huidong Ma**, Xiaoguang Liu<sup>\*</sup>, Gang Wang<sup>\*</sup>  
   *BMC Bioinformatics*, 2023
-  
-### Selected Under Submission
-- Learned Image Compression via Sparse Attention and Adaptive Frequency  
-  **Huidong Ma**, Xinyan Shi, Sun Hui, Xiaofei Yue, Xiaoguang Liu<sup>\*</sup>, Gang Wang<sup>\*</sup>, Wentong Cai  
-  *IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2026  
-- Efficient Learned Data Compression via Dual-Stream Feature Decoupling  
-  **Huidong Ma**, Xinyan Shi, Sun Hui, Xiaofei Yue, Xiaoguang Liu<sup>\*</sup>, Gang Wang<sup>\*</sup>, Wentong Cai  
-  *Annual Meeting of the Association for Computational Linguistics (ACL)*, 2026  
 
 ---
 
