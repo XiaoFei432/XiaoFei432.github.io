@@ -70,8 +70,10 @@ $\dagger$: Equal Contribution &emsp; *: Corresponding Author
 
 # 🚩 Professional Activities
 ### Reviewer for Journals
-- IEEE Transactions on Network Science and Engineering, 2025
 - Information Sciences, 2026
+- IEEE Transactions on Network Science and Engineering, 2025
+- GiGaScience, 2025
+- Journal of Algorithms & Computational Technology, 2023
 
 ### Reviewer for Conferences
 - The ACM Web Conference (WWW), 2025
