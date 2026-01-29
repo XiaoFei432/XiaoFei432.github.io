@@ -20,7 +20,7 @@ redirect_from:
 ---
 
 # 👔 Biography
-I am Huidong Ma, a Ph.D. candidate at the College of Computer Science, Nankai University, advised by Prof. [Xiaoguang Liu](https://cc.nankai.edu.cn/2021/0323/c13619a548878/page.htm) and Prof. [Gang Wang](https://cc.nankai.edu.cn/2021/0323/c13619a548871/page.htm). From September 2025 to August 2026, I am a Visiting Ph.D. Student at the College of Computing and Data Science (CCDS), Nanyang Technological University (NTU), working with Prof. [Wentong Cai](https://personal.ntu.edu.sg/aswtcai/). My research interests include **Data Compression**, **Deep Learning**, and **High-Performance Computing**. I have published over 10 papers in top-tier international conferences and journals, including WWW, AAAI, KDD, and ICASSP. Feel free to reach out if you are interested in my research.
+I am Huidong Ma, a Ph.D. candidate in Computer Science and Technology at Nankai University, advised by Prof. [Xiaoguang Liu](https://cc.nankai.edu.cn/2021/0323/c13619a548878/page.htm) and Prof. [Gang Wang](https://cc.nankai.edu.cn/2021/0323/c13619a548871/page.htm). Currently, I am a visiting student at the College of Computing and Data Science, Nanyang Technological University, working with Prof. [Wentong Cai](https://personal.ntu.edu.sg/aswtcai/) (Sept. 2025 – Aug. 2026). My research interests include **Data Compression**, **Deep Learning**, and **High-Performance Computing**. Please feel free to reach out if you are interested in my research.
 
 ---
 
@@ -76,6 +76,7 @@ $\dagger$: Equal Contribution &emsp; *: Corresponding Author
 - Journal of Algorithms & Computational Technology, 2023
 
 ### Reviewer for Conferences
+- ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2026
 - The ACM Web Conference (WWW), 2025
 - International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2025
 
