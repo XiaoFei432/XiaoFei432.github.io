@@ -81,6 +81,6 @@ $\dagger$: Equal Contribution &emsp; *: Corresponding Author
 ### Reviewer for Conferences
 - ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2026
 - The ACM Web Conference (WWW), 2025
-- International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2025
+- IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2025
 
 ---
