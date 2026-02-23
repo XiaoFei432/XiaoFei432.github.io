@@ -27,12 +27,15 @@ I am Huidong Ma, a Ph.D. candidate in Computer Science and Technology at Nankai 
 # 📄 Publications 
 $\dagger$: Equal Contribution &emsp; *: Corresponding Author
 ### First & Co-First Author Publications
+- Learned Image Compression via Sparse Attention and Adaptive Frequency  
+  **Huidong Ma**, Xinyan Shi, Hui Sun, Xiaofei Yue, Xiaoguang Liu<sup>\*</sup>, Gang Wang<sup>\*</sup>, Wentong Cai  
+  *The IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR)*, 2026  
 - [MSDZip: Universal Lossless Compression for Multi-source Data via Stepwise-parallel and Learning-based Prediction](https://dl.acm.org/doi/10.1145/3696410.3714655)  
   **Huidong Ma**$^\dagger$, Hui Sun$^\dagger$, Liping Yi, Yanfeng Ding, Xiaoguang Liu<sup>\*</sup>, Gang Wang<sup>\*</sup>  
   *The ACM Web Conference (WWW)*, 2025  
 - [Multi-source Data Lossless Compression via Parallel Expansion Mapping and xLSTM](https://ieeexplore.ieee.org/document/10889184)  
   **Huidong Ma**, Hui Sun, Liping Yi, Xiaoguang Liu<sup>\*</sup>, Gang Wang<sup>\*</sup>  
-  *International Conference on Acoustics, Speech, and Signal Processing (ICASSP)*, 2025  
+  *IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)*, 2025  
 - [A Survey and Benchmark Evaluation for Neural-Network-Based Lossless Universal Compressors Toward Multi-Source Data](https://link.springer.com/article/10.1007/s11704-024-40300-5)  
   Hui Sun$^\dagger$, **Huidong Ma**$^\dagger$, Feng Ling, Haonan Xie, Yongxia Sun, Liping Yi, Meng Yan<sup>\*</sup>, Cheng Zhong, Xiaoguang Liu, Gang Wang<sup>\*</sup>  
   *Frontiers of Computer Science (FCS)*, 2025  
