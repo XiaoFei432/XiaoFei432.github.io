@@ -27,7 +27,7 @@ I am Huidong Ma, a Ph.D. candidate in Computer Science and Technology at Nankai 
 # 📄 Publications 
 $\dagger$: Equal Contribution &emsp; *: Corresponding Author
 ### First & Co-First Author Publications
-- Learned Image Compression via Sparse Attention and Adaptive Frequency  
+- [Learned Image Compression via Sparse Attention and Adaptive Frequency]()  
   **Huidong Ma**, Xinyan Shi, Hui Sun, Xiaofei Yue, Xiaoguang Liu<sup>\*</sup>, Gang Wang<sup>\*</sup>, Wentong Cai  
   *The IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR)*, 2026  
 - [MSDZip: Universal Lossless Compression for Multi-source Data via Stepwise-parallel and Learning-based Prediction](https://dl.acm.org/doi/10.1145/3696410.3714655)  
