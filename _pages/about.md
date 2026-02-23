@@ -29,7 +29,7 @@ $\dagger$: Equal Contribution &emsp; *: Corresponding Author
 ### First & Co-First Author Publications
 - [Learned Image Compression via Sparse Attention and Adaptive Frequency]()  
   **Huidong Ma**, Xinyan Shi, Hui Sun, Xiaofei Yue, Xiaoguang Liu<sup>\*</sup>, Gang Wang<sup>\*</sup>, Wentong Cai  
-  *The IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR)*, 2026  
+  *The IEEECVF Computer Vision and Pattern Recognition Conference (CVPR)*, 2026  
 - [MSDZip: Universal Lossless Compression for Multi-source Data via Stepwise-parallel and Learning-based Prediction](https://dl.acm.org/doi/10.1145/3696410.3714655)  
   **Huidong Ma**$^\dagger$, Hui Sun$^\dagger$, Liping Yi, Yanfeng Ding, Xiaoguang Liu<sup>\*</sup>, Gang Wang<sup>\*</sup>  
   *The ACM Web Conference (WWW)*, 2025  
