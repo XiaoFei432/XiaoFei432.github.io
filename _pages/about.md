@@ -52,6 +52,9 @@ I am Huidong Ma, a Ph.D. candidate in Computer Science and Technology at Nankai 
   *BMC Bioinformatics*, 2023
   
 ### Collaborative Publications
+- [sMoE: Elastic MoE-Based Inference with Serverless Computing via Fine-grained Expert Scaling]()  
+  Xiaofei Yue, Ziming Zhao, Jiongchi Yu, **Huidong Ma**, Zhaoxuan Li, Tingting Li, Jianwei Yin  
+  *ACM/IEEE Design Automation Conference (DAC)*, 2026
 - [PMKLC: Parallel Multi-Knowledge Learning-based Lossless Compression for Large-Scale Genomics Database](https://dl.acm.org/doi/10.1145/3711896.3737083)  
   Hui Sun, Yanfeng Ding, Liping Yi, **Huidong Ma**, Gang Wang, Xiaoguang Liu, Cheng Zhong, Wentong Cai  
   *ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)*, 2025  
