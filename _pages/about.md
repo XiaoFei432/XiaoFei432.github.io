@@ -28,10 +28,10 @@ I am Huidong Ma, a Ph.D. candidate in Computer Science and Technology at Nankai 
 ### First & Co-First Author Publications
 - [Learned Image Compression via Sparse Attention and Adaptive Frequency]()  
   **Huidong Ma**, Xinyan Shi, Hui Sun, Xiaofei Yue, Xiaoguang Liu, Gang Wang, Wentong Cai  
-  *The IEEE/CVF Computer Vision and Pattern Recognition Conference (CVPR)*, 2026  
+  *IEEE/CVF Computer Vision and Pattern Recognition Conference (CVPR)*, 2026  
 - [MSDZip: Universal Lossless Compression for Multi-source Data via Stepwise-parallel and Learning-based Prediction](https://dl.acm.org/doi/10.1145/3696410.3714655)  
   **Huidong Ma**$^\dagger$, Hui Sun$^\dagger$, Liping Yi, Yanfeng Ding, Xiaoguang Liu, Gang Wang  
-  *The ACM Web Conference (WWW)*, 2025  
+  *The Web Conference (WWW)*, 2025  
 - [Multi-source Data Lossless Compression via Parallel Expansion Mapping and xLSTM](https://ieeexplore.ieee.org/document/10889184)  
   **Huidong Ma**, Hui Sun, Liping Yi, Xiaoguang Liu, Gang Wang  
   *IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)*, 2025  
@@ -57,13 +57,13 @@ I am Huidong Ma, a Ph.D. candidate in Computer Science and Technology at Nankai 
   *ACM/IEEE Design Automation Conference (DAC)*, 2026
 - [PMKLC: Parallel Multi-Knowledge Learning-based Lossless Compression for Large-Scale Genomics Database](https://dl.acm.org/doi/10.1145/3711896.3737083)  
   Hui Sun, Yanfeng Ding, Liping Yi, **Huidong Ma**, Gang Wang, Xiaoguang Liu, Cheng Zhong, Wentong Cai  
-  *ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)*, 2025  
+  *ACM SIGKDD Conference on Knowledge Discovery and Data Mining (SIGKDD)*, 2025  
 - [Adaptive Lossless Compression for Genomics Data by Multiple (s, k)-mer Encoding and XLSTM](https://ieeexplore.ieee.org/abstract/document/10887721)  
   Hui Sun$^\dagger$, Yanfeng Ding$^\dagger$, Liping Yi, **Huidong Ma**, Haonan Xie, Gang Wang, Xiaoguang Liu  
-  *International Conference on Acoustics, Speech, and Signal Processing (ICASSP)*, 2025  
+  *IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)*, 2025  
 - [Genomics Data Lossless Compression with (s,k)-mer Encoding and Deep Neural Networks](https://ojs.aaai.org/index.php/AAAI/article/view/33371)  
   Hui Sun$^\dagger$, Liping Yi$^\dagger$, **Huidong Ma**, Yongxia Sun, Yingfeng Zheng, Wenwen Cui, Meng Yan, Xiaoguang Liu, Gang Wang  
-  *Annual AAAI Conference on Artificial Intelligence (AAAI)*, 2025  
+  *AAAI Conference on Artificial Intelligence (AAAI)*, 2025  
 - [PQSDC: a parallel lossless compressor for quality scores data via sequences partition and Run-Length prediction mapping](https://academic.oup.com/bioinformatics/article/40/5/btae323/7676123?login=true)  
   Hui Sun, Yingfeng Zheng, Haonan Xie, **Huidong Ma**, Cheng Zhong, Meng Yan, Xiaoguang Liu, Gang Wang  
   *Bioinformatics*, 2024  
@@ -81,8 +81,8 @@ I am Huidong Ma, a Ph.D. candidate in Computer Science and Technology at Nankai 
 - Journal of Algorithms & Computational Technology, 2023
 
 ### Reviewer for Conferences
-- ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2026
-- The ACM Web Conference (WWW), 2025
+- ACM SIGKDD Conference on Knowledge Discovery and Data Mining (SIGKDD), 2026
+- The Web Conference (WWW), 2025
 - IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2025
 
 ---
