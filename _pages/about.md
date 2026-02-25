@@ -28,7 +28,7 @@ I am Huidong Ma, a Ph.D. candidate in Computer Science and Technology at Nankai 
 ### First & Co-First Author Publications
 - [Learned Image Compression via Sparse Attention and Adaptive Frequency]()  
   **Huidong Ma**, Xinyan Shi, Hui Sun, Xiaofei Yue, Xiaoguang Liu, Gang Wang, Wentong Cai  
-  *IEEE/CVF Computer Vision and Pattern Recognition Conference (CVPR)*, 2026  
+  *IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2026  
 - [MSDZip: Universal Lossless Compression for Multi-source Data via Stepwise-parallel and Learning-based Prediction](https://dl.acm.org/doi/10.1145/3696410.3714655)  
   **Huidong Ma**$^\dagger$, Hui Sun$^\dagger$, Liping Yi, Yanfeng Ding, Xiaoguang Liu, Gang Wang  
   *The Web Conference (WWW)*, 2025  
@@ -43,7 +43,7 @@ I am Huidong Ma, a Ph.D. candidate in Computer Science and Technology at Nankai 
   *Data Compression Conference (DCC)*, 2024  
 - [SR2C: A Structurally Redundant Short Reads Collapser for Optimizing DNA Data Compression](https://ieeexplore.ieee.org/document/10476304)  
   Hui Sun$^\dagger$, **Huidong Ma**$^\dagger$, Yingfeng Zheng, Haonan Xie, Xiaofei Wang, Xiaoguang Liu, Gang Wang  
-  *International Conference on Parallel and Distributed Systems (ICPADS)*, 2023  
+  *IEEE International Conference on Parallel and Distributed Systems (ICPADS)*, 2023  
 - [ricME: Long-Read Based Mobile Element Variant Detection Using Sequence Realignment and Identity Calculation](https://link.springer.com/chapter/10.1007/978-981-99-7074-2_13)  
   **Huidong Ma**, Cheng Zhong, Hui Sun, Danyang Chen, Haixiang Lin  
   *International Symposium on Bioinformatics Research and Applications (ISBRA)*, 2023  
@@ -70,6 +70,13 @@ I am Huidong Ma, a Ph.D. candidate in Computer Science and Technology at Nankai 
 - [PMFFRC: a large-scale genomic short reads compression optimizer via memory modeling and redundant clustering](https://link.springer.com/article/10.1186/s12859-023-05566-9)  
   Hui Sun, Yingfeng Zheng, Haonan Xie, **Huidong Ma**, Xiaoguang Liu, Gang Wang  
   *BMC Bioinformatics*, 2023
+
+<!--
+### Under Review
+- [Efficient Learned Data Compression via Dual-Stream Feature Decoupling]()  
+  **Huidong Ma**, Xinyan Shi, Hui Sun, Xiaofei Yue, Xiaoguang Liu, Gang Wang, Wentong Cai  
+  Submitted to *Annual Meeting of the Association for Computational Linguistics (ACL)*, 2026
+-->
 
 ---
 
