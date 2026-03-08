@@ -26,50 +26,50 @@ I am Huidong Ma, a Ph.D. candidate in Computer Science and Technology at Nankai 
 
 # 📄 Publications 
 ### First & Co-First Author Publications
-- <span style="color: #3b528b; font-size: 20px">Learned Image Compression via Sparse Attention and Adaptive Frequency</span>  
+- [Learned Image Compression via Sparse Attention and Adaptive Frequency]()  
   **Huidong Ma**, Xinyan Shi, Hui Sun, Xiaofei Yue, Xiaoguang Liu, Gang Wang, Wentong Cai  
-  *IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2026 ``CCF-A``
+  *IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2026
 - [MSDZip: Universal Lossless Compression for Multi-source Data via Stepwise-parallel and Learning-based Prediction](https://dl.acm.org/doi/10.1145/3696410.3714655)  
   **Huidong Ma**$^\dagger$, Hui Sun$^\dagger$, Liping Yi, Yanfeng Ding, Xiaoguang Liu, Gang Wang  
-  *The Web Conference (WWW)*, 2025 ``CCF-A``  
+  *The Web Conference (WWW)*, 2025
 - [Multi-source Data Lossless Compression via Parallel Expansion Mapping and xLSTM](https://ieeexplore.ieee.org/document/10889184)  
   **Huidong Ma**, Hui Sun, Liping Yi, Xiaoguang Liu, Gang Wang  
-  *IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)*, 2025 ``CCF-B``  
+  *IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)*, 2025
 - [A Survey and Benchmark Evaluation for Neural-Network-Based Lossless Universal Compressors Toward Multi-Source Data](https://link.springer.com/article/10.1007/s11704-024-40300-5)  
   Hui Sun$^\dagger$, **Huidong Ma**$^\dagger$, Feng Ling, Haonan Xie, Yongxia Sun, Liping Yi, Meng Yan, Cheng Zhong, Xiaoguang Liu, Gang Wang  
-  *Frontiers of Computer Science (FCS)*, 2025 ``CCF-B, JCR Q1``  
-- **LRCB: A Comprehensive Benchmark Evaluation of Reference-free Lossless Compression Tools for Genomics Sequencing Long Reads Data**  
+  *Frontiers of Computer Science (FCS)*, 2025
+- [LRCB: A Comprehensive Benchmark Evaluation of Reference-free Lossless Compression Tools for Genomics Sequencing Long Reads Data](https://ieeexplore.ieee.org/abstract/document/10533699)  
   Hui Sun$^\dagger$, **Huidong Ma**$^\dagger$, Yingfeng Zheng, Haonan Xie, Meng Yan, Cheng Zhong, Xiaoguang Liu, Gang Wang  
-  *Data Compression Conference (DCC)*, 2024 ``CCF-B``
+  *Data Compression Conference (DCC)*, 2024
 - [SR2C: A Structurally Redundant Short Reads Collapser for Optimizing DNA Data Compression](https://ieeexplore.ieee.org/document/10476304)  
   Hui Sun$^\dagger$, **Huidong Ma**$^\dagger$, Yingfeng Zheng, Haonan Xie, Xiaofei Wang, Xiaoguang Liu, Gang Wang  
-  *IEEE International Conference on Parallel and Distributed Systems (ICPADS)*, 2023 ``CCF-C``
+  *IEEE International Conference on Parallel and Distributed Systems (ICPADS)*, 2023
 - [ricME: Long-Read Based Mobile Element Variant Detection Using Sequence Realignment and Identity Calculation](https://link.springer.com/chapter/10.1007/978-981-99-7074-2_13)  
   **Huidong Ma**, Cheng Zhong, Hui Sun, Danyang Chen, Haixiang Lin  
-  *International Symposium on Bioinformatics Research and Applications (ISBRA)*, 2023 ``CCF-C``  
+  *International Symposium on Bioinformatics Research and Applications (ISBRA)*, 2023
 - [cnnLSV: detecting structural variants by encoding long-read alignment information and convolutional neural network](https://link.springer.com/article/10.1186/s12859-023-05243-x)  
   **Huidong Ma**, Cheng Zhong, Danyang Chen, Haofa He, Feng Yang  
-  *BMC Bioinformatics*, 2023 ``CCF-C, JCR Q1``
+  *BMC Bioinformatics*, 2023
   
 ### Collaborative Publications
 - [sMoE: Elastic MoE-Based Inference with Serverless Computing via Fine-grained Expert Scaling]()  
   Xiaofei Yue, Ziming Zhao, Jiongchi Yu, **Huidong Ma**, Zhaoxuan Li, Tingting Li, Jianwei Yin  
-  *ACM/IEEE Design Automation Conference (DAC)*, 2026 ``CCF-A``
+  *ACM/IEEE Design Automation Conference (DAC)*, 2026
 - [PMKLC: Parallel Multi-Knowledge Learning-based Lossless Compression for Large-Scale Genomics Database](https://dl.acm.org/doi/10.1145/3711896.3737083)  
   Hui Sun, Yanfeng Ding, Liping Yi, **Huidong Ma**, Gang Wang, Xiaoguang Liu, Cheng Zhong, Wentong Cai  
-  *ACM SIGKDD Conference on Knowledge Discovery and Data Mining (SIGKDD)*, 2025 ``CCF-A``
+  *ACM SIGKDD Conference on Knowledge Discovery and Data Mining (SIGKDD)*, 2025
 - [Adaptive Lossless Compression for Genomics Data by Multiple (s, k)-mer Encoding and XLSTM](https://ieeexplore.ieee.org/abstract/document/10887721)  
   Hui Sun$^\dagger$, Yanfeng Ding$^\dagger$, Liping Yi, **Huidong Ma**, Haonan Xie, Gang Wang, Xiaoguang Liu  
-  *IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)*, 2025 ``CCF-B``
+  *IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)*, 2025
 - [Genomics Data Lossless Compression with (s,k)-mer Encoding and Deep Neural Networks](https://ojs.aaai.org/index.php/AAAI/article/view/33371)  
   Hui Sun$^\dagger$, Liping Yi$^\dagger$, **Huidong Ma**, Yongxia Sun, Yingfeng Zheng, Wenwen Cui, Meng Yan, Xiaoguang Liu, Gang Wang  
-  *AAAI Conference on Artificial Intelligence (AAAI)*, 2025 ``CCF-A``
+  *AAAI Conference on Artificial Intelligence (AAAI)*, 2025
 - [PQSDC: a parallel lossless compressor for quality scores data via sequences partition and Run-Length prediction mapping](https://academic.oup.com/bioinformatics/article/40/5/btae323/7676123?login=true)  
   Hui Sun, Yingfeng Zheng, Haonan Xie, **Huidong Ma**, Cheng Zhong, Meng Yan, Xiaoguang Liu, Gang Wang  
-  *Bioinformatics*, 2024 ``CCF-B, JCR Q1``
+  *Bioinformatics*, 2024
 - [PMFFRC: a large-scale genomic short reads compression optimizer via memory modeling and redundant clustering](https://link.springer.com/article/10.1186/s12859-023-05566-9)  
   Hui Sun, Yingfeng Zheng, Haonan Xie, **Huidong Ma**, Xiaoguang Liu, Gang Wang  
-  *BMC Bioinformatics*, 2023 ``CCF-C, JCR Q1``
+  *BMC Bioinformatics*, 2023
 
 <!--
 ### Under Review
