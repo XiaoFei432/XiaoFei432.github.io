@@ -38,7 +38,7 @@ I am Huidong Ma, a Ph.D. candidate in Computer Science and Technology at Nankai 
 - [A Survey and Benchmark Evaluation for Neural-Network-Based Lossless Universal Compressors Toward Multi-Source Data](https://link.springer.com/article/10.1007/s11704-024-40300-5)  
   Hui Sun$^\dagger$, **Huidong Ma**$^\dagger$, Feng Ling, Haonan Xie, Yongxia Sun, Liping Yi, Meng Yan, Cheng Zhong, Xiaoguang Liu, Gang Wang  
   *Frontiers of Computer Science (FCS)*, 2025 ``CCF-B, JCR Q1``  
-- [LRCB: A Comprehensive Benchmark Evaluation of Reference-free Lossless Compression Tools for Genomics Sequencing Long Reads Data](https://ieeexplore.ieee.org/abstract/document/10533699)  
+- **LRCB: A Comprehensive Benchmark Evaluation of Reference-free Lossless Compression Tools for Genomics Sequencing Long Reads Data**  
   Hui Sun$^\dagger$, **Huidong Ma**$^\dagger$, Yingfeng Zheng, Haonan Xie, Meng Yan, Cheng Zhong, Xiaoguang Liu, Gang Wang  
   *Data Compression Conference (DCC)*, 2024 ``CCF-B``
 - [SR2C: A Structurally Redundant Short Reads Collapser for Optimizing DNA Data Compression](https://ieeexplore.ieee.org/document/10476304)  
