@@ -26,6 +26,9 @@ I am Huidong Ma, a Ph.D. candidate in Computer Science and Technology at Nankai 
 
 # 📄 Publications 
 ### First & Co-First Author Publications
+- [Efficient Learned Data Compression via Dual-Stream Feature Decoupling]()  
+  **Huidong Ma**, Xinyan Shi, Hui Sun, Xiaofei Yue, Xiaoguang Liu, Gang Wang, Wentong Cai  
+  *Annual Meeting of the Association for Computational Linguistics (ACL), Main Conference*, 2026
 - [Learned Image Compression via Sparse Attention and Adaptive Frequency]()  
   **Huidong Ma**, Xinyan Shi, Hui Sun, Xiaofei Yue, Xiaoguang Liu, Gang Wang, Wentong Cai  
   *IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2026
@@ -70,13 +73,6 @@ I am Huidong Ma, a Ph.D. candidate in Computer Science and Technology at Nankai 
 - [PMFFRC: a large-scale genomic short reads compression optimizer via memory modeling and redundant clustering](https://link.springer.com/article/10.1186/s12859-023-05566-9)  
   Hui Sun, Yingfeng Zheng, Haonan Xie, **Huidong Ma**, Xiaoguang Liu, Gang Wang  
   *BMC Bioinformatics*, 2023
-
-<!--
-### Under Review
-- [Efficient Learned Data Compression via Dual-Stream Feature Decoupling]()  
-  **Huidong Ma**, Xinyan Shi, Hui Sun, Xiaofei Yue, Xiaoguang Liu, Gang Wang, Wentong Cai  
-  Submitted to *Annual Meeting of the Association for Computational Linguistics (ACL)*, 2026
--->
 
 ---
 
