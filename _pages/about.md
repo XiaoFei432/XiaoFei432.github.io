@@ -55,6 +55,9 @@ I am Huidong Ma, a Ph.D. candidate in Computer Science and Technology at Nankai 
   *BMC Bioinformatics*, 2023
   
 ### Collaborative Publications
+- [AgentGC: Evolutionary Learning-based Lossless Compression for Genomics Data with LLM-driven Multiple Agent](https://arxiv.org/abs/2601.13559)  
+  Hui Sun, Yanfeng Ding, Huidong Ma, Chang Xu, Keyan Jin, Lizheng Zu, Cheng Zhong, Xiaoguang Liu, Gang Wang, Wentong Cai  
+  *Annual Meeting of the Association for Computational Linguistics (ACL), Findings*, 2026
 - [sMoE: Elastic MoE-Based Inference with Serverless Computing via Fine-grained Expert Scaling]()  
   Xiaofei Yue, Ziming Zhao, Jiongchi Yu, **Huidong Ma**, Zhaoxuan Li, Tingting Li, Jianwei Yin  
   *ACM/IEEE Design Automation Conference (DAC)*, 2026
