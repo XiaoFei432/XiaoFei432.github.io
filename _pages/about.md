@@ -26,7 +26,7 @@ I am Huidong Ma, a Ph.D. candidate in Computer Science and Technology at Nankai 
 
 # 📄 Publications 
 ### First & Co-First Author Publications
-- [Efficient Learned Data Compression via Dual-Stream Feature Decoupling]()  
+- [Efficient Learned Data Compression via Dual-Stream Feature Decoupling](https://arxiv.org/abs/2604.07239)  
   **Huidong Ma**, Xinyan Shi, Hui Sun, Xiaofei Yue, Xiaoguang Liu, Gang Wang, Wentong Cai  
   *Annual Meeting of the Association for Computational Linguistics (ACL), Main Conference*, 2026
 - [Learned Image Compression via Sparse Attention and Adaptive Frequency]()  
