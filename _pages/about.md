@@ -34,8 +34,6 @@ I am Huidong Ma, a Ph.D. candidate in Computer Science and Technology at Nankai 
 
 <script src='{{ "/assets/js/papers.js" | relative_url }}'></script>
 
----
-
 # 🚩 Professional Activities
 ### Reviewer for Journals
 - Information Sciences, 2026
