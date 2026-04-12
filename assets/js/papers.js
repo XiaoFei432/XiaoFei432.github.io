@@ -92,16 +92,16 @@
         .join(', ');
       article.appendChild(authors);
 
-      // Meta row (venue + links)
-      var metaRow = document.createElement('div');
-      metaRow.className = 'work-meta-row';
-
+      // Venue
       var venue = document.createElement('p');
       venue.className = 'work-meta';
       venue.textContent = paper.venue;
-      metaRow.appendChild(venue);
+      article.appendChild(venue);
 
+      // Links row
       if (paper.links && paper.links.length) {
+        var linksRow = document.createElement('div');
+        linksRow.className = 'work-links-row';
         paper.links.forEach(function (link) {
           if (link.url) {
             var a = document.createElement('a');
@@ -110,30 +110,16 @@
             a.target = '_blank';
             a.rel = 'noopener noreferrer';
             a.textContent = link.label;
-            metaRow.appendChild(a);
+            linksRow.appendChild(a);
           } else {
             var span = document.createElement('span');
             span.className = 'paper-link-button paper-link-button--disabled';
             span.setAttribute('aria-disabled', 'true');
             span.textContent = link.label;
-            metaRow.appendChild(span);
+            linksRow.appendChild(span);
           }
         });
-      }
-      article.appendChild(metaRow);
-
-      // Tags (only non-"first-author" tags displayed as badges)
-      var visibleTags = paper.tags.filter(function (t) { return t !== 'first-author'; });
-      if (visibleTags.length) {
-        var tagsDiv = document.createElement('div');
-        tagsDiv.className = 'paper-tags';
-        visibleTags.forEach(function (t) {
-          var span = document.createElement('span');
-          span.className = 'paper-tag';
-          span.textContent = getTagLabel(t);
-          tagsDiv.appendChild(span);
-        });
-        article.appendChild(tagsDiv);
+        article.appendChild(linksRow);
       }
 
       container.appendChild(article);
