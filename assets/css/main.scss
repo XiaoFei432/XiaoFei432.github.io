@@ -116,19 +116,23 @@ h1:before, .anchor:before {
     border-bottom: 1px solid #e6ecef;
 }
 
-.filter-group {
+.paper-filter-row {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     gap: 0.42rem;
 }
 
 .filter-separator {
-    height: 1px;
-    background: #e6ecef;
-    margin: 0.56rem 0;
+    display: inline-block;
+    width: 1px;
+    height: 1.3rem;
+    background: #d3dee5;
+    margin: 0 0.42rem;
+    flex-shrink: 0;
 }
 
-/* ── Author toggle: rectangular segmented style ── */
+/* ── Author toggle: rectangular, lighter active color ── */
 .author-toggle-btn {
     display: inline-flex;
     align-items: center;
@@ -153,14 +157,14 @@ h1:before, .anchor:before {
     }
 
     &.is-active {
-        border-color: #2b5d7a;
-        background: #2b5d7a;
-        color: #ffffff;
-        box-shadow: 0 4px 12px rgba(43, 93, 122, 0.18);
+        border-color: #a3c4d6;
+        background: #e8f1f6;
+        color: #1e4d68;
+        box-shadow: 0 4px 10px rgba(43, 93, 122, 0.08);
     }
 }
 
-/* ── Topic pills: rounded chip style (unchanged) ── */
+/* ── Topic pills: rounded chip, deeper active color ── */
 
 .paper-filter-chip {
     display: inline-flex;
@@ -187,10 +191,10 @@ h1:before, .anchor:before {
     }
 
     &.is-active {
-        border-color: #b7c9d4;
-        background: linear-gradient(180deg, #f7fbfd 0%, #eef5f8 100%);
-        color: #17384d;
-        box-shadow: 0 10px 20px rgba(33, 55, 76, 0.08);
+        border-color: #7da8be;
+        background: linear-gradient(180deg, #dceaf1 0%, #cde0ea 100%);
+        color: #14384d;
+        box-shadow: 0 6px 14px rgba(33, 55, 76, 0.10);
     }
 }
 
