@@ -98,7 +98,7 @@
 
       var venue = document.createElement('p');
       venue.className = 'work-meta';
-      venue.textContent = 'Venue: ' + paper.venue;
+      venue.textContent = paper.venue;
       metaRow.appendChild(venue);
 
       if (paper.links && paper.links.length) {
