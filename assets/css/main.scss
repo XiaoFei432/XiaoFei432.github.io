@@ -186,16 +186,16 @@ h1:before, .anchor:before {
 }
 
 .work-meta {
-    margin: 0;
+    margin: 0 0 0.48rem;
     color: #667683;
 }
 
-.work-meta-row {
+.work-links-row {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 0.66rem;
-    margin: 0 0 0.48rem;
+    gap: 0.52rem;
+    margin-top: 0.12rem;
 }
 
 .paper-link-button {
