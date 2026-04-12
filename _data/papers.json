@@ -2,7 +2,6 @@
   "highlightAuthor": "Huidong Ma",
   "defaultFilter": "first-author",
   "authorFilters": [
-    { "key": "all", "label": "All" },
     { "key": "first-author", "label": "First/Co-first Author" }
   ],
   "topicFilters": [
