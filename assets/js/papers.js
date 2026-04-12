@@ -50,17 +50,6 @@
     row.appendChild(sep);
 
     // --- Topic filter buttons ---
-    var allBtn = document.createElement('button');
-    allBtn.className = 'paper-filter-chip is-active';
-    allBtn.type = 'button';
-    allBtn.dataset.topicFilter = 'all';
-    allBtn.textContent = 'All Topics';
-    allBtn.setAttribute('aria-pressed', 'true');
-    allBtn.addEventListener('click', function () {
-      onTopicFilterClick('all');
-    });
-    row.appendChild(allBtn);
-
     topicFilters.forEach(function (tag) {
       var btn = document.createElement('button');
       btn.className = 'paper-filter-chip';
@@ -157,7 +146,7 @@
     // Topic buttons
     document.querySelectorAll('[data-topic-filter]').forEach(function (btn) {
       var key = btn.dataset.topicFilter;
-      var isActive = (key === 'all' && !activeTopicFilter) || key === activeTopicFilter;
+      var isActive = key === activeTopicFilter;
       btn.classList.toggle('is-active', isActive);
       btn.setAttribute('aria-pressed', String(isActive));
     });
@@ -196,9 +185,9 @@
     applyFilters();
   }
 
-  // ── Topic filter click (single-select with All Topics, no deselect) ──
+  // ── Topic filter click (single-select, click again to deselect) ──
   function onTopicFilterClick(key) {
-    if (key === 'all') {
+    if (activeTopicFilter === key) {
       activeTopicFilter = '';
     } else {
       activeTopicFilter = key;
