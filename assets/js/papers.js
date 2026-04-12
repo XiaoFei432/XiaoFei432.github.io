@@ -15,16 +15,14 @@
     return div.innerHTML;
   }
 
-  // ── Build the filter toolbar (two groups) ──
+  // ── Build the filter toolbar (single row, two groups) ──
   function renderFilterToolbar(container, authorFilters, topicFilters, defaultFilter) {
     container.innerHTML = '';
 
-    // --- Author filter group ---
-    var authorGroup = document.createElement('div');
-    authorGroup.className = 'filter-group filter-group--author';
-    authorGroup.setAttribute('role', 'group');
-    authorGroup.setAttribute('aria-label', 'Filter by author role');
+    var row = document.createElement('div');
+    row.className = 'paper-filter-row';
 
+    // --- Author filter buttons ---
     authorFilters.forEach(function (tag) {
       var btn = document.createElement('button');
       btn.className = 'author-toggle-btn';
@@ -32,11 +30,10 @@
       btn.dataset.authorFilter = tag.key;
       btn.textContent = tag.label;
 
-      var isDefault = (tag.key === defaultFilter) || (tag.key === 'all' && !defaultFilter);
-      if (isDefault) {
+      if (tag.key === defaultFilter) {
         btn.classList.add('is-active');
         btn.setAttribute('aria-pressed', 'true');
-        if (tag.key !== 'all') activeAuthorFilter = tag.key;
+        activeAuthorFilter = tag.key;
       } else {
         btn.setAttribute('aria-pressed', 'false');
       }
@@ -44,22 +41,15 @@
       btn.addEventListener('click', function () {
         onAuthorFilterClick(tag.key);
       });
-      authorGroup.appendChild(btn);
+      row.appendChild(btn);
     });
-    container.appendChild(authorGroup);
 
     // --- Separator ---
-    var sep = document.createElement('div');
+    var sep = document.createElement('span');
     sep.className = 'filter-separator';
-    container.appendChild(sep);
+    row.appendChild(sep);
 
-    // --- Topic filter group ---
-    var topicGroup = document.createElement('div');
-    topicGroup.className = 'filter-group filter-group--topic';
-    topicGroup.setAttribute('role', 'group');
-    topicGroup.setAttribute('aria-label', 'Filter by research topic');
-
-    // "All Topics" chip
+    // --- Topic filter buttons ---
     var allBtn = document.createElement('button');
     allBtn.className = 'paper-filter-chip is-active';
     allBtn.type = 'button';
@@ -69,7 +59,7 @@
     allBtn.addEventListener('click', function () {
       onTopicFilterClick('all');
     });
-    topicGroup.appendChild(allBtn);
+    row.appendChild(allBtn);
 
     topicFilters.forEach(function (tag) {
       var btn = document.createElement('button');
@@ -81,9 +71,10 @@
       btn.addEventListener('click', function () {
         onTopicFilterClick(tag.key);
       });
-      topicGroup.appendChild(btn);
+      row.appendChild(btn);
     });
-    container.appendChild(topicGroup);
+
+    container.appendChild(row);
   }
 
   // ── Render a single author name (bold + sup for †) ──
@@ -159,7 +150,7 @@
     // Author buttons
     document.querySelectorAll('[data-author-filter]').forEach(function (btn) {
       var key = btn.dataset.authorFilter;
-      var isActive = (key === 'all' && !activeAuthorFilter) || key === activeAuthorFilter;
+      var isActive = key === activeAuthorFilter;
       btn.classList.toggle('is-active', isActive);
       btn.setAttribute('aria-pressed', String(isActive));
     });
@@ -195,9 +186,9 @@
     updateFilterButtons();
   }
 
-  // ── Author filter click (radio / binary toggle) ──
+  // ── Author filter click (single toggle: on/off) ──
   function onAuthorFilterClick(key) {
-    if (key === 'all') {
+    if (activeAuthorFilter === key) {
       activeAuthorFilter = '';
     } else {
       activeAuthorFilter = key;
@@ -205,9 +196,9 @@
     applyFilters();
   }
 
-  // ── Topic filter click (single-select, toggle off to show all) ──
+  // ── Topic filter click (single-select with All Topics, no deselect) ──
   function onTopicFilterClick(key) {
-    if (key === 'all' || activeTopicFilter === key) {
+    if (key === 'all') {
       activeTopicFilter = '';
     } else {
       activeTopicFilter = key;
