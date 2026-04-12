@@ -2,8 +2,11 @@
   'use strict';
 
   var DATA_URL = '/data/papers.json';
-  var activePaperFilters = new Set();
   var paperData = null;
+
+  // Active filter state
+  var activeAuthorFilter = '';   // '' means "all"
+  var activeTopicFilter  = '';   // '' means no topic filter
 
   // ── Escaping ──
   function escapeHtml(text) {
@@ -12,47 +15,79 @@
     return div.innerHTML;
   }
 
-  // ── Tag label mapping (key → display label from filterTags) ──
-  var tagLabelMap = {};
-
-  function getTagLabel(key) {
-    return tagLabelMap[key] || key;
-  }
-
-  // ── Build the filter toolbar ──
-  function renderFilterToolbar(container, filterTags, defaultFilter) {
+  // ── Build the filter toolbar (two groups) ──
+  function renderFilterToolbar(container, authorFilters, topicFilters, defaultFilter) {
     container.innerHTML = '';
-    var row = document.createElement('div');
-    row.className = 'paper-filter-row';
-    row.id = 'paper-filter-row';
-    row.setAttribute('role', 'group');
-    row.setAttribute('aria-label', 'Filter papers by tags');
 
-    filterTags.forEach(function (tag) {
-      tagLabelMap[tag.key] = tag.label;
+    // --- Author filter group ---
+    var authorGroup = document.createElement('div');
+    authorGroup.className = 'filter-group filter-group--author';
+    authorGroup.setAttribute('role', 'group');
+    authorGroup.setAttribute('aria-label', 'Filter by author role');
+
+    authorFilters.forEach(function (tag) {
       var btn = document.createElement('button');
-      btn.className = 'paper-filter-chip';
+      btn.className = 'author-toggle-btn';
       btn.type = 'button';
-      btn.dataset.filterTag = tag.key;
+      btn.dataset.authorFilter = tag.key;
       btn.textContent = tag.label;
-      if (tag.key === defaultFilter) {
+
+      var isDefault = (tag.key === defaultFilter) || (tag.key === 'all' && !defaultFilter);
+      if (isDefault) {
         btn.classList.add('is-active');
         btn.setAttribute('aria-pressed', 'true');
+        if (tag.key !== 'all') activeAuthorFilter = tag.key;
       } else {
         btn.setAttribute('aria-pressed', 'false');
       }
-      btn.addEventListener('click', function () {
-        onFilterClick(tag.key);
-      });
-      row.appendChild(btn);
-    });
 
-    container.appendChild(row);
+      btn.addEventListener('click', function () {
+        onAuthorFilterClick(tag.key);
+      });
+      authorGroup.appendChild(btn);
+    });
+    container.appendChild(authorGroup);
+
+    // --- Separator ---
+    var sep = document.createElement('div');
+    sep.className = 'filter-separator';
+    container.appendChild(sep);
+
+    // --- Topic filter group ---
+    var topicGroup = document.createElement('div');
+    topicGroup.className = 'filter-group filter-group--topic';
+    topicGroup.setAttribute('role', 'group');
+    topicGroup.setAttribute('aria-label', 'Filter by research topic');
+
+    // "All Topics" chip
+    var allBtn = document.createElement('button');
+    allBtn.className = 'paper-filter-chip is-active';
+    allBtn.type = 'button';
+    allBtn.dataset.topicFilter = 'all';
+    allBtn.textContent = 'All Topics';
+    allBtn.setAttribute('aria-pressed', 'true');
+    allBtn.addEventListener('click', function () {
+      onTopicFilterClick('all');
+    });
+    topicGroup.appendChild(allBtn);
+
+    topicFilters.forEach(function (tag) {
+      var btn = document.createElement('button');
+      btn.className = 'paper-filter-chip';
+      btn.type = 'button';
+      btn.dataset.topicFilter = tag.key;
+      btn.textContent = tag.label;
+      btn.setAttribute('aria-pressed', 'false');
+      btn.addEventListener('click', function () {
+        onTopicFilterClick(tag.key);
+      });
+      topicGroup.appendChild(btn);
+    });
+    container.appendChild(topicGroup);
   }
 
   // ── Render a single author name (bold + sup for †) ──
   function renderAuthor(name, highlightAuthor) {
-    // strip † for comparison
     var baseName = name.replace(/†/g, '').trim();
     var hasDagger = name.indexOf('†') !== -1;
     var isHighlight = baseName === highlightAuthor;
@@ -119,26 +154,39 @@
     });
   }
 
-  // ── Filter logic ──
+  // ── Update button active states ──
   function updateFilterButtons() {
-    var allActive = activePaperFilters.size === 0;
-    document.querySelectorAll('[data-filter-tag]').forEach(function (btn) {
-      var tag = btn.dataset.filterTag;
-      var isActive = tag === 'all' ? allActive : activePaperFilters.has(tag);
+    // Author buttons
+    document.querySelectorAll('[data-author-filter]').forEach(function (btn) {
+      var key = btn.dataset.authorFilter;
+      var isActive = (key === 'all' && !activeAuthorFilter) || key === activeAuthorFilter;
+      btn.classList.toggle('is-active', isActive);
+      btn.setAttribute('aria-pressed', String(isActive));
+    });
+    // Topic buttons
+    document.querySelectorAll('[data-topic-filter]').forEach(function (btn) {
+      var key = btn.dataset.topicFilter;
+      var isActive = (key === 'all' && !activeTopicFilter) || key === activeTopicFilter;
       btn.classList.toggle('is-active', isActive);
       btn.setAttribute('aria-pressed', String(isActive));
     });
   }
 
+  // ── Apply combined filters ──
   function applyFilters() {
     var items = Array.from(document.querySelectorAll('.paper-list-item[data-paper-tags]'));
     var emptyEl = document.getElementById('paper-filter-empty');
-    var activeArr = Array.from(activePaperFilters);
     var visible = 0;
 
     items.forEach(function (item) {
       var tags = item.dataset.paperTags.split(',').map(function (t) { return t.trim(); }).filter(Boolean);
-      var match = activeArr.length === 0 || activeArr.every(function (t) { return tags.indexOf(t) !== -1; });
+
+      // Author filter: if set, paper must have that tag
+      var authorMatch = !activeAuthorFilter || tags.indexOf(activeAuthorFilter) !== -1;
+      // Topic filter: if set, paper must have that tag
+      var topicMatch  = !activeTopicFilter  || tags.indexOf(activeTopicFilter) !== -1;
+
+      var match = authorMatch && topicMatch;
       item.hidden = !match;
       if (match) visible++;
     });
@@ -147,13 +195,22 @@
     updateFilterButtons();
   }
 
-  function onFilterClick(tag) {
-    if (tag === 'all') {
-      activePaperFilters.clear();
-    } else if (activePaperFilters.has(tag)) {
-      activePaperFilters.delete(tag);
+  // ── Author filter click (radio / binary toggle) ──
+  function onAuthorFilterClick(key) {
+    if (key === 'all') {
+      activeAuthorFilter = '';
     } else {
-      activePaperFilters.add(tag);
+      activeAuthorFilter = key;
+    }
+    applyFilters();
+  }
+
+  // ── Topic filter click (single-select, toggle off to show all) ──
+  function onTopicFilterClick(key) {
+    if (key === 'all' || activeTopicFilter === key) {
+      activeTopicFilter = '';
+    } else {
+      activeTopicFilter = key;
     }
     applyFilters();
   }
@@ -169,9 +226,11 @@
       .then(function (data) {
         paperData = data;
         var defaultFilter = data.defaultFilter || '';
-        if (defaultFilter) activePaperFilters.add(defaultFilter);
+        if (defaultFilter && defaultFilter !== 'all') {
+          activeAuthorFilter = defaultFilter;
+        }
 
-        renderFilterToolbar(toolbar, data.filterTags, defaultFilter);
+        renderFilterToolbar(toolbar, data.authorFilters, data.topicFilters, defaultFilter);
         renderPaperList(list, data.papers, data.highlightAuthor);
         applyFilters();
       })
