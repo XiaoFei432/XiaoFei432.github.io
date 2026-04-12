@@ -67,16 +67,6 @@
       ]
     },
     {
-      "title": "A Survey and Benchmark Evaluation for Neural-Network-Based Lossless Universal Compressors Toward Multi-Source Data",
-      "authors": ["Hui Sun†", "Huidong Ma†", "Feng Ling", "Haonan Xie", "Yongxia Sun", "Liping Yi", "Meng Yan", "Cheng Zhong", "Xiaoguang Liu", "Gang Wang"],
-      "venue": "FCS 2025",
-      "tags": ["first-author", "data-compression"],
-      "links": [
-        { "label": "Paper", "url": "https://link.springer.com/article/10.1007/s11704-024-40300-5" },
-        { "label": "Code", "url": "https://github.com/fahaihi/NNLCB" }
-      ]
-    },
-    {
       "title": "Multi-source Data Lossless Compression via Parallel Expansion Mapping and xLSTM",
       "authors": ["Huidong Ma", "Hui Sun", "Liping Yi", "Xiaoguang Liu", "Gang Wang"],
       "venue": "ICASSP 2025",
@@ -94,6 +84,16 @@
       "links": [
         { "label": "Paper", "url": "https://ieeexplore.ieee.org/abstract/document/10887721" },
         { "label": "Code", "url": "https://github.com/dingyanfeng/AGDLC" }
+      ]
+    },
+    {
+      "title": "A Survey and Benchmark Evaluation for Neural-Network-Based Lossless Universal Compressors Toward Multi-Source Data",
+      "authors": ["Hui Sun†", "Huidong Ma†", "Feng Ling", "Haonan Xie", "Yongxia Sun", "Liping Yi", "Meng Yan", "Cheng Zhong", "Xiaoguang Liu", "Gang Wang"],
+      "venue": "FCS 2025",
+      "tags": ["first-author", "data-compression"],
+      "links": [
+        { "label": "Paper", "url": "https://link.springer.com/article/10.1007/s11704-024-40300-5" },
+        { "label": "Code", "url": "https://github.com/fahaihi/NNLCB" }
       ]
     },
     {
