@@ -110,7 +110,7 @@
       // Venue
       var venue = document.createElement('p');
       venue.className = 'work-meta';
-      venue.textContent = paper.venue;
+      venue.innerHTML = escapeHtml(paper.venue).replace(/\*([^*]+)\*/g, '<em>$1</em>');
       article.appendChild(venue);
 
       // Links row
