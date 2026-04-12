@@ -13,7 +13,7 @@
     {
       "title": "Efficient Learned Data Compression via Dual-Stream Feature Decoupling",
       "authors": ["Huidong Ma", "Xinyan Shi", "Hui Sun", "Xiaofei Yue", "Xiaoguang Liu", "Gang Wang", "Wentong Cai"],
-      "venue": "ACL 2026, Main Conference",
+      "venue": "*Annual Meeting of the Association for Computational Linguistics (ACL), Main Conference*, 2026",
       "tags": ["first-author", "data-compression"],
       "links": [
         { "label": "Paper", "url": "https://arxiv.org/abs/2604.07239" },
@@ -23,7 +23,7 @@
     {
       "title": "AgentGC: Evolutionary Learning-based Lossless Compression for Genomics Data with LLM-driven Multiple Agent",
       "authors": ["Hui Sun", "Yanfeng Ding", "Huidong Ma", "Chang Xu", "Keyan Jin", "Lizheng Zu", "Cheng Zhong", "Xiaoguang Liu", "Gang Wang", "Wentong Cai"],
-      "venue": "ACL 2026, Findings",
+      "venue": "*Annual Meeting of the Association for Computational Linguistics (ACL), Findings*, 2026",
       "tags": ["data-compression"],
       "links": [
         { "label": "Paper", "url": "https://arxiv.org/abs/2601.13559" }
@@ -32,7 +32,7 @@
     {
       "title": "sMoE: Elastic MoE-Based Inference with Serverless Computing via Fine-grained Expert Scaling",
       "authors": ["Xiaofei Yue", "Ziming Zhao", "Jiongchi Yu", "Huidong Ma", "Zhaoxuan Li", "Tingting Li", "Jianwei Yin"],
-      "venue": "DAC 2026",
+      "venue": "*ACM/IEEE Design Automation Conference (DAC)*, 2026",
       "tags": ["cloud-computing"],
       "links": [
         { "label": "Paper", "url": "" }
@@ -41,7 +41,7 @@
     {
       "title": "Learned Image Compression via Sparse Attention and Adaptive Frequency",
       "authors": ["Huidong Ma", "Xinyan Shi", "Hui Sun", "Xiaofei Yue", "Xiaoguang Liu", "Gang Wang", "Wentong Cai"],
-      "venue": "CVPR 2026",
+      "venue": "*IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2026",
       "tags": ["first-author", "data-compression"],
       "links": [
         { "label": "Code", "url": "https://github.com/huidong-ma/SAAF" }
@@ -50,7 +50,7 @@
     {
       "title": "PMKLC: Parallel Multi-Knowledge Learning-based Lossless Compression for Large-Scale Genomics Database",
       "authors": ["Hui Sun", "Yanfeng Ding", "Liping Yi", "Huidong Ma", "Gang Wang", "Xiaoguang Liu", "Cheng Zhong", "Wentong Cai"],
-      "venue": "SIGKDD 2025",
+      "venue": "*ACM SIGKDD Conference on Knowledge Discovery and Data Mining (SIGKDD)*, 2025",
       "tags": ["data-compression"],
       "links": [
         { "label": "Paper", "url": "https://dl.acm.org/doi/10.1145/3711896.3737083" },
@@ -60,7 +60,7 @@
     {
       "title": "MSDZip: Universal Lossless Compression for Multi-source Data via Stepwise-parallel and Learning-based Prediction",
       "authors": ["Huidong Ma†", "Hui Sun†", "Liping Yi", "Yanfeng Ding", "Xiaoguang Liu", "Gang Wang"],
-      "venue": "WWW 2025",
+      "venue": "*The Web Conference (WWW)*, 2025",
       "tags": ["first-author", "data-compression"],
       "links": [
         { "label": "Paper", "url": "https://dl.acm.org/doi/10.1145/3696410.3714655" },
@@ -70,7 +70,7 @@
     {
       "title": "Multi-source Data Lossless Compression via Parallel Expansion Mapping and xLSTM",
       "authors": ["Huidong Ma", "Hui Sun", "Liping Yi", "Xiaoguang Liu", "Gang Wang"],
-      "venue": "ICASSP 2025",
+      "venue": "*IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)*, 2025",
       "tags": ["first-author", "data-compression"],
       "links": [
         { "label": "Paper", "url": "https://ieeexplore.ieee.org/document/10889184" },
@@ -80,7 +80,7 @@
     {
       "title": "Adaptive Lossless Compression for Genomics Data by Multiple (s, k)-mer Encoding and XLSTM",
       "authors": ["Hui Sun†", "Yanfeng Ding†", "Liping Yi", "Huidong Ma", "Haonan Xie", "Gang Wang", "Xiaoguang Liu"],
-      "venue": "ICASSP 2025",
+      "venue": "*IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)*, 2025",
       "tags": ["data-compression"],
       "links": [
         { "label": "Paper", "url": "https://ieeexplore.ieee.org/abstract/document/10887721" },
@@ -90,7 +90,7 @@
     {
       "title": "A Survey and Benchmark Evaluation for Neural-Network-Based Lossless Universal Compressors Toward Multi-Source Data",
       "authors": ["Hui Sun†", "Huidong Ma†", "Feng Ling", "Haonan Xie", "Yongxia Sun", "Liping Yi", "Meng Yan", "Cheng Zhong", "Xiaoguang Liu", "Gang Wang"],
-      "venue": "FCS 2025",
+      "venue": "*Frontiers of Computer Science (FCS)*, 2025",
       "tags": ["first-author", "data-compression"],
       "links": [
         { "label": "Paper", "url": "https://link.springer.com/article/10.1007/s11704-024-40300-5" },
@@ -100,7 +100,7 @@
     {
       "title": "Genomics Data Lossless Compression with (s,k)-mer Encoding and Deep Neural Networks",
       "authors": ["Hui Sun†", "Liping Yi†", "Huidong Ma", "Yongxia Sun", "Yingfeng Zheng", "Wenwen Cui", "Meng Yan", "Xiaoguang Liu", "Gang Wang"],
-      "venue": "AAAI 2025",
+      "venue": "*AAAI Conference on Artificial Intelligence (AAAI)*, 2025",
       "tags": ["data-compression"],
       "links": [
         { "label": "Paper", "url": "https://ojs.aaai.org/index.php/AAAI/article/view/33371" },
@@ -120,7 +120,7 @@
     {
       "title": "LRCB: A Comprehensive Benchmark Evaluation of Reference-free Lossless Compression Tools for Genomics Sequencing Long Reads Data",
       "authors": ["Hui Sun†", "Huidong Ma†", "Yingfeng Zheng", "Haonan Xie", "Meng Yan", "Cheng Zhong", "Xiaoguang Liu", "Gang Wang"],
-      "venue": "DCC 2024",
+      "venue": "*Data Compression Conference (DCC)*, 2024",
       "tags": ["first-author", "data-compression"],
       "links": [
         { "label": "Paper", "url": "https://ieeexplore.ieee.org/abstract/document/10533699" },
@@ -130,7 +130,7 @@
     {
       "title": "SR2C: A Structurally Redundant Short Reads Collapser for Optimizing DNA Data Compression",
       "authors": ["Hui Sun†", "Huidong Ma†", "Yingfeng Zheng", "Haonan Xie", "Xiaofei Wang", "Xiaoguang Liu", "Gang Wang"],
-      "venue": "ICPADS 2023",
+      "venue": "*IEEE International Conference on Parallel and Distributed Systems (ICPADS)*, 2023",
       "tags": ["first-author", "data-compression"],
       "links": [
         { "label": "Paper", "url": "https://ieeexplore.ieee.org/document/10476304" },
@@ -140,7 +140,7 @@
     {
       "title": "PMFFRC: a large-scale genomic short reads compression optimizer via memory modeling and redundant clustering",
       "authors": ["Hui Sun", "Yingfeng Zheng", "Haonan Xie", "Huidong Ma", "Xiaoguang Liu", "Gang Wang"],
-      "venue": "BMC Bioinformatics 2023",
+      "venue": "*BMC Bioinformatics*, 2023",
       "tags": ["data-compression"],
       "links": [
         { "label": "Paper", "url": "https://link.springer.com/article/10.1186/s12859-023-05566-9" }
@@ -149,7 +149,7 @@
     {
       "title": "ricME: Long-Read Based Mobile Element Variant Detection Using Sequence Realignment and Identity Calculation",
       "authors": ["Huidong Ma", "Cheng Zhong", "Hui Sun", "Danyang Chen", "Haixiang Lin"],
-      "venue": "ISBRA 2023",
+      "venue": "*International Symposium on Bioinformatics Research and Applications (ISBRA)*, 2023",
       "tags": ["first-author", "variant-detection"],
       "links": [
         { "label": "Paper", "url": "https://link.springer.com/chapter/10.1007/978-981-99-7074-2_13" },
@@ -159,7 +159,7 @@
     {
       "title": "cnnLSV: detecting structural variants by encoding long-read alignment information and convolutional neural network",
       "authors": ["Huidong Ma", "Cheng Zhong", "Danyang Chen", "Haofa He", "Feng Yang"],
-      "venue": "BMC Bioinformatics 2023",
+      "venue": "*BMC Bioinformatics*, 2023",
       "tags": ["first-author", "variant-detection"],
       "links": [
         { "label": "Paper", "url": "https://link.springer.com/article/10.1186/s12859-023-05243-x" },
