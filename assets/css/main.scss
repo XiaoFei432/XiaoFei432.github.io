@@ -157,9 +157,9 @@ h1:before, .anchor:before {
     }
 
     &.is-active {
-        border-color: #6a9db8;
-        background: #c4d9e6;
-        color: #1e4d68;
+        border-color: #8ab4ca;
+        background: #ddeaf2;
+        color: #14384d;
         box-shadow: 0 4px 10px rgba(43, 93, 122, 0.10);
     }
 }
@@ -191,7 +191,7 @@ h1:before, .anchor:before {
     }
 
     &.is-active {
-        border-color: #9abcce;
+        border-color: #8ab4ca;
         background: linear-gradient(180deg, #e8f2f7 0%, #dceaf1 100%);
         color: #14384d;
         box-shadow: 0 6px 14px rgba(33, 55, 76, 0.08);
