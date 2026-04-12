@@ -116,11 +116,51 @@ h1:before, .anchor:before {
     border-bottom: 1px solid #e6ecef;
 }
 
-.paper-filter-row {
+.filter-group {
     display: flex;
     flex-wrap: wrap;
     gap: 0.42rem;
 }
+
+.filter-separator {
+    height: 1px;
+    background: #e6ecef;
+    margin: 0.56rem 0;
+}
+
+/* ── Author toggle: rectangular segmented style ── */
+.author-toggle-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 1.94rem;
+    padding: 0.3rem 0.82rem 0.36rem;
+    border: 1px solid #d3dee5;
+    border-radius: 4px;
+    background: #ffffff;
+    color: #5b6f7f;
+    font-size: 0.78rem;
+    font-weight: 600;
+    line-height: 1;
+    cursor: pointer;
+    appearance: none;
+    transition: border-color 0.18s ease, background-color 0.18s ease, color 0.18s ease, box-shadow 0.18s ease;
+
+    &:hover {
+        border-color: #bccad2;
+        color: #18354a;
+        box-shadow: 0 4px 10px rgba(33, 55, 76, 0.06);
+    }
+
+    &.is-active {
+        border-color: #2b5d7a;
+        background: #2b5d7a;
+        color: #ffffff;
+        box-shadow: 0 4px 12px rgba(43, 93, 122, 0.18);
+    }
+}
+
+/* ── Topic pills: rounded chip style (unchanged) ── */
 
 .paper-filter-chip {
     display: inline-flex;
