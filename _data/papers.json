@@ -17,7 +17,8 @@
       "venue": "ACL 2026, Main Conference",
       "tags": ["first-author", "compression", "deep-learning"],
       "links": [
-        { "label": "📄 Paper", "url": "https://arxiv.org/abs/2604.07239" }
+        { "label": "Paper", "url": "https://arxiv.org/abs/2604.07239" },
+        { "label": "Code", "url": "https://github.com/huidong-ma/FADE" }
       ]
     },
     {
@@ -26,6 +27,7 @@
       "venue": "CVPR 2026",
       "tags": ["first-author", "compression", "deep-learning"],
       "links": [
+        { "label": "Code", "url": "https://github.com/huidong-ma/SAAF" }
       ]
     },
     {
@@ -34,7 +36,8 @@
       "venue": "WWW 2025",
       "tags": ["first-author", "compression", "deep-learning", "hpc"],
       "links": [
-        { "label": "📄 Paper", "url": "https://dl.acm.org/doi/10.1145/3696410.3714655" }
+        { "label": "Paper", "url": "https://dl.acm.org/doi/10.1145/3696410.3714655" },
+        { "label": "Code", "url": "https://github.com/huidong-ma/MSDZip" }
       ]
     },
     {
@@ -43,7 +46,8 @@
       "venue": "ICASSP 2025",
       "tags": ["first-author", "compression", "deep-learning"],
       "links": [
-        { "label": "📄 Paper", "url": "https://ieeexplore.ieee.org/document/10889184" }
+        { "label": "Paper", "url": "https://ieeexplore.ieee.org/document/10889184" },
+        { "label": "Code", "url": "https://github.com/huidong-ma/MSDLC" }
       ]
     },
     {
