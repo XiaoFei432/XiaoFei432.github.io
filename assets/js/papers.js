@@ -99,25 +99,18 @@
       article.appendChild(venue);
 
       // Links row
-      if (paper.links && paper.links.length) {
+      var validLinks = (paper.links || []).filter(function (link) { return link.url; });
+      if (validLinks.length) {
         var linksRow = document.createElement('div');
         linksRow.className = 'work-links-row';
-        paper.links.forEach(function (link) {
-          if (link.url) {
-            var a = document.createElement('a');
-            a.className = 'paper-link-button';
-            a.href = link.url;
-            a.target = '_blank';
-            a.rel = 'noopener noreferrer';
-            a.textContent = link.label;
-            linksRow.appendChild(a);
-          } else {
-            var span = document.createElement('span');
-            span.className = 'paper-link-button paper-link-button--disabled';
-            span.setAttribute('aria-disabled', 'true');
-            span.textContent = link.label;
-            linksRow.appendChild(span);
-          }
+        validLinks.forEach(function (link) {
+          var a = document.createElement('a');
+          a.className = 'paper-link-button';
+          a.href = link.url;
+          a.target = '_blank';
+          a.rel = 'noopener noreferrer';
+          a.textContent = link.label;
+          linksRow.appendChild(a);
         });
         article.appendChild(linksRow);
       }
