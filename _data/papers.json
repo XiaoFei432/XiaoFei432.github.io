@@ -1,9 +1,11 @@
 {
   "highlightAuthor": "Huidong Ma",
   "defaultFilter": "first-author",
-  "filterTags": [
+  "authorFilters": [
     { "key": "all", "label": "All" },
-    { "key": "first-author", "label": "First Author" },
+    { "key": "first-author", "label": "First/Co-first Author" }
+  ],
+  "topicFilters": [
     { "key": "data-compression", "label": "Data Compression" },
     { "key": "variant-detection", "label": "Variant Detection" },
     { "key": "cloud-computing", "label": "Cloud Computing" }
@@ -164,6 +166,6 @@
         { "label": "Paper", "url": "https://link.springer.com/article/10.1186/s12859-023-05243-x" },
         { "label": "Code", "url": "https://github.com/huidong-ma/cnnLSV" }
       ]
-    },
+    }
   ]
 }
