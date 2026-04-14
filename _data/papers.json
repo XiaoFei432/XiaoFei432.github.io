@@ -1,6 +1,6 @@
 {
   "highlightAuthor": "Huidong Ma",
-  "defaultFilter": "first-author",
+  "defaultFilter": "",
   "authorFilters": [
     { "key": "first-author", "label": "First/Co-first Author" }
   ],
