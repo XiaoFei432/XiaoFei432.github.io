@@ -13,7 +13,7 @@
     {
       "title": "Efficient Learned Data Compression via Dual-Stream Feature Decoupling",
       "authors": ["Huidong Ma", "Xinyan Shi", "Hui Sun", "Xiaofei Yue", "Xiaoguang Liu", "Gang Wang", "Wentong Cai"],
-      "venue": "*Annual Meeting of the Association for Computational Linguistics (ACL), Main Conference*, 2026",
+      "venue": "*Annual Meeting of the Association for Computational Linguistics (ACL), Main Conference (Oral)*, 2026",
       "tags": ["first-author", "data-compression"],
       "links": [
         { "label": "Paper", "url": "https://arxiv.org/abs/2604.07239" },
