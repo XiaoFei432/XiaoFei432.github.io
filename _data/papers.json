@@ -44,6 +44,7 @@
       "venue": "*IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2026",
       "tags": ["first-author", "data-compression"],
       "links": [
+        { "label": "Paper", "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Ma_Learned_Image_Compression_via_Sparse_Attention_and_Adaptive_Frequency_CVPR_2026_paper.html" },
         { "label": "Code", "url": "https://github.com/huidong-ma/SAAF" }
       ]
     },
