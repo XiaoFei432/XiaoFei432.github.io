@@ -36,6 +36,7 @@ I am Huidong Ma, a Ph.D. candidate in Computer Science and Technology at Nankai 
 
 # 🚩 Professional Activities
 ### Reviewer for Journals
+- IEEE/ACM Transactions on Computational Biology and Bioinformatics, 2026
 - Information Sciences, 2026
 - IEEE Transactions on Network Science and Engineering, 2025
 - GiGaScience, 2025
