@@ -270,9 +270,41 @@ h1:before, .anchor:before {
 .paper-link-button--disabled {
     color: #8a97a1;
     border-color: #dde5ea;
+    background: #f7f9fa;
     box-shadow: none;
     cursor: default;
     pointer-events: none;
+}
+
+.paper-list-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 2.12rem;
+    margin: 1rem 0 0.35rem;
+    padding: 0.36rem 0.95rem 0.42rem;
+    border: 1px solid #cbd7df;
+    border-radius: 4px;
+    background: #ffffff;
+    color: #21465e;
+    font-size: 0.84rem;
+    font-weight: 700;
+    line-height: 1;
+    cursor: pointer;
+    appearance: none;
+    box-shadow: 0 8px 16px rgba(33, 55, 76, 0.06);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.paper-list-toggle:hover {
+    border-color: #aebfc9;
+    box-shadow: 0 10px 20px rgba(33, 55, 76, 0.1);
+    color: #17384d;
+    transform: translateY(-1px);
+}
+
+.paper-list-toggle[hidden] {
+    display: none !important;
 }
 
 .paper-tags {

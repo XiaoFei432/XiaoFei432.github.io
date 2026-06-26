@@ -6,10 +6,10 @@
     { "key": "corresponding-author", "label": "Corresponding Author" }
   ],
   "topicFilters": [
-    { "key": "AI-Infra.", "label": "AI Infra." },
-    { "key": "Serverless-Computing", "label": "Serverless Computing"},
-    { "key": "AI-Native", "label": "AI Native" },
-    { "key": "distributed-Systems", "label": "Distributed Systems" }
+    { "key": "llm-systems", "label": "AI Infra." },
+    { "key": "serverless", "label": "Serverless Computing" },
+    { "key": "ai-systems", "label": "AI Native" },
+    { "key": "distributed-systems", "label": "Distributed Systems" }
   ],
   "papers": [
     {
