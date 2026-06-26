@@ -34,27 +34,32 @@
         "Fulun Ye",
         "Jiongchi Yu",
         "Zhaoxuan Li",
-        "Ziming Zhao*",
-        "Tingting Li*",
-        "Jianwei Yin*"
+        "Ziming Zhao",
+        "Tingting Li",
+        "Jianwei Yin"
       ],
       "venue": "The ACM Web Conference (WWW), 2026. [CCF A]",
       "tags": [
         "first-author",
         "ai-infra"
       ],
-      "links": []
+      "links": [
+        {
+          "label": "PDF",
+          "url": "/assets/pdfs/www2026-heterosim.pdf"
+        }
+      ]
     },
     {
       "title": "sMoE: Elastic MoE-Based Inference with Serverless Computing via Fine-grained Expert Scaling",
       "authors": [
         "Xiaofei Yue",
-        "Ziming Zhao*",
+        "Ziming Zhao",
         "Jiongchi Yu",
         "Huidong Ma",
         "Zhaoxuan Li",
-        "Tingting Li*",
-        "Jianwei Yin*"
+        "Tingting Li",
+        "Jianwei Yin"
       ],
       "venue": "ACM/IEEE Design Automation Conference (DAC), 2026. [CCF A]",
       "tags": [
@@ -62,13 +67,22 @@
         "serverless",
         "ai-infra"
       ],
-      "links": []
+      "links": [
+        {
+          "label": "PDF",
+          "url": "/assets/pdfs/dac2026-smoe.pdf"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/XiaoFei432/sMoE"
+        }
+      ]
     },
     {
       "title": "Rocket: Warming Serverless Inference via Hierarchical ML Artifact Pre-loading and Sharing",
       "authors": [
         "Xiaofei Yue",
-        "Song Yang*",
+        "Song Yang",
         "Fan Li",
         "Youqi Li",
         "Yu Wang"
@@ -79,13 +93,22 @@
         "serverless",
         "ai-infra"
       ],
-      "links": []
+      "links": [
+        {
+          "label": "PDF",
+          "url": "/assets/pdfs/infocom2026-rocket.pdf"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/XiaoFei432/Rocket"
+        }
+      ]
     },
     {
       "title": "HyFaaS: Accelerating Serverless Workflows by Unleashing Hybrid Resource Elasticity",
       "authors": [
         "Xiaofei Yue",
-        "Song Yang*",
+        "Song Yang",
         "Fan Li",
         "Liehuang Zhu",
         "Xu Wang",
@@ -99,8 +122,16 @@
       ],
       "links": [
         {
+          "label": "PDF",
+          "url": "/assets/pdfs/tpds2026-hyfaas.pdf"
+        },
+        {
           "label": "Paper",
           "url": "https://ieeexplore.ieee.org/abstract/document/11242003"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/XiaoFei432/HyFaaS"
         }
       ]
     },
@@ -108,26 +139,53 @@
       "title": "Explainable Quantum Program Repair with Verifiable Proof Traces",
       "authors": [
         "Tingting Li",
-        "Ziming Zhao*",
+        "Ziming Zhao",
         "Zhaoxuan Li",
         "Jiongchi Yu",
         "Xiaofei Yue",
-        "Jianwei Yin*"
+        "Jianwei Yin"
       ],
       "venue": "Annual Meeting of the Association for Computational Linguistics (ACL) Findings, 2026. [CCF A]",
       "tags": [
         "quantum"
       ],
-      "links": []
+      "links": [
+        {
+          "label": "PDF",
+          "url": "/assets/pdfs/acl2026-qrepair.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Efficient Learned Data Compression via Dual-Stream Feature Decoupling",
+      "authors": [
+        "Huidong Ma",
+        "Xinyan Shi",
+        "Hui Sun",
+        "Xiaofei Yue",
+        "Xiaoguang Liu",
+        "Gang Wang",
+        "Wentong Cai"
+      ],
+      "venue": "Annual Meeting of the Association for Computational Linguistics (ACL), 2026. [CCF A]",
+      "tags": [
+        "ai-infra"
+      ],
+      "links": [
+        {
+          "label": "PDF",
+          "url": "/assets/pdfs/acl2026-efficient-learned-data-compression.pdf"
+        }
+      ]
     },
     {
       "title": "Time-Aware Active Calibration and Scheduling for N-Qubit Systems via Bayesian Optimization and Reinforcement Learning",
       "authors": [
         "Ziming Zhao",
-        "Tingting Li*",
+        "Tingting Li",
         "Xiaofei Yue",
         "Zhaoxuan Li",
-        "Jianwei Yin*"
+        "Jianwei Yin"
       ],
       "venue": "ACM/IEEE Design Automation Conference (DAC), 2026. [CCF A]",
       "tags": [
@@ -144,16 +202,21 @@
         "Xiaofei Yue",
         "Junyu Chen",
         "Yu Peng",
-        "Tingting Li*",
+        "Tingting Li",
         "Zhaoxuan Li",
-        "Ziming Zhao*",
-        "Jianwei Yin*"
+        "Ziming Zhao",
+        "Jianwei Yin"
       ],
       "venue": "IEEE International Conference on Distributed Computing Systems (ICDCS), 2026. [CCF B]",
       "tags": [
         "quantum"
       ],
-      "links": []
+      "links": [
+        {
+          "label": "PDF",
+          "url": "/assets/pdfs/icdcs2026-qclink.pdf"
+        }
+      ]
     },
     {
       "title": "Towards Quantum Program Bug Datasets and Benchmarking",
@@ -170,8 +233,8 @@
         "Fanqi Kong",
         "Zhaoxuan Li",
         "Xiaofei Yue",
-        "Ziming Zhao*",
-        "Jianwei Yin*"
+        "Ziming Zhao",
+        "Jianwei Yin"
       ],
       "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2026. [CCF A]",
       "tags": [
@@ -183,8 +246,8 @@
       "title": "Fair and Carbon-Aware LLM Routing for Web Services",
       "authors": [
         "Tingting Li",
-        "Ziming Zhao*",
-        "Zhaoxuan Li*",
+        "Ziming Zhao",
+        "Zhaoxuan Li",
         "Xiaofei Yue",
         "Jiongchi Yu"
       ],
@@ -192,7 +255,34 @@
       "tags": [
         "ai-infra"
       ],
-      "links": []
+      "links": [
+        {
+          "label": "PDF",
+          "url": "/assets/pdfs/www2026-carbon-routing.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Learned Image Compression via Sparse Attention and Adaptive Frequency",
+      "authors": [
+        "Huidong Ma",
+        "Xinyan Shi",
+        "Hui Sun",
+        "Xiaofei Yue",
+        "Xiaoguang Liu",
+        "Gang Wang",
+        "Wentong Cai"
+      ],
+      "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026. [CCF A]",
+      "tags": [
+        "ai-infra"
+      ],
+      "links": [
+        {
+          "label": "PDF",
+          "url": "/assets/pdfs/cvpr2026-learned-image-compression.pdf"
+        }
+      ]
     },
     {
       "title": "Portray learning: A novel learning paradigm for streaming emerging class detection",
@@ -201,7 +291,7 @@
         "Zhaoxuan Li",
         "Xiaofei Yue*",
         "Tingting Li",
-        "Fan Zhang*"
+        "Fan Zhang"
       ],
       "venue": "Information Sciences (INS), 2026. [CCF B]",
       "tags": [
@@ -210,10 +300,55 @@
       "links": []
     },
     {
+      "title": "Network-Centric Auditing and Regulation for Cryptocurrency Systems: A Tutorial",
+      "authors": [
+        "Qingyang Ding",
+        "Qinnan Zhang",
+        "Xiaofei Yue*",
+        "Jianbin Chen",
+        "Ziming Zhao",
+        "Zhaoxuan Li",
+        "Xiaochen Hao",
+        "Xinyu Zhang",
+        "Nan Wang"
+      ],
+      "venue": "IEEE Transactions on Network Science and Engineering (TNSE), 2026. [CAS Q1]",
+      "tags": [
+        "corresponding-author"
+      ],
+      "links": [
+        {
+          "label": "PDF",
+          "url": "/assets/pdfs/tnse2026-auditdc.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Bc2FL: Double-Layer Blockchain-Driven Federated Learning Framework for Agricultural IoT",
+      "authors": [
+        "Qingyang Ding",
+        "Xiaofei Yue*",
+        "Qinnan Zhang",
+        "Zehui Xiong",
+        "Jinping Chang",
+        "Hongwei Zheng"
+      ],
+      "venue": "IEEE Internet of Things Journal (IoTJ), 2025. [CAS Q1 TOP]",
+      "tags": [
+        "corresponding-author"
+      ],
+      "links": [
+        {
+          "label": "PDF",
+          "url": "/assets/pdfs/iotj2025-bc2fl.pdf"
+        }
+      ]
+    },
+    {
       "title": "Exploiting Wide-Area Resource Elasticity with Fine-Grained Orchestration for Serverless Analytics",
       "authors": [
         "Xiaofei Yue",
-        "Song Yang*",
+        "Song Yang",
         "Liehuang Zhu",
         "Stojan Trajanovski",
         "Fan Li",
@@ -226,8 +361,16 @@
       ],
       "links": [
         {
+          "label": "PDF",
+          "url": "/assets/pdfs/ton2025-wide-area-elasticity.pdf"
+        },
+        {
           "label": "Paper",
           "url": "https://ieeexplore.ieee.org/abstract/document/10742121"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/XiaoFei432/Demeter/tree/V2"
         }
       ]
     },
@@ -235,7 +378,7 @@
       "title": "Demeter: Fine-grained Function Orchestration for Geo-distributed Serverless Analytics",
       "authors": [
         "Xiaofei Yue",
-        "Song Yang*",
+        "Song Yang",
         "Liehuang Zhu",
         "Stojan Trajanovski",
         "Xiaoming Fu"
@@ -247,8 +390,16 @@
       ],
       "links": [
         {
+          "label": "PDF",
+          "url": "/assets/pdfs/infocom2024-demeter.pdf"
+        },
+        {
           "label": "Paper",
           "url": "https://ieeexplore.ieee.org/abstract/document/10621303"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/XiaoFei432/Demeter/tree/V1"
         }
       ]
     },
@@ -256,7 +407,7 @@
       "title": "TimeLink: Enabling Dynamic Runtime Prediction for Flink Iterative Jobs",
       "authors": [
         "Xiaofei Yue",
-        "Qingyang Ding*",
+        "Qingyang Ding",
         "Jianming Zhu",
         "Yanbing Ding"
       ],
@@ -265,6 +416,10 @@
         "first-author"
       ],
       "links": [
+        {
+          "label": "PDF",
+          "url": "/assets/pdfs/tjsc2024-timelink.pdf"
+        },
         {
           "label": "Paper",
           "url": "https://link.springer.com/article/10.1007/s11227-024-06085-x"
@@ -276,7 +431,7 @@
       "authors": [
         "岳晓飞",
         "史岚",
-        "赵宇海*",
+        "赵宇海",
         "季航旭",
         "王国仁"
       ],
@@ -284,14 +439,19 @@
       "tags": [
         "first-author"
       ],
-      "links": []
+      "links": [
+        {
+          "label": "PDF",
+          "url": "/assets/pdfs/jos2022-flink-resource-allocation.pdf"
+        }
+      ]
     },
     {
       "title": "Online Runtime Prediction Method for Distributed Iterative Jobs",
       "authors": [
         "Xiaofei Yue",
         "Lan Shi",
-        "Yuhai Zhao*",
+        "Yuhai Zhao",
         "Hangxu Ji",
         "Guoren Wang"
       ],
@@ -300,6 +460,10 @@
         "first-author"
       ],
       "links": [
+        {
+          "label": "PDF",
+          "url": "/assets/pdfs/wisa2021-online-runtime-prediction.pdf"
+        },
         {
           "label": "Paper",
           "url": "https://link.springer.com/chapter/10.1007/978-3-030-87571-8_14"

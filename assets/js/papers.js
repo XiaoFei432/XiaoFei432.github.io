@@ -119,12 +119,12 @@
   function appendInlinePaperLinks(container, paper) {
     var links = document.createElement('span');
     links.className = 'work-meta-links';
-    var ccfMatch = String(paper.venue || '').match(/(\s*\[CCF [A-Z]\])$/);
-    if (ccfMatch) {
-      var ccf = document.createElement('span');
-      ccf.className = 'work-meta-ccf';
-      ccf.textContent = ccfMatch[1].trim();
-      links.appendChild(ccf);
+    var venueLabelMatch = String(paper.venue || '').match(/(\s*\[[^\]]+\])$/);
+    if (venueLabelMatch) {
+      var venueLabel = document.createElement('span');
+      venueLabel.className = 'work-meta-ccf';
+      venueLabel.textContent = venueLabelMatch[1].trim();
+      links.appendChild(venueLabel);
     }
     appendPaperLink(links, 'Paper', getPaperLink(paper, ['PDF', 'Paper']));
     appendPaperLink(links, 'Code', getPaperLink(paper, ['Code', 'GitHub']));
@@ -157,7 +157,7 @@
       // Venue
       var venue = document.createElement('p');
       venue.className = 'work-meta';
-      var venueText = String(paper.venue || '').replace(/\s*\[CCF [A-Z]\]$/, '');
+      var venueText = String(paper.venue || '').replace(/\s*\[[^\]]+\]$/, '');
       venue.innerHTML = escapeHtml(venueText).replace(/\*([^*]+)\*/g, '<em>$1</em>');
       appendInlinePaperLinks(venue, paper);
       article.appendChild(venue);
