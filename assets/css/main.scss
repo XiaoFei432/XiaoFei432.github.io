@@ -237,10 +237,15 @@ h1:before, .anchor:before {
 .work-meta-links {
     display: inline-flex;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 0.34rem;
     margin-left: 0.46rem;
     vertical-align: middle;
+    white-space: nowrap;
+}
+
+.work-meta-ccf {
+    white-space: nowrap;
 }
 
 .paper-link-button {
