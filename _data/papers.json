@@ -46,7 +46,7 @@
         "Tingting Li*",
         "Jianwei Yin*"
       ],
-      "venue": "*The ACM Web Conference (WWW)*, 2026",
+      "venue": "The ACM Web Conference (WWW), 2026. [CCF A]",
       "tags": [
         "first-author",
         "ai-infra",
@@ -65,7 +65,7 @@
         "Tingting Li*",
         "Jianwei Yin*"
       ],
-      "venue": "*ACM/IEEE Design Automation Conference (DAC)*, 2026",
+      "venue": "ACM/IEEE Design Automation Conference (DAC), 2026. [CCF A]",
       "tags": [
         "first-author",
         "serverless",
@@ -83,7 +83,7 @@
         "Youqi Li",
         "Yu Wang"
       ],
-      "venue": "*IEEE International Conference on Computer Communications (INFOCOM)*, 2026",
+      "venue": "IEEE International Conference on Computer Communications (INFOCOM), 2026. [CCF A]",
       "tags": [
         "first-author",
         "serverless",
@@ -102,7 +102,7 @@
         "Zhen Feng",
         "Fernando A. Kuipers"
       ],
-      "venue": "*IEEE Transactions on Parallel and Distributed Systems (TPDS)*, 2026",
+      "venue": "IEEE Transactions on Parallel and Distributed Systems (TPDS), 2026. [CCF A]",
       "tags": [
         "first-author",
         "serverless"
@@ -124,7 +124,7 @@
         "Xiaofei Yue",
         "Jianwei Yin*"
       ],
-      "venue": "*Annual Meeting of the Association for Computational Linguistics (ACL)*, 2026",
+      "venue": "Annual Meeting of the Association for Computational Linguistics (ACL), 2026. [CCF A]",
       "tags": [
         "quantum",
         "ai-native"
@@ -140,7 +140,7 @@
         "Zhaoxuan Li",
         "Jianwei Yin*"
       ],
-      "venue": "*ACM/IEEE Design Automation Conference (DAC)*, 2026",
+      "venue": "ACM/IEEE Design Automation Conference (DAC), 2026. [CCF A]",
       "tags": [
         "quantum",
         "ai-native"
@@ -161,7 +161,7 @@
         "Ziming Zhao*",
         "Jianwei Yin*"
       ],
-      "venue": "*IEEE International Conference on Distributed Computing Systems (ICDCS)*, 2026",
+      "venue": "IEEE International Conference on Distributed Computing Systems (ICDCS), 2026. [CCF B]",
       "tags": [
         "quantum"
       ],
@@ -185,7 +185,7 @@
         "Ziming Zhao*",
         "Jianwei Yin*"
       ],
-      "venue": "*ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)*, 2026",
+      "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2026. [CCF A]",
       "tags": [
         "quantum"
       ],
@@ -200,7 +200,7 @@
         "Xiaofei Yue",
         "Jiongchi Yu"
       ],
-      "venue": "*The ACM Web Conference (WWW)*, 2026",
+      "venue": "The ACM Web Conference (WWW), 2026. [CCF A]",
       "tags": [
         "ai-infra",
         "ai-native"
@@ -216,7 +216,7 @@
         "Tingting Li",
         "Fan Zhang*"
       ],
-      "venue": "*Information Sciences (INS)*, 2026",
+      "venue": "Information Sciences (INS), 2026. [CCF B]",
       "tags": [
         "corresponding-author",
         "ai-native"
@@ -233,7 +233,7 @@
         "Fan Li",
         "Xiaoming Fu"
       ],
-      "venue": "*IEEE/ACM Transactions on Networking (TON)*, 2025",
+      "venue": "IEEE/ACM Transactions on Networking (TON), 2025. [CCF A]",
       "tags": [
         "first-author",
         "serverless",
@@ -255,7 +255,7 @@
         "Stojan Trajanovski",
         "Xiaoming Fu"
       ],
-      "venue": "*IEEE International Conference on Computer Communications (INFOCOM)*, 2024",
+      "venue": "IEEE International Conference on Computer Communications (INFOCOM), 2024. [CCF A]",
       "tags": [
         "first-author",
         "serverless",
@@ -276,7 +276,7 @@
         "Jianming Zhu",
         "Yanbing Ding"
       ],
-      "venue": "*The Journal of Supercomputing (TJSC)*, 2024",
+      "venue": "The Journal of Supercomputing (TJSC), 2024. [CCF C]",
       "tags": [
         "first-author",
         "big-data"
@@ -297,7 +297,7 @@
         "季航旭",
         "王国仁"
       ],
-      "venue": "*软件学报 (Journal of Software)*, 2022",
+      "venue": "软件学报 (Journal of Software), 2022. [CCF A]",
       "tags": [
         "first-author",
         "big-data"
@@ -313,7 +313,7 @@
         "Hangxu Ji",
         "Guoren Wang"
       ],
-      "venue": "*Web Information Systems and Applications (WISA)*, 2021",
+      "venue": "Web Information Systems and Applications (WISA), 2021. [CCF C]",
       "tags": [
         "first-author",
         "big-data"
