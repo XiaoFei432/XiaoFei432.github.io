@@ -2,183 +2,414 @@
   "highlightAuthor": "Xiaofei Yue",
   "defaultFilter": "",
   "authorFilters": [
-    { "key": "first-author", "label": "First/Co-first Author" },
-    { "key": "corresponding-author", "label": "Corresponding Author" }
+    {
+      "key": "first-author",
+      "label": "First/Co-first Author"
+    },
+    {
+      "key": "corresponding-author",
+      "label": "Corresponding Author"
+    }
   ],
   "topicFilters": [
-    { "key": "llm-systems", "label": "AI Infra." },
-    { "key": "serverless", "label": "Serverless Computing" },
-    { "key": "ai-systems", "label": "AI Native" },
-    { "key": "distributed-systems", "label": "Distributed Systems" }
+    {
+      "key": "ai-infra",
+      "label": "AI Infra."
+    },
+    {
+      "key": "serverless",
+      "label": "Serverless Computing"
+    },
+    {
+      "key": "quantum",
+      "label": "Quantum Systems"
+    },
+    {
+      "key": "big-data",
+      "label": "Big Data Systems"
+    },
+    {
+      "key": "ai-native",
+      "label": "AI Native"
+    }
   ],
   "papers": [
     {
-      "title": "sMoE: Elastic MoE-Based Inference with Serverless Computing via Fine-grained Expert Scaling",
-      "authors": ["Xiaofei Yue", "Ziming Zhao", "Jiongchi Yu", "Huidong Ma", "and et al."],
-      "venue": "*ACM/IEEE Design Automation Conference (DAC)*, 2026",
-      "tags": ["first-author", "llm-systems", "serverless", "ai-systems"],
+      "title": "HeteroSim: Towards High-Fidelity Heterogeneous LLM Training Simulation on GPUs",
+      "authors": [
+        "Xiaofei Yue†",
+        "Fangming Zhao†",
+        "Fulun Ye",
+        "Jiongchi Yu",
+        "Zhaoxuan Li",
+        "Ziming Zhao*",
+        "Tingting Li*",
+        "Jianwei Yin*"
+      ],
+      "venue": "*ACM WWW*, 2026",
+      "tags": [
+        "first-author",
+        "ai-infra",
+        "ai-native"
+      ],
+      "details": [
+        "CCF-A",
+        "大模型训练模拟"
+      ],
+      "abstract": "针对异构集群下大语言模型训练系统设计空间巨大、难以高效评估的问题，提出HeteroSim高保真异构LLM训练仿真框架。该方法通过可插拔IR编译器显式刻画并行策略，并结合异构感知的计算规划器与类NCCL的集合通信规划器，在多种异构强度下实现接近真实训练行为的高精度模拟。实验表明，HeteroSim可在分钟级开销下将模拟误差保持在5%以下。",
       "links": []
     },
     {
-      "title": "HeteroSim: Towards High-Fidelity Heterogeneous LLM Training Simulation on GPUs",
-      "authors": ["Xiaofei Yue", "Fangming Zhao", "Fulun Ye", "Jiongchi Yu", "Ziming Zhao", "and et al."],
-      "venue": "*The Web Conference (WWW)*, 2026",
-      "tags": ["first-author", "llm-systems", "distributed-systems"],
+      "title": "sMoE: Elastic MoE-Based Inference with Serverless Computing via Fine-grained Expert Scaling",
+      "authors": [
+        "Xiaofei Yue",
+        "Ziming Zhao*",
+        "Jiongchi Yu",
+        "Huidong Ma",
+        "Zhaoxuan Li",
+        "Tingting Li*",
+        "Jianwei Yin*"
+      ],
+      "venue": "*DAC*, 2026",
+      "tags": [
+        "first-author",
+        "serverless",
+        "ai-infra",
+        "ai-native"
+      ],
+      "details": [
+        "CCF-A",
+        "模型推理"
+      ],
+      "abstract": "针对MoE推理中专家负载偏斜与动态变化问题，提出sMoE细粒度专家弹性扩缩系统。将推理建模为专家DAG并结合DAGNN与强化学习实现资源调度优化。在满足P95延迟SLO的同时降低21.4%–39.2%推理成本。",
       "links": []
     },
     {
       "title": "Rocket: Warming Serverless Inference via Hierarchical ML Artifact Pre-loading and Sharing",
-      "authors": ["Xiaofei Yue", "Song Yang", "Fan Li", "Youqi Li", "Yu Wang"],
-      "venue": "*IEEE INFOCOM*, 2026, 1-10",
-      "tags": ["first-author", "serverless", "ai-systems"],
+      "authors": [
+        "Xiaofei Yue",
+        "Song Yang*",
+        "Fan Li",
+        "Youqi Li",
+        "Yu Wang"
+      ],
+      "venue": "*INFOCOM*, 2026",
+      "tags": [
+        "first-author",
+        "serverless",
+        "ai-infra"
+      ],
+      "details": [
+        "CCF-A",
+        "大模型推理与训练"
+      ],
+      "abstract": "针对服务器无感知AI推理冷启动中模型加载延迟与内存浪费问题，提出Rocket分层ML工件预加载与共享机制。基于双时间尺度预测与上下文老虎机实现动态预加载，并通过共享感知调度提升复用效率。实验显示降低约38%延迟并节省43.8%内存。",
       "links": []
     },
     {
       "title": "HyFaaS: Accelerating Serverless Workflows by Unleashing Hybrid Resource Elasticity",
-      "authors": ["Xiaofei Yue", "Song Yang", "Fan Li", "Liehuang Zhu", "Xu Wang", "and et al."],
-      "venue": "*IEEE Transactions on Parallel and Distributed Systems (TPDS)*, 2026, 37(1): 272-286",
-      "tags": ["first-author", "serverless", "distributed-systems"],
+      "authors": [
+        "Xiaofei Yue",
+        "Song Yang*",
+        "Fan Li",
+        "Liehuang Zhu",
+        "Xu Wang",
+        "Zhen Feng",
+        "Fernando A. Kuipers"
+      ],
+      "venue": "*IEEE TPDS*, 2026",
+      "tags": [
+        "first-author",
+        "serverless"
+      ],
+      "details": [
+        "CCF-A",
+        "SCI1",
+        "服务器无感知计算",
+        "算力网络"
+      ],
+      "abstract": "针对服务器无感知ETL工作流中计算与通信资源需求异构问题，提出HyFaaS通算分离编排框架，通过HyDAG建模、灰盒性能建模与两级图分区实现优化部署，并结合运行时调优减少资源浪费。实验显示延迟降低32.7%–50.4%，成本提升1.37倍效率。",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://ieeexplore.ieee.org/abstract/document/11242003"
+        }
+      ]
+    },
+    {
+      "title": "Explainable Quantum Program Repair with Verifiable Proof Traces",
+      "authors": [
+        "Tingting Li",
+        "Ziming Zhao*",
+        "Zhaoxuan Li",
+        "Jiongchi Yu",
+        "Xiaofei Yue",
+        "Jianwei Yin*"
+      ],
+      "venue": "*ACL*, 2026",
+      "tags": [
+        "quantum",
+        "ai-native"
+      ],
+      "details": [
+        "CCF-A",
+        "量子软工",
+        "量子代码修复"
+      ],
+      "abstract": "这篇工作提出了一种“可解释的量子程序修复”框架，旨在解决现有大语言模型修复方法只给出事后自然语言解释、却无法执行和验证的问题。针对存在错误的量子电路，该方法不仅生成修复候选方案，还会同步产出结构化的变换依据，并将其编译为可由机器检查的可执行证明轨迹。系统结合电路等价性检查、ZX 演算、稳定子分析和量子模拟等形式化验证后端，只有在解释被完全验证通过时才接受修复结果。实验表明，在 QASMBench 的量子程序缺陷修复任务中，该方法在保持有竞争力修复成功率的同时，显著提升了语义准确性和解释可信度。",
       "links": []
     },
     {
-      "title": "Exploiting Wide-Area Resource Elasticity With Fine-Grained Orchestration for Serverless Analytics",
-      "authors": ["Xiaofei Yue", "Song Yang", "Liehuang Zhu", "and et al."],
-      "venue": "*IEEE/ACM Transactions on Networking (TON)*, 2025, 33(1): 398-413",
-      "tags": ["first-author", "serverless", "distributed-systems"],
+      "title": "Time-Aware Active Calibration and Scheduling for N-Qubit Systems via Bayesian Optimization and Reinforcement Learning",
+      "authors": [
+        "Ziming Zhao",
+        "Tingting Li*",
+        "Xiaofei Yue",
+        "Zhaoxuan Li",
+        "Jianwei Yin*"
+      ],
+      "venue": "*DAC*, 2026",
+      "tags": [
+        "quantum",
+        "ai-native"
+      ],
+      "details": [
+        "CCF-A",
+        "量子EDA"
+      ],
+      "abstract": "该工作提出了一种面向多量子比特系统的时间感知主动校准框架，用于在参数漂移和校准代价较高的情况下提升量子硬件维护效率。方法将校准过程建模为有向无环图，其中节点表示频率、振幅比、DRAG 和相位等硬件参数，边则刻画参数之间的依赖关系，并结合 OU 过程或指数衰减模型描述参数随时间的漂移特性。框架进一步融合贝叶斯优化与强化学习：前者用于自适应选择最有价值的校准实验，后者结合调度策略协调跨量子比特的校准与读出任务，以减少空闲时间和资源冲突。系统还利用在线 RB/XEB 健康指标触发自主重校准，从而在无人干预下实现对漂移的动态恢复。实验结果表明，该方法相比固定或启发式调度策略能够显著提高校准效率、延长重校准间隔，并降低整体校准开销。",
       "links": []
     },
     {
-      "title": "Demeter: Fine-grained Function Orchestration for Geo-distributed Serverless Analytics",
-      "authors": ["Xiaofei Yue", "Song Yang", "Liehuang Zhu", "and et al."],
-      "venue": "*IEEE INFOCOM*, 2024, 2498-2507",
-      "tags": ["first-author", "serverless", "distributed-systems"],
-      "links": []
-    },
-    {
-      "title": "面向 Flink 迭代作业的动态资源分配策略",
-      "authors": ["Xiaofei Yue", "Lan Shi", "Yuhai Zhao", "Hangxu Ji", "Guoren Wang"],
-      "venue": "*Journal of Software*, 2022, 33(3): 985-1004. Best Paper Award and Outstanding Student Paper Award, NDBC 2021",
-      "tags": ["first-author", "distributed-systems"],
-      "links": []
-    },
-    {
-      "title": "TimeLink: Enabling Dynamic Runtime Prediction for Flink Iterative Jobs",
-      "authors": ["Xiaofei Yue", "Qingyang Ding", "Jianming Zhu"],
-      "venue": "*The Journal of Supercomputing*, 2024, 80: 16546-16573",
-      "tags": ["first-author", "distributed-systems"],
-      "links": []
-    },
-    {
-      "title": "Online Runtime Prediction for Distributed Iterative Jobs",
-      "authors": ["Xiaofei Yue", "Lan Shi", "Yuhai Zhao", "and et al."],
-      "venue": "*Web Information Systems and Applications (WISA)*, 2021, 156-168",
-      "tags": ["first-author", "distributed-systems"],
-      "links": []
-    },
-    {
-      "title": "Portray Learning: A Novel Learning Paradigm for Streaming Emerging Class Detection",
-      "authors": ["Ziming Zhao", "Tingting Li", "Xiaofei Yue*", "Zhaoxuan Li", "Fan Zhang"],
-      "venue": "*Information Sciences*, 2026",
-      "tags": ["corresponding-author", "ai-systems"],
-      "links": []
-    },
-    {
-      "title": "Network-Centric Auditing and Regulation for Cryptocurrency Systems: A Survey",
-      "authors": ["Qingyang Ding", "Qinnan Zhang", "Xiaofei Yue*", "Jianbin Chen", "and et al."],
-      "venue": "*IEEE Transactions on Network Science and Engineering (TNSE)*, 2026",
-      "tags": ["corresponding-author", "distributed-systems"],
-      "links": []
-    },
-    {
-      "title": "Bc2FL: Double-Layer Blockchain-Driven Federated Learning Framework for Agricultural IoT",
-      "authors": ["Qingyang Ding", "Xiaofei Yue*", "Qinnan Zhang", "and et al."],
-      "venue": "*IEEE Internet of Things Journal*, 2025, 12(4): 4362-4374",
-      "tags": ["corresponding-author", "ai-systems", "distributed-systems"],
-      "links": []
-    },
-    {
-      "title": "Semantic Retrieval Speculative Decoding with Intermediate Representations",
-      "authors": ["Fangming Zhao†", "Xiaofei Yue†", "Fulun Ye", "Ziming Zhao", "and et al."],
-      "venue": "Under review, 2026",
-      "tags": ["first-author", "llm-systems", "ai-systems"],
-      "links": []
-    },
-    {
-      "title": "Taming Cold Starts in Serverless ML Inference under Dynamic Invocations",
-      "authors": ["Xiaofei Yue", "Song Yang", "Fan Li", "Youqi Li", "Liehuang Zhu", "Yu Wang"],
-      "venue": "Under review, 2026",
-      "tags": ["first-author", "serverless", "ai-systems"],
-      "links": []
-    },
-    {
-      "title": "SuffixSpec: Hierarchical Context-Aware Memory for Training-Free Speculative Decoding",
-      "authors": ["Xiaofei Yue", "Fangming Zhao", "Ziming Zhao", "Fulun Ye", "and et al."],
-      "venue": "Under review, 2026",
-      "tags": ["first-author", "llm-systems", "ai-systems"],
-      "links": []
-    },
-    {
-      "title": "FAIR-KV: Slashing Memory Traffic in LLM Serving via Query-Aware TF-IDF Block Routing",
-      "authors": ["Xiaofei Yue", "Bozheng Hong", "Fangming Zhao", "Tingting Li", "and et al."],
-      "venue": "Under review, 2027",
-      "tags": ["first-author", "llm-systems", "ai-systems"],
-      "links": []
-    },
-    {
-      "title": "SpectralKV: Redundancy-Aware KV Cache Compression via Spectral Coreset Selection",
-      "authors": ["Fangming Zhao†", "Xiaofei Yue†", "Fulun Ye", "Ziming Zhao", "and et al."],
-      "venue": "Under review, 2026",
-      "tags": ["first-author", "llm-systems", "ai-systems"],
-      "links": []
-    },
-    {
-      "title": "Efficient Learned Data Compression via Dual-Stream Feature Decoupling",
-      "authors": ["Huidong Ma", "Xinyan Shi", "Hui Sun", "Xiaofei Yue", "Xiaoguang Liu", "Gang Wang", "Wentong Cai"],
-      "venue": "*Annual Meeting of the Association for Computational Linguistics (ACL)*, Main Conference, 2026",
-      "tags": ["ai-systems"],
-      "links": []
-    },
-    {
-      "title": "Time-Aware Calibration and Scheduling for N-Qubit Systems",
-      "authors": ["Xiaofei Yue", "and collaborators"],
-      "venue": "*ACM/IEEE Design Automation Conference (DAC)*, 2026",
-      "tags": ["distributed-systems"],
-      "links": []
-    },
-    {
-      "title": "Fair and Carbon-Aware LLM Routing for Web Services",
-      "authors": ["Xiaofei Yue", "and collaborators"],
-      "venue": "*The Web Conference (WWW)*, 2026",
-      "tags": ["llm-systems", "ai-systems"],
-      "links": []
-    },
-    {
-      "title": "Learned Image Compression via Sparse Attention and Adaptive Frequency",
-      "authors": ["Huidong Ma", "Xinyan Shi", "Hui Sun", "Xiaofei Yue", "Xiaoguang Liu", "Gang Wang", "Wentong Cai"],
-      "venue": "*IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2026",
-      "tags": ["ai-systems"],
-      "links": []
-    },
-    {
-      "title": "Offloading Hybrid Quantum-Classical Computation to SmartNICs via RDMA",
-      "authors": ["Xiaofei Yue", "and collaborators"],
-      "venue": "*IEEE International Conference on Distributed Computing Systems (ICDCS)*, 2026",
-      "tags": ["distributed-systems"],
+      "title": "QCLink: Offloading Hybrid Quantum-Classical Computation to SmartNICs via RDMA",
+      "authors": [
+        "Xingdong Li†",
+        "Yongzhuo Lu†",
+        "Z Li",
+        "Xiaofei Yue",
+        "Junyu Chen",
+        "Yu Peng",
+        "Tingting Li*",
+        "Zhaoxuan Li",
+        "Ziming Zhao*",
+        "Jianwei Yin*"
+      ],
+      "venue": "*ICDCS*, 2026",
+      "tags": [
+        "quantum"
+      ],
+      "details": [
+        "CCF-B",
+        "量子经典混合加速",
+        "量子算法卸载"
+      ],
+      "abstract": "本文从网络系统视角研究混合量子-经典算法的端到端性能瓶颈，指出频繁细粒度通信、主机 CPU 介入和尾延迟放大会使经典优化控制环成为扩展性障碍。论文提出 QCLINK，一个基于 SmartNIC 的卸载框架，将参数扰动、梯度估计和迭代控制等混合优化逻辑下沉到网络数据平面执行。QCLINK 结合 RDMA 实现经典控制器与量子后端之间的低延迟、CPU-bypass 通信，从而降低每轮迭代开销并缓解控制环抖动。原型实验表明，相比以主机为中心的基线方案，QCLINK 能显著改善单次迭代延迟和端到端完成时间，同时稳定尾延迟并释放主机 CPU 资源。",
       "links": []
     },
     {
       "title": "Towards Quantum Program Bug Datasets and Benchmarking",
-      "authors": ["Xiaofei Yue", "and collaborators"],
-      "venue": "*ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)*, 2026",
-      "tags": ["ai-systems"],
+      "authors": [
+        "Tingting Li†",
+        "Jiongchi Yu†",
+        "Zhikang Fan",
+        "Junqing Wang",
+        "Yao Zhai",
+        "Shenglong Zhang",
+        "Yu Peng",
+        "Yuhan Chen",
+        "Junyu Chen",
+        "Fanqi Kong",
+        "Zhaoxuan Li",
+        "Xiaofei Yue",
+        "Ziming Zhao*",
+        "Jianwei Yin*"
+      ],
+      "venue": "*SIGKDD*, 2026",
+      "tags": [
+        "quantum"
+      ],
+      "details": [
+        "CCF-A",
+        "量子数据集",
+        "大语言模型",
+        "程序修复"
+      ],
+      "abstract": "本文提出 QBench，一个面向量子软件真实缺陷修复场景的持续维护型基准，覆盖从底层库与基础设施到用户脚本和实验流程的多层量子软件栈。QBench 从公开量子项目中的开发者修复记录中挖掘实例，并将每个缺陷封装为可复现的修复任务，包含固定环境、失败测试或最小复现样例、真实补丁以及统一评测框架。该基准特别考虑量子软件中的正确性挑战，支持确定性断言以及面向随机测量结果、期望值和容差等价的概率性评测机制。通过对代表性自动程序修复方法进行实验评估，QBench 揭示了随机 oracle 不稳定、依赖版本漂移导致的复现失败，以及编译与模拟边界上的跨层缺陷等量子软件特有问题。",
       "links": []
     },
     {
-      "title": "Explainable Quantum Program Repair with Verifiable Proof Traces",
-      "authors": ["Xiaofei Yue", "and collaborators"],
-      "venue": "*ACL Findings*, 2026",
-      "tags": ["ai-systems"],
+      "title": "Fair and Carbon-Aware LLM Routing for Web Services",
+      "authors": [
+        "Tingting Li",
+        "Ziming Zhao*",
+        "Zhaoxuan Li*",
+        "Xiaofei Yue",
+        "Jiongchi Yu"
+      ],
+      "venue": "*WWW*, 2026",
+      "tags": [
+        "ai-infra",
+        "ai-native"
+      ],
+      "details": [
+        "CCF-A",
+        "碳感知算网"
+      ],
+      "abstract": "该工作提出了一种面向 LLM 网络服务的碳感知与公平性感知路由框架，旨在同时优化能耗、输出质量和群体公平性。方法通过轻量级复杂度与风险预测器，为每个请求估计满足质量与安全约束所需的最小模型规模，并结合实时碳强度信号，将请求分配到合适的模型与硬件组合上。作者将这一过程建模为带约束的优化问题，以平衡潜在质量损失、能源成本以及不同地区和群体之间的公平性要求。与此同时，论文还设计了基于真实 Web 工作负载轨迹的评估方法，从质量、时延和碳排放等多个维度进行分析。实验结果表明，该框架能够在保证服务质量基本可接受的前提下有效降低能耗，并避免弱势群体持续获得较低质量服务的问题。",
       "links": []
+    },
+    {
+      "title": "Portray learning: A novel learning paradigm for streaming emerging class detection",
+      "authors": [
+        "Ziming Zhao",
+        "Zhaoxuan Li",
+        "Xiaofei Yue*",
+        "Tingting Li",
+        "Fan Zhang*"
+      ],
+      "venue": "*Information Sciences (INS)*, 2026",
+      "tags": [
+        "corresponding-author",
+        "ai-native"
+      ],
+      "details": [
+        "CCF-B",
+        "SCI1",
+        "机器学习"
+      ],
+      "abstract": "该工作提出了一种面向流数据中新类别发现与增量更新的学习范式Portray Learning。其核心思想是为每个类别维护一个独立的“画像器”（如自编码器），将新类/已知类识别问题转化为多个彼此独立的异常检测任务。每个画像器只负责判断样本是否属于自身类别，因此不同类别之间相互独立，既支持并行处理，也便于在新类别出现时进行增量扩展。与此同时，方法引入极值理论自动确定各画像器的异常阈值，从而减少人工设定参数的需求。实验结果表明，在多个数据集和真实流场景中，Portray Learning 即使在先验知识有限的情况下也优于现有方法。",
+      "links": []
+    },
+    {
+      "title": "Exploiting Wide-Area Resource Elasticity with Fine-Grained Orchestration for Serverless Analytics",
+      "authors": [
+        "Xiaofei Yue",
+        "Song Yang*",
+        "Liehuang Zhu",
+        "Stojan Trajanovski",
+        "Fan Li",
+        "Xiaoming Fu"
+      ],
+      "venue": "*IEEE/ACM Transactions on Networking (ToN)*, 2025",
+      "tags": [
+        "first-author",
+        "serverless",
+        "ai-native"
+      ],
+      "details": [
+        "CCF-A",
+        "SCI1",
+        "服务器无感知计算",
+        "算力网络"
+      ],
+      "abstract": "针对广域环境下服务器无感知分析中粗粒度调度低效问题，提出函数粒度资源弹性利用框架Demeter，通过多智能体强化学习联合优化放置与资源分配，并结合拥塞控制机制。实验表明成本降低最高46.6%，SLO违约率降至15%以下。",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://ieeexplore.ieee.org/abstract/document/10742121"
+        }
+      ]
+    },
+    {
+      "title": "Demeter: Fine-grained Function Orchestration for Geo-distributed Serverless Analytics",
+      "authors": [
+        "Xiaofei Yue",
+        "Song Yang*",
+        "Liehuang Zhu",
+        "Stojan Trajanovski",
+        "Xiaoming Fu"
+      ],
+      "venue": "*INFOCOM*, 2024",
+      "tags": [
+        "first-author",
+        "serverless",
+        "ai-native"
+      ],
+      "details": [
+        "CCF-A",
+        "服务器无感知计算",
+        "算力网络"
+      ],
+      "abstract": "针对跨域服务器无感知数据分析中函数级资源调度复杂、SLO难以保证的问题，提出Demeter细粒度函数编排系统。通过分层GNN与多智能体强化学习实现函数级放置与资源分配协同优化，并设计拥塞控制机制。实验显示可降低23.3%–32.7%成本并减少27.4%以上SLO违约。",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://ieeexplore.ieee.org/abstract/document/10621303"
+        }
+      ]
+    },
+    {
+      "title": "TimeLink: Enabling Dynamic Runtime Prediction for Flink Iterative Jobs",
+      "authors": [
+        "Xiaofei Yue",
+        "Qingyang Ding*",
+        "Jianming Zhu",
+        "Yanbing Ding"
+      ],
+      "venue": "*The Journal of Supercomputing*, 2024",
+      "tags": [
+        "first-author",
+        "big-data"
+      ],
+      "details": [
+        "CCF-C",
+        "SCI2",
+        "大数据系统优化"
+      ],
+      "abstract": "针对Flink迭代作业运行时间预测问题，提出TimeLink动态预测方法，通过融合离线与在线特征并进行相似作业匹配，实现实时预测。实验表明误差低至5.91%，显著优于现有方法。",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://link.springer.com/article/10.1007/s11227-024-06085-x"
+        }
+      ]
+    },
+    {
+      "title": "面向Flink迭代作业的动态资源分配策略",
+      "authors": [
+        "岳晓飞",
+        "史岚",
+        "赵宇海*",
+        "季航旭",
+        "王国仁"
+      ],
+      "venue": "*软件学报*, 2022",
+      "tags": [
+        "first-author",
+        "big-data"
+      ],
+      "details": [
+        "CCF-A",
+        "大数据系统优化"
+      ],
+      "abstract": "针对Flink迭代作业静态资源分配低效问题，提出基于运行时间预测的动态资源分配策略RABORP，通过预测超步运行时间并动态调整资源，实现最小资源满足SLO约束。",
+      "links": []
+    },
+    {
+      "title": "Online Runtime Prediction Method for Distributed Iterative Jobs",
+      "authors": [
+        "Xiaofei Yue",
+        "Lan Shi",
+        "Yuhai Zhao*",
+        "Hangxu Ji",
+        "Guoren Wang"
+      ],
+      "venue": "*WISA*, 2021",
+      "tags": [
+        "first-author",
+        "big-data"
+      ],
+      "details": [
+        "CCF-C",
+        "大数据系统优化"
+      ],
+      "abstract": "针对分布式迭代作业运行时间预测问题，提出基于在线机器学习的多阶段预测方法，通过迭代建模与序列学习显著提升预测精度，在典型场景中提升超过15%。",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://link.springer.com/chapter/10.1007/978-3-030-87571-8_14"
+        }
+      ]
     }
   ]
 }

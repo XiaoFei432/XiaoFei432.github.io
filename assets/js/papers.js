@@ -145,6 +145,25 @@
       venue.innerHTML = escapeHtml(paper.venue).replace(/\*([^*]+)\*/g, '<em>$1</em>');
       article.appendChild(venue);
 
+      if (paper.details && paper.details.length) {
+        var details = document.createElement('div');
+        details.className = 'paper-details';
+        paper.details.forEach(function (detail) {
+          var span = document.createElement('span');
+          span.className = 'paper-detail';
+          span.textContent = detail;
+          details.appendChild(span);
+        });
+        article.appendChild(details);
+      }
+
+      if (paper.abstract) {
+        var abstract = document.createElement('p');
+        abstract.className = 'paper-abstract';
+        abstract.textContent = paper.abstract;
+        article.appendChild(abstract);
+      }
+
       // Links row: keep PDF/Code slots visible even before URLs are added.
       var linksRow = document.createElement('div');
       linksRow.className = 'work-links-row';
