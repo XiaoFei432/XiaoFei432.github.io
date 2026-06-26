@@ -234,34 +234,6 @@ h1:before, .anchor:before {
     color: #667683;
 }
 
-.paper-details {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.36rem 0.42rem;
-    margin: 0 0 0.48rem;
-}
-
-.paper-detail {
-    display: inline-flex;
-    align-items: center;
-    min-height: 1.42rem;
-    padding: 0.12rem 0.46rem 0.16rem;
-    border: 1px solid #d9e3e9;
-    border-radius: 999px;
-    background: #f7fafc;
-    color: #4c6577;
-    font-size: 0.72rem;
-    font-weight: 650;
-    line-height: 1;
-}
-
-.paper-abstract {
-    margin: 0 0 0.56rem;
-    color: #5f6f7a;
-    font-size: 0.88rem;
-    line-height: 1.62;
-}
-
 .work-links-row {
     display: flex;
     align-items: center;
