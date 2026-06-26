@@ -16,22 +16,7 @@ redirect_from:
 
 I am **Xiaofei Yue**, a Ph.D. candidate in Computer Technology at the School of Computer Science and Technology, Beijing Institute of Technology, advised by Prof. **Song Yang**. I am also a visiting Ph.D. student at the College of Computing and Data Science, Nanyang Technological University, working with Prof. **Xueyan Tang**.
 
-My research focuses on **AI/LLM inference acceleration**, **serverless computing**, and **elastic resource scheduling**. I work on systems for efficient serverless analytics, serverless ML inference, MoE inference, speculative decoding, KV cache optimization, and high-fidelity simulation for heterogeneous LLM training.
-
----
-
-# Education
-
-- **Ph.D. in Computer Technology**, Beijing Institute of Technology, School of Computer Science and Technology, 2022.09 - Present  
-  Advisor: Prof. Song Yang. Network Science and Intelligent Systems Laboratory.
-
-- **Visiting Ph.D. Student**, Nanyang Technological University, College of Computing and Data Science, 2025.02 - 2026.02  
-  Host: Prof. Xueyan Tang. Parallel and Distributed Computing Lab (PDCL). Supported by the China Scholarship Council.
-
-- **M.S. in Computer Technology**, Northeastern University, School of Computer Science and Engineering, 2019.09 - 2022.06  
-  Advisor: Prof. Yuhai Zhao.
-
-- **B.S. in Computer Science and Technology**, Shijiazhuang Tiedao University, School of Information Science and Technology, 2015.09 - 2019.06
+My research focuses on AI Infra., serverless computing, and their co-design.
 
 ---
 
@@ -44,23 +29,6 @@ My research focuses on **AI/LLM inference acceleration**, **serverless computing
 <p class='paper-filter-empty' id='paper-filter-empty' hidden>No papers match the selected tags.</p>
 
 <script src='{{ "/assets/js/papers.js" | relative_url }}'></script>
-
----
-
-# Research Experience
-
-### Serverless Computing and Elastic Resource Scheduling
-
-- Designed fine-grained orchestration and congestion-control methods for geo-distributed serverless analytics, reducing job cost and end-to-end SLO violations.
-- Built workflow optimization techniques for serverless ETL workloads by separating computation and communication, using hybrid resource elasticity to reduce latency and cost.
-- Developed methods for serverless ML inference warming through hierarchical ML artifact pre-loading and sharing.
-
-### AI/LLM Training and Inference Optimization
-
-- Studied elastic MoE inference under serverless architectures with fine-grained expert scaling.
-- Built high-fidelity heterogeneous LLM training simulation techniques for GPU clusters.
-- Designed training-free speculative decoding mechanisms for long-context LLM inference.
-- Explored KV cache compression and query-aware routing to reduce memory traffic in LLM serving.
 
 ---
 
@@ -91,11 +59,3 @@ My research focuses on **AI/LLM inference acceleration**, **serverless computing
 - Best Paper Award, National Database Conference (NDBC), 2021
 - Sashixuan Outstanding Student Paper Award, NDBC, 2021
 - National Scholarship for Master's Students, 2020 and 2021
-
----
-
-# Skills
-
-- Programming and systems: C/C++, Python, algorithms, data structures, and core computer systems.
-- Cloud-native systems: Apache OpenWhisk, OpenFaaS, Knative, Kubernetes, Docker, Kafka.
-- AI systems: vLLM, machine learning, deep reinforcement learning, distributed systems for AI workloads.
