@@ -6,19 +6,12 @@
     { "key": "corresponding-author", "label": "Corresponding Author" }
   ],
   "topicFilters": [
-    { "key": "llm-systems", "label": "LLM Systems" },
-    { "key": "serverless", "label": "Serverless Computing" },
-    { "key": "ai-systems", "label": "AI Systems" },
-    { "key": "distributed-systems", "label": "Distributed Systems" }
+    { "key": "AI-Infra.", "label": "AI Infra." },
+    { "key": "Serverless-Computing", "label": "Serverless Computing"},
+    { "key": "AI-Native", "label": "AI Native" },
+    { "key": "distributed-Systems", "label": "Distributed Systems" }
   ],
   "papers": [
-    // {
-    //   "title": "TopoCache: Data-Centric Fast Recovery and Reconfiguration for Distributed LLM Training",
-    //   "authors": ["Xiaofei Yue", "Song Yang", "Ziming Zhao", "and et al."],
-    //   "venue": "*IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)*, 2026",
-    //   "tags": ["first-author", "llm-systems", "distributed-systems"],
-    //   "links": []
-    // },
     {
       "title": "sMoE: Elastic MoE-Based Inference with Serverless Computing via Fine-grained Expert Scaling",
       "authors": ["Xiaofei Yue", "Ziming Zhao", "Jiongchi Yu", "Huidong Ma", "and et al."],
@@ -189,3 +182,12 @@
     }
   ]
 }
+
+
+    // {
+    //   "title": "TopoCache: Data-Centric Fast Recovery and Reconfiguration for Distributed LLM Training",
+    //   "authors": ["Xiaofei Yue", "Song Yang", "Ziming Zhao", "and et al."],
+    //   "venue": "*IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)*, 2026",
+    //   "tags": ["first-author", "llm-systems", "distributed-systems"],
+    //   "links": []
+    // },
