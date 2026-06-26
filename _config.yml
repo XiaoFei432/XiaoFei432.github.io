@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Xiaofei Yue"
   avatar           : "images/profile.JPG"
-  bio              : "Beijing Institute of Technology"
+  # bio              : "Beijing Institute of Technology"
   location         : "Beijing, China"
   employer         :
   pubmed           : 
