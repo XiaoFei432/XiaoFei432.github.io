@@ -23,7 +23,7 @@ Open http://127.0.0.1:4000 in a browser.
 - `_config.yml`: site title, author profile, email, social links, and repository name.
 - `_pages/about.md`: homepage content.
 - `_data/papers.json`: publication data used by the interactive publication list.
-- `images/profile.svg`: current initials avatar placeholder.
+- `images/profile.jpg`: current initials avatar placeholder.
 
 ## GitHub Pages
 
