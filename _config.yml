@@ -27,16 +27,16 @@ author:
   location         : "Beijing, China"
   employer         :
   pubmed           : 
-  googlescholar    :
+  googlescholar    : "https://scholar.google.com/citations?user=klVq7f0AAAAJ"
   email            : "xfyue@bit.edu.cn"
-  researchgate     :
+  researchgate     : 
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
-  foursquare       :
+  foursquare       : 
   github           : XiaoFei432
   google_plus      :
   keybase          :
@@ -44,8 +44,8 @@ author:
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : # e.g., "linkedin username"
-  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            :
+  dblp             : "https://dblp.uni-trier.de/pid/301/9802.html"
+  orcid            : "https://orcid.org/0009-0003-3106-586X"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
