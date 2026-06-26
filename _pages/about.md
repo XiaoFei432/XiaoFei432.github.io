@@ -47,12 +47,10 @@ I am **Xiaofei Yue**, a Ph.D. candidate in the School of Computer Science and Te
 
 - Beijing Institute of Technology Outstanding Ph.D. Dissertation Cultivation Fund, 2026
 - Young Elite Scientists Sponsorship Program by CAST, Ph.D. Student Program, 2025
-- Chinese Institute of Electronics Student Member Sponsorship Program, 2025
+<!-- - Chinese Institute of Electronics Student Member Sponsorship Program, 2025 -->
 - National Scholarship for Ph.D. Students, 2025
 - Kingsoft Scholarship, Beijing Institute of Technology, 2025
-- Outstanding Ph.D. Student, Beijing Institute of Technology, 2024
-- China Scholarship Council Scholarship, 2024
-- Outstanding Master's Thesis Award, Chinese Institute of Electronics, 2023
+- Outstanding Master's Thesis Award, Chinese Institute of Electronics (CIE), 2023
 - Outstanding Master's Thesis Award, Northeastern University, 2022
 - Best Paper Award, National Database Conference (NDBC), 2021
 - Sashixuan Outstanding Student Paper Award, NDBC, 2021

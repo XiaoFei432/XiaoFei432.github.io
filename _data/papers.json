@@ -12,13 +12,13 @@
     { "key": "distributed-systems", "label": "Distributed Systems" }
   ],
   "papers": [
-    {
-      "title": "TopoCache: Data-Centric Fast Recovery and Reconfiguration for Distributed LLM Training",
-      "authors": ["Xiaofei Yue", "Song Yang", "Ziming Zhao", "and et al."],
-      "venue": "*IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)*, 2026",
-      "tags": ["first-author", "llm-systems", "distributed-systems"],
-      "links": []
-    },
+    // {
+    //   "title": "TopoCache: Data-Centric Fast Recovery and Reconfiguration for Distributed LLM Training",
+    //   "authors": ["Xiaofei Yue", "Song Yang", "Ziming Zhao", "and et al."],
+    //   "venue": "*IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)*, 2026",
+    //   "tags": ["first-author", "llm-systems", "distributed-systems"],
+    //   "links": []
+    // },
     {
       "title": "sMoE: Elastic MoE-Based Inference with Serverless Computing via Fine-grained Expert Scaling",
       "authors": ["Xiaofei Yue", "Ziming Zhao", "Jiongchi Yu", "Huidong Ma", "and et al."],
