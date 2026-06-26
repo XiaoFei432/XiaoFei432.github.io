@@ -6,10 +6,10 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Huidong Ma"
-description              : ""
-repository               : "huidong-ma/huidong-ma.github.io"
-google_scholar_stats_use_cdn : true
+title                    : "Xiaofei Yue"
+description              : "Ph.D. Candidate, Beijing Institute of Technology"
+repository               : "XiaoFei432/XiaoFei432.github.io"
+google_scholar_stats_use_cdn : false
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
@@ -21,15 +21,15 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Huidong Ma"
-  avatar           : "images/profile.png"
-  bio              : "Nankai University"
-  location         : "Singapore"
+  name             : "Xiaofei Yue"
+  avatar           : "images/profile.svg"
+  bio              : "Beijing Institute of Technology"
+  location         : "Beijing, China"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=uuqdjjsAAAAJ&hl=en"
-  email            : "mahdcs@163.com"
-  researchgate     : "https://www.researchgate.net/profile/Huidong-Ma?ev=hdr_xprf"
+  googlescholar    :
+  email            : "xfyue@bit.edu.cn"
+  researchgate     :
   uri              :
   bitbucket        :
   codepen          :
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : huidong-ma
+  github           : XiaoFei432
   google_plus      :
   keybase          :
   instagram        :
@@ -45,7 +45,7 @@ author:
   lastfm           :
   linkedin         : # e.g., "linkedin username"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : "https://orcid.org/0009-0008-0882-8212"
+  orcid            :
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username

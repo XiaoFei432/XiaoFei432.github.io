@@ -4,16 +4,21 @@ on:
  page_build: 
  schedule:
   - cron:  '0 8 * * *'
+ workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
     steps:
     - uses: actions/checkout@v2
     - name: Install Reqs
+      if: ${{ env.GOOGLE_SCHOLAR_ID != '' }}
       run: |
         sudo apt-get install python3-setuptools
     - name: Run
+      if: ${{ env.GOOGLE_SCHOLAR_ID != '' }}
       run: |
         cd ./google_scholar_crawler
         pip3 install -r requirements.txt
@@ -25,5 +30,3 @@ jobs:
         git add *.json
         git commit -m "Updated Citation Data"
         git push "${remote_repo}" HEAD:google-scholar-stats --force
-      env: 
-        GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}

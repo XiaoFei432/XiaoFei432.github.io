@@ -1,171 +1,191 @@
 {
-  "highlightAuthor": "Huidong Ma",
+  "highlightAuthor": "Xiaofei Yue",
   "defaultFilter": "",
   "authorFilters": [
-    { "key": "first-author", "label": "First/Co-first Author" }
+    { "key": "first-author", "label": "First/Co-first Author" },
+    { "key": "corresponding-author", "label": "Corresponding Author" }
   ],
   "topicFilters": [
-    { "key": "data-compression", "label": "Data Compression" },
-    { "key": "variant-detection", "label": "Variant Detection" },
-    { "key": "cloud-computing", "label": "Cloud Computing" }
+    { "key": "llm-systems", "label": "LLM Systems" },
+    { "key": "serverless", "label": "Serverless Computing" },
+    { "key": "ai-systems", "label": "AI Systems" },
+    { "key": "distributed-systems", "label": "Distributed Systems" }
   ],
   "papers": [
     {
-      "title": "Efficient Learned Data Compression via Dual-Stream Feature Decoupling",
-      "authors": ["Huidong Ma", "Xinyan Shi", "Hui Sun", "Xiaofei Yue", "Xiaoguang Liu", "Gang Wang", "Wentong Cai"],
-      "venue": "*Annual Meeting of the Association for Computational Linguistics (ACL), Main Conference (Oral)*, 2026",
-      "tags": ["first-author", "data-compression"],
-      "links": [
-        { "label": "Paper", "url": "https://arxiv.org/abs/2604.07239" },
-        { "label": "Code", "url": "https://github.com/huidong-ma/FADE" }
-      ]
-    },
-    {
-      "title": "AgentGC: Evolutionary Learning-based Lossless Compression for Genomics Data with LLM-driven Multiple Agent",
-      "authors": ["Hui Sun", "Yanfeng Ding", "Huidong Ma", "Chang Xu", "Keyan Jin", "Lizheng Zu", "Cheng Zhong", "Xiaoguang Liu", "Gang Wang", "Wentong Cai"],
-      "venue": "*Annual Meeting of the Association for Computational Linguistics (ACL), Findings*, 2026",
-      "tags": ["data-compression"],
-      "links": [
-        { "label": "Paper", "url": "https://arxiv.org/abs/2601.13559" }
-      ]
+      "title": "TopoCache: Data-Centric Fast Recovery and Reconfiguration for Distributed LLM Training",
+      "authors": ["Xiaofei Yue", "Song Yang", "Ziming Zhao", "and et al."],
+      "venue": "*IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)*, 2026",
+      "tags": ["first-author", "llm-systems", "distributed-systems"],
+      "links": []
     },
     {
       "title": "sMoE: Elastic MoE-Based Inference with Serverless Computing via Fine-grained Expert Scaling",
-      "authors": ["Xiaofei Yue", "Ziming Zhao", "Jiongchi Yu", "Huidong Ma", "Zhaoxuan Li", "Tingting Li", "Jianwei Yin"],
+      "authors": ["Xiaofei Yue", "Ziming Zhao", "Jiongchi Yu", "Huidong Ma", "and et al."],
       "venue": "*ACM/IEEE Design Automation Conference (DAC)*, 2026",
-      "tags": ["cloud-computing"],
-      "links": [
-        { "label": "Paper", "url": "" }
-      ]
+      "tags": ["first-author", "llm-systems", "serverless", "ai-systems"],
+      "links": []
+    },
+    {
+      "title": "HeteroSim: Towards High-Fidelity Heterogeneous LLM Training Simulation on GPUs",
+      "authors": ["Xiaofei Yue", "Fangming Zhao", "Fulun Ye", "Jiongchi Yu", "Ziming Zhao", "and et al."],
+      "venue": "*The Web Conference (WWW)*, 2026",
+      "tags": ["first-author", "llm-systems", "distributed-systems"],
+      "links": []
+    },
+    {
+      "title": "Rocket: Warming Serverless Inference via Hierarchical ML Artifact Pre-loading and Sharing",
+      "authors": ["Xiaofei Yue", "Song Yang", "Fan Li", "Youqi Li", "Yu Wang"],
+      "venue": "*IEEE INFOCOM*, 2026, 1-10",
+      "tags": ["first-author", "serverless", "ai-systems"],
+      "links": []
+    },
+    {
+      "title": "HyFaaS: Accelerating Serverless Workflows by Unleashing Hybrid Resource Elasticity",
+      "authors": ["Xiaofei Yue", "Song Yang", "Fan Li", "Liehuang Zhu", "Xu Wang", "and et al."],
+      "venue": "*IEEE Transactions on Parallel and Distributed Systems (TPDS)*, 2026, 37(1): 272-286",
+      "tags": ["first-author", "serverless", "distributed-systems"],
+      "links": []
+    },
+    {
+      "title": "Exploiting Wide-Area Resource Elasticity With Fine-Grained Orchestration for Serverless Analytics",
+      "authors": ["Xiaofei Yue", "Song Yang", "Liehuang Zhu", "and et al."],
+      "venue": "*IEEE/ACM Transactions on Networking (TON)*, 2025, 33(1): 398-413",
+      "tags": ["first-author", "serverless", "distributed-systems"],
+      "links": []
+    },
+    {
+      "title": "Demeter: Fine-grained Function Orchestration for Geo-distributed Serverless Analytics",
+      "authors": ["Xiaofei Yue", "Song Yang", "Liehuang Zhu", "and et al."],
+      "venue": "*IEEE INFOCOM*, 2024, 2498-2507",
+      "tags": ["first-author", "serverless", "distributed-systems"],
+      "links": []
+    },
+    {
+      "title": "面向 Flink 迭代作业的动态资源分配策略",
+      "authors": ["Xiaofei Yue", "Lan Shi", "Yuhai Zhao", "Hangxu Ji", "Guoren Wang"],
+      "venue": "*Journal of Software*, 2022, 33(3): 985-1004. Best Paper Award and Outstanding Student Paper Award, NDBC 2021",
+      "tags": ["first-author", "distributed-systems"],
+      "links": []
+    },
+    {
+      "title": "TimeLink: Enabling Dynamic Runtime Prediction for Flink Iterative Jobs",
+      "authors": ["Xiaofei Yue", "Qingyang Ding", "Jianming Zhu"],
+      "venue": "*The Journal of Supercomputing*, 2024, 80: 16546-16573",
+      "tags": ["first-author", "distributed-systems"],
+      "links": []
+    },
+    {
+      "title": "Online Runtime Prediction for Distributed Iterative Jobs",
+      "authors": ["Xiaofei Yue", "Lan Shi", "Yuhai Zhao", "and et al."],
+      "venue": "*Web Information Systems and Applications (WISA)*, 2021, 156-168",
+      "tags": ["first-author", "distributed-systems"],
+      "links": []
+    },
+    {
+      "title": "Portray Learning: A Novel Learning Paradigm for Streaming Emerging Class Detection",
+      "authors": ["Ziming Zhao", "Tingting Li", "Xiaofei Yue*", "Zhaoxuan Li", "Fan Zhang"],
+      "venue": "*Information Sciences*, 2026",
+      "tags": ["corresponding-author", "ai-systems"],
+      "links": []
+    },
+    {
+      "title": "Network-Centric Auditing and Regulation for Cryptocurrency Systems: A Survey",
+      "authors": ["Qingyang Ding", "Qinnan Zhang", "Xiaofei Yue*", "Jianbin Chen", "and et al."],
+      "venue": "*IEEE Transactions on Network Science and Engineering (TNSE)*, 2026",
+      "tags": ["corresponding-author", "distributed-systems"],
+      "links": []
+    },
+    {
+      "title": "Bc2FL: Double-Layer Blockchain-Driven Federated Learning Framework for Agricultural IoT",
+      "authors": ["Qingyang Ding", "Xiaofei Yue*", "Qinnan Zhang", "and et al."],
+      "venue": "*IEEE Internet of Things Journal*, 2025, 12(4): 4362-4374",
+      "tags": ["corresponding-author", "ai-systems", "distributed-systems"],
+      "links": []
+    },
+    {
+      "title": "Semantic Retrieval Speculative Decoding with Intermediate Representations",
+      "authors": ["Fangming Zhao†", "Xiaofei Yue†", "Fulun Ye", "Ziming Zhao", "and et al."],
+      "venue": "Under review, 2026",
+      "tags": ["first-author", "llm-systems", "ai-systems"],
+      "links": []
+    },
+    {
+      "title": "Taming Cold Starts in Serverless ML Inference under Dynamic Invocations",
+      "authors": ["Xiaofei Yue", "Song Yang", "Fan Li", "Youqi Li", "Liehuang Zhu", "Yu Wang"],
+      "venue": "Under review, 2026",
+      "tags": ["first-author", "serverless", "ai-systems"],
+      "links": []
+    },
+    {
+      "title": "SuffixSpec: Hierarchical Context-Aware Memory for Training-Free Speculative Decoding",
+      "authors": ["Xiaofei Yue", "Fangming Zhao", "Ziming Zhao", "Fulun Ye", "and et al."],
+      "venue": "Under review, 2026",
+      "tags": ["first-author", "llm-systems", "ai-systems"],
+      "links": []
+    },
+    {
+      "title": "FAIR-KV: Slashing Memory Traffic in LLM Serving via Query-Aware TF-IDF Block Routing",
+      "authors": ["Xiaofei Yue", "Bozheng Hong", "Fangming Zhao", "Tingting Li", "and et al."],
+      "venue": "Under review, 2027",
+      "tags": ["first-author", "llm-systems", "ai-systems"],
+      "links": []
+    },
+    {
+      "title": "SpectralKV: Redundancy-Aware KV Cache Compression via Spectral Coreset Selection",
+      "authors": ["Fangming Zhao†", "Xiaofei Yue†", "Fulun Ye", "Ziming Zhao", "and et al."],
+      "venue": "Under review, 2026",
+      "tags": ["first-author", "llm-systems", "ai-systems"],
+      "links": []
+    },
+    {
+      "title": "Efficient Learned Data Compression via Dual-Stream Feature Decoupling",
+      "authors": ["Huidong Ma", "Xinyan Shi", "Hui Sun", "Xiaofei Yue", "Xiaoguang Liu", "Gang Wang", "Wentong Cai"],
+      "venue": "*Annual Meeting of the Association for Computational Linguistics (ACL)*, Main Conference, 2026",
+      "tags": ["ai-systems"],
+      "links": []
+    },
+    {
+      "title": "Time-Aware Calibration and Scheduling for N-Qubit Systems",
+      "authors": ["Xiaofei Yue", "and collaborators"],
+      "venue": "*ACM/IEEE Design Automation Conference (DAC)*, 2026",
+      "tags": ["distributed-systems"],
+      "links": []
+    },
+    {
+      "title": "Fair and Carbon-Aware LLM Routing for Web Services",
+      "authors": ["Xiaofei Yue", "and collaborators"],
+      "venue": "*The Web Conference (WWW)*, 2026",
+      "tags": ["llm-systems", "ai-systems"],
+      "links": []
     },
     {
       "title": "Learned Image Compression via Sparse Attention and Adaptive Frequency",
       "authors": ["Huidong Ma", "Xinyan Shi", "Hui Sun", "Xiaofei Yue", "Xiaoguang Liu", "Gang Wang", "Wentong Cai"],
       "venue": "*IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2026",
-      "tags": ["first-author", "data-compression"],
-      "links": [
-        { "label": "Paper", "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Ma_Learned_Image_Compression_via_Sparse_Attention_and_Adaptive_Frequency_CVPR_2026_paper.html" },
-        { "label": "Code", "url": "https://github.com/huidong-ma/SAAF" }
-      ]
+      "tags": ["ai-systems"],
+      "links": []
     },
     {
-      "title": "PMKLC: Parallel Multi-Knowledge Learning-based Lossless Compression for Large-Scale Genomics Database",
-      "authors": ["Hui Sun", "Yanfeng Ding", "Liping Yi", "Huidong Ma", "Gang Wang", "Xiaoguang Liu", "Cheng Zhong", "Wentong Cai"],
-      "venue": "*ACM SIGKDD Conference on Knowledge Discovery and Data Mining (SIGKDD)*, 2025",
-      "tags": ["data-compression"],
-      "links": [
-        { "label": "Paper", "url": "https://dl.acm.org/doi/10.1145/3711896.3737083" },
-        { "label": "Code", "url": "https://github.com/dingyanfeng/PMKLC" }
-      ]
+      "title": "Offloading Hybrid Quantum-Classical Computation to SmartNICs via RDMA",
+      "authors": ["Xiaofei Yue", "and collaborators"],
+      "venue": "*IEEE International Conference on Distributed Computing Systems (ICDCS)*, 2026",
+      "tags": ["distributed-systems"],
+      "links": []
     },
     {
-      "title": "MSDZip: Universal Lossless Compression for Multi-source Data via Stepwise-parallel and Learning-based Prediction",
-      "authors": ["Huidong Ma†", "Hui Sun†", "Liping Yi", "Yanfeng Ding", "Xiaoguang Liu", "Gang Wang"],
-      "venue": "*The Web Conference (WWW)*, 2025",
-      "tags": ["first-author", "data-compression"],
-      "links": [
-        { "label": "Paper", "url": "https://dl.acm.org/doi/10.1145/3696410.3714655" },
-        { "label": "Code", "url": "https://github.com/huidong-ma/MSDZip" }
-      ]
+      "title": "Towards Quantum Program Bug Datasets and Benchmarking",
+      "authors": ["Xiaofei Yue", "and collaborators"],
+      "venue": "*ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)*, 2026",
+      "tags": ["ai-systems"],
+      "links": []
     },
     {
-      "title": "Multi-source Data Lossless Compression via Parallel Expansion Mapping and xLSTM",
-      "authors": ["Huidong Ma", "Hui Sun", "Liping Yi", "Xiaoguang Liu", "Gang Wang"],
-      "venue": "*IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)*, 2025",
-      "tags": ["first-author", "data-compression"],
-      "links": [
-        { "label": "Paper", "url": "https://ieeexplore.ieee.org/document/10889184" },
-        { "label": "Code", "url": "https://github.com/huidong-ma/MSDLC" }
-      ]
-    },
-    {
-      "title": "Adaptive Lossless Compression for Genomics Data by Multiple (s, k)-mer Encoding and XLSTM",
-      "authors": ["Hui Sun†", "Yanfeng Ding†", "Liping Yi", "Huidong Ma", "Haonan Xie", "Gang Wang", "Xiaoguang Liu"],
-      "venue": "*IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)*, 2025",
-      "tags": ["data-compression"],
-      "links": [
-        { "label": "Paper", "url": "https://ieeexplore.ieee.org/abstract/document/10887721" },
-        { "label": "Code", "url": "https://github.com/dingyanfeng/AGDLC" }
-      ]
-    },
-    {
-      "title": "A Survey and Benchmark Evaluation for Neural-Network-Based Lossless Universal Compressors Toward Multi-Source Data",
-      "authors": ["Hui Sun†", "Huidong Ma†", "Feng Ling", "Haonan Xie", "Yongxia Sun", "Liping Yi", "Meng Yan", "Cheng Zhong", "Xiaoguang Liu", "Gang Wang"],
-      "venue": "*Frontiers of Computer Science (FCS)*, 2025",
-      "tags": ["first-author", "data-compression"],
-      "links": [
-        { "label": "Paper", "url": "https://link.springer.com/article/10.1007/s11704-024-40300-5" },
-        { "label": "Code", "url": "https://github.com/fahaihi/NNLCB" }
-      ]
-    },
-    {
-      "title": "Genomics Data Lossless Compression with (s,k)-mer Encoding and Deep Neural Networks",
-      "authors": ["Hui Sun†", "Liping Yi†", "Huidong Ma", "Yongxia Sun", "Yingfeng Zheng", "Wenwen Cui", "Meng Yan", "Xiaoguang Liu", "Gang Wang"],
-      "venue": "*AAAI Conference on Artificial Intelligence (AAAI)*, 2025",
-      "tags": ["data-compression"],
-      "links": [
-        { "label": "Paper", "url": "https://ojs.aaai.org/index.php/AAAI/article/view/33371" },
-        { "label": "Code", "url": "https://github.com/fahaihi/DeepGeCo" }
-      ]
-    },
-    {
-      "title": "PQSDC: a parallel lossless compressor for quality scores data via sequences partition and Run-Length prediction mapping",
-      "authors": ["Hui Sun", "Yingfeng Zheng", "Haonan Xie", "Huidong Ma", "Cheng Zhong", "Meng Yan", "Xiaoguang Liu", "Gang Wang"],
-      "venue": "Bioinformatics 2024",
-      "tags": ["data-compression"],
-      "links": [
-        { "label": "Paper", "url": "https://academic.oup.com/bioinformatics/article/40/5/btae323/7676123?login=true" },
-        { "label": "Code", "url": "https://github.com/fahaihi/PQSDC" }
-      ]
-    },
-    {
-      "title": "LRCB: A Comprehensive Benchmark Evaluation of Reference-free Lossless Compression Tools for Genomics Sequencing Long Reads Data",
-      "authors": ["Hui Sun†", "Huidong Ma†", "Yingfeng Zheng", "Haonan Xie", "Meng Yan", "Cheng Zhong", "Xiaoguang Liu", "Gang Wang"],
-      "venue": "*Data Compression Conference (DCC)*, 2024",
-      "tags": ["first-author", "data-compression"],
-      "links": [
-        { "label": "Paper", "url": "https://ieeexplore.ieee.org/abstract/document/10533699" },
-        { "label": "Code", "url": "https://github.com/fahaihi/LRCB" }
-      ]
-    },
-    {
-      "title": "SR2C: A Structurally Redundant Short Reads Collapser for Optimizing DNA Data Compression",
-      "authors": ["Hui Sun†", "Huidong Ma†", "Yingfeng Zheng", "Haonan Xie", "Xiaofei Wang", "Xiaoguang Liu", "Gang Wang"],
-      "venue": "*IEEE International Conference on Parallel and Distributed Systems (ICPADS)*, 2023",
-      "tags": ["first-author", "data-compression"],
-      "links": [
-        { "label": "Paper", "url": "https://ieeexplore.ieee.org/document/10476304" },
-        { "label": "Code", "url": "https://github.com/fahaihi/SR2C" }
-      ]
-    },
-    {
-      "title": "PMFFRC: a large-scale genomic short reads compression optimizer via memory modeling and redundant clustering",
-      "authors": ["Hui Sun", "Yingfeng Zheng", "Haonan Xie", "Huidong Ma", "Xiaoguang Liu", "Gang Wang"],
-      "venue": "*BMC Bioinformatics*, 2023",
-      "tags": ["data-compression"],
-      "links": [
-        { "label": "Paper", "url": "https://link.springer.com/article/10.1186/s12859-023-05566-9" }
-      ]
-    },
-    {
-      "title": "ricME: Long-Read Based Mobile Element Variant Detection Using Sequence Realignment and Identity Calculation",
-      "authors": ["Huidong Ma", "Cheng Zhong", "Hui Sun", "Danyang Chen", "Haixiang Lin"],
-      "venue": "*International Symposium on Bioinformatics Research and Applications (ISBRA)*, 2023",
-      "tags": ["first-author", "variant-detection"],
-      "links": [
-        { "label": "Paper", "url": "https://link.springer.com/chapter/10.1007/978-981-99-7074-2_13" },
-        { "label": "Code", "url": "https://github.com/huidong-ma/ricME" }
-      ]
-    },
-    {
-      "title": "cnnLSV: detecting structural variants by encoding long-read alignment information and convolutional neural network",
-      "authors": ["Huidong Ma", "Cheng Zhong", "Danyang Chen", "Haofa He", "Feng Yang"],
-      "venue": "*BMC Bioinformatics*, 2023",
-      "tags": ["first-author", "variant-detection"],
-      "links": [
-        { "label": "Paper", "url": "https://link.springer.com/article/10.1186/s12859-023-05243-x" },
-        { "label": "Code", "url": "https://github.com/huidong-ma/cnnLSV" }
-      ]
+      "title": "Explainable Quantum Program Repair with Verifiable Proof Traces",
+      "authors": ["Xiaofei Yue", "and collaborators"],
+      "venue": "*ACL Findings*, 2026",
+      "tags": ["ai-systems"],
+      "links": []
     }
   ]
 }

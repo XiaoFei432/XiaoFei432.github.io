@@ -66,10 +66,11 @@
     container.appendChild(row);
   }
 
-  // ── Render a single author name (bold + sup for †) ──
+  // Render a single author name and keep compact contribution markers.
   function renderAuthor(name, highlightAuthor) {
-    var baseName = name.replace(/†/g, '').trim();
+    var baseName = name.replace(/[†*]/g, '').trim();
     var hasDagger = name.indexOf('†') !== -1;
+    var isCorresponding = name.indexOf('*') !== -1;
     var isHighlight = baseName === highlightAuthor;
 
     var html = '';
@@ -80,6 +81,9 @@
     }
     if (hasDagger) {
       html += '<sup>†</sup>';
+    }
+    if (isCorresponding) {
+      html += '<sup>*</sup>';
     }
     return html;
   }
