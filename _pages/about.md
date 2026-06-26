@@ -14,9 +14,7 @@ redirect_from:
 
 # Biography
 
-I am **Xiaofei Yue**, a Ph.D. candidate in Computer Technology at the School of Computer Science and Technology, Beijing Institute of Technology, advised by Prof. **Song Yang**. I am also a visiting Ph.D. student at the College of Computing and Data Science, Nanyang Technological University, working with Prof. **Xueyan Tang**.
-
-My research focuses on AI Infra., serverless computing, and their co-design.
+I am **Xiaofei Yue**, a Ph.D. candidate in the School of Computer Science and Technology, Beijing Institute of Technology (BIT), advised by [Prof. Song Yang](https://songyang-cs.github.io/). From 2025 to 2026, I am a visiting Ph.D. student at the [PDCL Lab](https://www.ntu.edu.sg/pdcl), College of Computing and Data Science (CCDS), Nanyang Technological University (NTU), working with [Prof. Xueyan Tang](https://personal.ntu.edu.sg/asxytang/). My research focuses on **AI Infra.**, **serverless computing**, and their co-design. Please feel free to reach out if you are interested in my research.
 
 ---
 
