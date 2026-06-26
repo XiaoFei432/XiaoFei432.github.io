@@ -191,7 +191,12 @@
       "tags": [
         "quantum"
       ],
-      "links": []
+      "links": [
+        {
+          "label": "PDF",
+          "url": "/assets/pdfs/dac2026-time-aware-calibration.pdf"
+        }
+      ]
     },
     {
       "title": "QCLink: Offloading Hybrid Quantum-Classical Computation to SmartNICs via RDMA",
@@ -240,7 +245,12 @@
       "tags": [
         "quantum"
       ],
-      "links": []
+      "links": [
+        {
+          "label": "PDF",
+          "url": "/assets/pdfs/kdd2026-qbench.pdf"
+        }
+      ]
     },
     {
       "title": "Fair and Carbon-Aware LLM Routing for Web Services",
@@ -297,7 +307,12 @@
       "tags": [
         "corresponding-author"
       ],
-      "links": []
+      "links": [
+        {
+          "label": "PDF",
+          "url": "/assets/pdfs/ins2026-portray-learning.pdf"
+        }
+      ]
     },
     {
       "title": "Network-Centric Auditing and Regulation for Cryptocurrency Systems: A Tutorial",
