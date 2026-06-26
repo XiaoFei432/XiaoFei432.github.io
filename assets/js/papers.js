@@ -116,6 +116,14 @@
     row.appendChild(span);
   }
 
+  function appendInlinePaperLinks(container, paper) {
+    var links = document.createElement('span');
+    links.className = 'work-meta-links';
+    appendPaperLink(links, 'Paper', getPaperLink(paper, ['PDF', 'Paper']));
+    appendPaperLink(links, 'Code', getPaperLink(paper, ['Code', 'GitHub']));
+    container.appendChild(links);
+  }
+
   // ── Build paper list HTML ──
   function renderPaperList(container, papers, highlightAuthor) {
     container.innerHTML = '';
@@ -143,14 +151,8 @@
       var venue = document.createElement('p');
       venue.className = 'work-meta';
       venue.innerHTML = escapeHtml(paper.venue).replace(/\*([^*]+)\*/g, '<em>$1</em>');
+      appendInlinePaperLinks(venue, paper);
       article.appendChild(venue);
-
-      // Links row: keep PDF/Code slots visible even before URLs are added.
-      var linksRow = document.createElement('div');
-      linksRow.className = 'work-links-row';
-      appendPaperLink(linksRow, 'PDF', getPaperLink(paper, ['PDF', 'Paper']));
-      appendPaperLink(linksRow, 'Code', getPaperLink(paper, ['Code', 'GitHub']));
-      article.appendChild(linksRow);
 
       container.appendChild(article);
     });
