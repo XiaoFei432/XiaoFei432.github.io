@@ -53,5 +53,5 @@ I am **Xiaofei Yue**, a Ph.D. candidate in the School of Computer Science and Te
 - Outstanding Master's Thesis Award, Chinese Institute of Electronics (CIE), 2023
 - Outstanding Master's Thesis Award, Northeastern University, 2022
 - Best Paper Award, National Database Conference (NDBC), 2021
-- Sashixuan Outstanding Student Paper Award, NDBC, 2021
+- Outstanding Student Paper Award, NDBC, 2021
 - National Scholarship for Master's Students, 2020 and 2021
