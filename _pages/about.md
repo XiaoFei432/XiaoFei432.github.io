@@ -12,13 +12,13 @@ redirect_from:
 
 ---
 
-# Biography
+# <i class="fas fa-user section-heading-icon" aria-hidden="true"></i> Biography
 
 I am **Xiaofei Yue**, a Ph.D. candidate in the School of Computer Science and Technology, Beijing Institute of Technology (BIT), advised by [Prof. Song Yang](https://songyang-cs.github.io/). From 2025 to 2026, I am a visiting Ph.D. student at the [PDCL Lab](https://www.ntu.edu.sg/pdcl), College of Computing and Data Science (CCDS), Nanyang Technological University (NTU), working with [Prof. Xueyan Tang](https://personal.ntu.edu.sg/asxytang/). My research focuses on **AI infra.**, **serverless computing**, and their co-design. Please feel free to reach out if you are interested in my research.
 
 ---
 
-# Publications
+# <i class="fas fa-book section-heading-icon" aria-hidden="true"></i> Publications
 
 <div class='paper-filter-toolbar' id='paper-filter-toolbar'></div>
 
@@ -30,9 +30,9 @@ I am **Xiaofei Yue**, a Ph.D. candidate in the School of Computer Science and Te
 
 ---
 
-# Professional Activities
+# <i class="fas fa-briefcase section-heading-icon" aria-hidden="true"></i> Professional Activities
 
-### Reviewer
+### <i class="fas fa-pen section-heading-icon" aria-hidden="true"></i> Reviewer
 
 - The Web Conference (WWW)
 - ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)
@@ -43,7 +43,7 @@ I am **Xiaofei Yue**, a Ph.D. candidate in the School of Computer Science and Te
 
 ---
 
-# Honors and Awards
+# <i class="fas fa-award section-heading-icon" aria-hidden="true"></i> Honors and Awards
 
 - Beijing Institute of Technology Outstanding Ph.D. Dissertation Cultivation Fund, 2026
 - Young Elite Scientists Sponsorship Program by CAST, Ph.D. Student Program, 2025
