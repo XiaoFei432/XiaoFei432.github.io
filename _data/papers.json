@@ -22,15 +22,7 @@
     },
     {
       "key": "quantum",
-      "label": "Quantum Systems"
-    },
-    {
-      "key": "big-data",
-      "label": "Big Data Systems"
-    },
-    {
-      "key": "ai-native",
-      "label": "AI Native"
+      "label": "Quantum Computing"
     }
   ],
   "papers": [
@@ -49,8 +41,7 @@
       "venue": "The ACM Web Conference (WWW), 2026. [CCF A]",
       "tags": [
         "first-author",
-        "ai-infra",
-        "ai-native"
+        "ai-infra"
       ],
       "links": []
     },
@@ -69,8 +60,7 @@
       "tags": [
         "first-author",
         "serverless",
-        "ai-infra",
-        "ai-native"
+        "ai-infra"
       ],
       "links": []
     },
@@ -124,10 +114,9 @@
         "Xiaofei Yue",
         "Jianwei Yin*"
       ],
-      "venue": "Annual Meeting of the Association for Computational Linguistics (ACL), 2026. [CCF A]",
+      "venue": "Annual Meeting of the Association for Computational Linguistics (ACL) Findings, 2026. [CCF A]",
       "tags": [
-        "quantum",
-        "ai-native"
+        "quantum"
       ],
       "links": []
     },
@@ -142,8 +131,7 @@
       ],
       "venue": "ACM/IEEE Design Automation Conference (DAC), 2026. [CCF A]",
       "tags": [
-        "quantum",
-        "ai-native"
+        "quantum"
       ],
       "links": []
     },
@@ -202,8 +190,7 @@
       ],
       "venue": "The ACM Web Conference (WWW), 2026. [CCF A]",
       "tags": [
-        "ai-infra",
-        "ai-native"
+        "ai-infra"
       ],
       "links": []
     },
@@ -218,8 +205,7 @@
       ],
       "venue": "Information Sciences (INS), 2026. [CCF B]",
       "tags": [
-        "corresponding-author",
-        "ai-native"
+        "corresponding-author"
       ],
       "links": []
     },
@@ -236,8 +222,7 @@
       "venue": "IEEE/ACM Transactions on Networking (TON), 2025. [CCF A]",
       "tags": [
         "first-author",
-        "serverless",
-        "ai-native"
+        "serverless"
       ],
       "links": [
         {
@@ -258,8 +243,7 @@
       "venue": "IEEE International Conference on Computer Communications (INFOCOM), 2024. [CCF A]",
       "tags": [
         "first-author",
-        "serverless",
-        "ai-native"
+        "serverless"
       ],
       "links": [
         {
@@ -278,8 +262,7 @@
       ],
       "venue": "The Journal of Supercomputing (TJSC), 2024. [CCF C]",
       "tags": [
-        "first-author",
-        "big-data"
+        "first-author"
       ],
       "links": [
         {
@@ -297,10 +280,9 @@
         "季航旭",
         "王国仁"
       ],
-      "venue": "软件学报 (Journal of Software), 2022. [CCF A]",
+      "venue": "软件学报 (Journal of Software), 2022. [中文CCF A]",
       "tags": [
-        "first-author",
-        "big-data"
+        "first-author"
       ],
       "links": []
     },
@@ -315,8 +297,7 @@
       ],
       "venue": "Web Information Systems and Applications (WISA), 2021. [CCF C]",
       "tags": [
-        "first-author",
-        "big-data"
+        "first-author"
       ],
       "links": [
         {
