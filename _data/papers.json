@@ -182,12 +182,3 @@
     }
   ]
 }
-
-
-    // {
-    //   "title": "TopoCache: Data-Centric Fast Recovery and Reconfiguration for Distributed LLM Training",
-    //   "authors": ["Xiaofei Yue", "Song Yang", "Ziming Zhao", "and et al."],
-    //   "venue": "*IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)*, 2026",
-    //   "tags": ["first-author", "llm-systems", "distributed-systems"],
-    //   "links": []
-    // },
