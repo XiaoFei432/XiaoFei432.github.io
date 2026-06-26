@@ -43,7 +43,7 @@ I am **Xiaofei Yue**, a Ph.D. candidate in the School of Computer Science and Te
 
 ---
 
-# 🎖 Honors and Awards
+# 🏅 Honors and Awards
 
 - Beijing Institute of Technology Outstanding Ph.D. Dissertation Cultivation Fund, 2026
 - Young Elite Scientists Sponsorship Program by CAST, Ph.D. Student Program, 2025
