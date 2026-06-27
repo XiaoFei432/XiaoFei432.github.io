@@ -175,6 +175,10 @@
         {
           "label": "PDF",
           "url": "/assets/pdfs/acl2026-efficient-learned-data-compression.pdf"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/huidong-ma/FADE"
         }
       ]
     },
@@ -291,6 +295,10 @@
         {
           "label": "PDF",
           "url": "/assets/pdfs/cvpr2026-learned-image-compression.pdf"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/huidong-ma/SAAF"
         }
       ]
     },
@@ -442,15 +450,15 @@
       ]
     },
     {
-      "title": "面向Flink迭代作业的动态资源分配策略",
+      "title": "Dynamic Resource Allocation Strategy for Flink Iterative Jobs",
       "authors": [
-        "岳晓飞",
-        "史岚",
-        "赵宇海",
-        "季航旭",
-        "王国仁"
+        "Xiaofei Yue",
+        "Lan Shi",
+        "Yuhai Zhao",
+        "Hangxu Ji",
+        "Guoren Wang"
       ],
-      "venue": "软件学报 (Journal of Software), 2022. [中文CCF A]",
+      "venue": "Journal of Software (in Chinese), 2022. [中文CCF A]",
       "tags": [
         "first-author"
       ],
