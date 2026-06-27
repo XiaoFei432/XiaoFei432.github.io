@@ -27,26 +27,28 @@
   ],
   "papers": [
     {
-      "title": "HeteroSim: Towards High-Fidelity Heterogeneous LLM Training Simulation on GPUs",
+      "title": "Rocket: Warming Serverless Inference via Hierarchical ML Artifact Pre-loading and Sharing",
       "authors": [
-        "Xiaofei Yue†",
-        "Fangming Zhao†",
-        "Fulun Ye",
-        "Jiongchi Yu",
-        "Zhaoxuan Li",
-        "Ziming Zhao",
-        "Tingting Li",
-        "Jianwei Yin"
+        "Xiaofei Yue",
+        "Song Yang",
+        "Fan Li",
+        "Youqi Li",
+        "Yu Wang"
       ],
-      "venue": "The ACM Web Conference (WWW), 2026. [CCF A]",
+      "venue": "IEEE International Conference on Computer Communications (INFOCOM), 2026. [CCF A]",
       "tags": [
         "first-author",
+        "serverless",
         "ai-infra"
       ],
       "links": [
         {
           "label": "PDF",
-          "url": "/assets/pdfs/www2026-heterosim.pdf"
+          "url": "/assets/pdfs/infocom2026-rocket.pdf"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/XiaoFei432/Rocket"
         }
       ]
     },
@@ -79,32 +81,6 @@
       ]
     },
     {
-      "title": "Rocket: Warming Serverless Inference via Hierarchical ML Artifact Pre-loading and Sharing",
-      "authors": [
-        "Xiaofei Yue",
-        "Song Yang",
-        "Fan Li",
-        "Youqi Li",
-        "Yu Wang"
-      ],
-      "venue": "IEEE International Conference on Computer Communications (INFOCOM), 2026. [CCF A]",
-      "tags": [
-        "first-author",
-        "serverless",
-        "ai-infra"
-      ],
-      "links": [
-        {
-          "label": "PDF",
-          "url": "/assets/pdfs/infocom2026-rocket.pdf"
-        },
-        {
-          "label": "Code",
-          "url": "https://github.com/XiaoFei432/Rocket"
-        }
-      ]
-    },
-    {
       "title": "HyFaaS: Accelerating Serverless Workflows by Unleashing Hybrid Resource Elasticity",
       "authors": [
         "Xiaofei Yue",
@@ -132,6 +108,30 @@
         {
           "label": "Code",
           "url": "https://github.com/XiaoFei432/HyFaaS"
+        }
+      ]
+    },
+    {
+      "title": "HeteroSim: Towards High-Fidelity Heterogeneous LLM Training Simulation on GPUs",
+      "authors": [
+        "Xiaofei Yue†",
+        "Fangming Zhao†",
+        "Fulun Ye",
+        "Jiongchi Yu",
+        "Zhaoxuan Li",
+        "Ziming Zhao",
+        "Tingting Li",
+        "Jianwei Yin"
+      ],
+      "venue": "The ACM Web Conference (WWW), 2026. [CCF A]",
+      "tags": [
+        "first-author",
+        "ai-infra"
+      ],
+      "links": [
+        {
+          "label": "PDF",
+          "url": "/assets/pdfs/www2026-heterosim.pdf"
         }
       ]
     },
