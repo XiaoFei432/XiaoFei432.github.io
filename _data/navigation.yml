@@ -1,13 +1,13 @@
 # main links
 main:
-  - title: "Education"
-    url: "/#education"
+  - title: "Biography"
+    url: "/#biography"
 
   - title: "Publications"
     url: "/#publications"
 
-  - title: "Experience"
-    url: "/#research-experience"
+  - title: "Professional Activities"
+    url: "/#professional-activities"
 
-  - title: "Honors"
+  - title: "Honors and Awards"
     url: "/#honors-and-awards"

@@ -224,6 +224,10 @@
         {
           "label": "PDF",
           "url": "/assets/pdfs/icdcs2026-qclink.pdf"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/nonanalyzer/quantum-offload"
         }
       ]
     },
