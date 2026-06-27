@@ -253,6 +253,10 @@
         {
           "label": "PDF",
           "url": "/assets/pdfs/kdd2026-qbench.pdf"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/Secbrain/QBench"
         }
       ]
     },
@@ -319,6 +323,10 @@
         {
           "label": "PDF",
           "url": "/assets/pdfs/ins2026-portray-learning.pdf"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/Secbrain/PortrayL"
         }
       ]
     },
