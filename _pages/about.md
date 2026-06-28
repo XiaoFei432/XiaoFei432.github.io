@@ -32,7 +32,7 @@ I am **Xiaofei Yue**, a Ph.D. candidate in the School of Computer Science and Te
 
 ---
 
-# 💼 Professional Activities
+# 💼 Experience
 {: #professional-activities }
 
 ### 🔎 Reviewer
@@ -46,7 +46,7 @@ I am **Xiaofei Yue**, a Ph.D. candidate in the School of Computer Science and Te
 
 ---
 
-# 🏅 Honors and Awards
+# 🏅 Awards
 {: #honors-and-awards }
 
 - Beijing Institute of Technology Outstanding Ph.D. Dissertation Cultivation Fund, 2026
