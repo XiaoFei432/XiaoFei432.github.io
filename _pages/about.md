@@ -22,8 +22,6 @@ I am **Xiaofei Yue**, a Ph.D. candidate in the School of Computer Science and Te
 # 📝 Publications
 {: #publications }
 
-For search engines and Google Scholar, a static publication index is available at [Publications]({{ "/publications/" | relative_url }}).
-
 <div class='paper-filter-toolbar' id='paper-filter-toolbar'></div>
 
 <div class='paper-list' id='paper-list'></div>
