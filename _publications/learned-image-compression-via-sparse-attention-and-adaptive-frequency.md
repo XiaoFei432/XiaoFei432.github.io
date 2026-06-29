@@ -17,7 +17,7 @@ scholar:
     - "Wentong Cai"
   publication_date: "2026"
   venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
-  pdf_url: "/assets/pdfs/cvpr2026-learned-image-compression.pdf"
+  pdf_url: "/papers/cvpr2026-learned-image-compression.pdf"
 ---
 
 Learned Image Compression via Sparse Attention and Adaptive Frequency
@@ -26,4 +26,4 @@ Authors: Huidong Ma, Xinyan Shi, Hui Sun, Xiaofei Yue, Xiaoguang Liu, Gang Wang,
 
 Venue: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026.
 
-Links: [PDF](/assets/pdfs/cvpr2026-learned-image-compression.pdf) | [Code](https://github.com/huidong-ma/SAAF)
+Links: [PDF](/papers/cvpr2026-learned-image-compression.pdf) | [Code](https://github.com/huidong-ma/SAAF)

@@ -17,7 +17,7 @@ scholar:
     - "Jianwei Yin"
   publication_date: "2026"
   venue: "ACM/IEEE Design Automation Conference (DAC)"
-  pdf_url: "/assets/pdfs/dac2026-smoe.pdf"
+  pdf_url: "/papers/dac2026-smoe.pdf"
 ---
 
 sMoE: Elastic MoE-Based Inference with Serverless Computing via Fine-grained Expert Scaling
@@ -26,4 +26,4 @@ Authors: Xiaofei Yue, Ziming Zhao, Jiongchi Yu, Huidong Ma, Zhaoxuan Li, Tingtin
 
 Venue: ACM/IEEE Design Automation Conference (DAC), 2026.
 
-Links: [PDF](/assets/pdfs/dac2026-smoe.pdf) | [Code](https://github.com/XiaoFei432/sMoE)
+Links: [PDF](/papers/dac2026-smoe.pdf) | [Code](https://github.com/XiaoFei432/sMoE)

@@ -15,7 +15,7 @@ scholar:
     - "Fan Zhang"
   publication_date: "2026"
   venue: "Information Sciences (INS)"
-  pdf_url: "/assets/pdfs/ins2026-portray-learning.pdf"
+  pdf_url: "/papers/ins2026-portray-learning.pdf"
 ---
 
 Portray learning: A novel learning paradigm for streaming emerging class detection
@@ -24,4 +24,4 @@ Authors: Ziming Zhao, Zhaoxuan Li, Xiaofei Yue, Tingting Li, Fan Zhang
 
 Venue: Information Sciences (INS), 2026.
 
-Links: [PDF](/assets/pdfs/ins2026-portray-learning.pdf) | [Code](https://github.com/Secbrain/PortrayL)
+Links: [PDF](/papers/ins2026-portray-learning.pdf) | [Code](https://github.com/Secbrain/PortrayL)

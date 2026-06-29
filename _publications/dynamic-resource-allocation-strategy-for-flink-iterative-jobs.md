@@ -14,7 +14,7 @@ scholar:
     - "Guoren Wang"
   publication_date: "2022"
   venue: "Journal of Software (in Chinese)"
-  pdf_url: "/assets/pdfs/jos2022-flink-resource-allocation.pdf"
+  pdf_url: "/papers/jos2022-flink-resource-allocation.pdf"
 ---
 
 Dynamic Resource Allocation Strategy for Flink Iterative Jobs
@@ -23,4 +23,4 @@ Authors: Xiaofei Yue, Lan Shi, Yuhai Zhao, Hangxu Ji, Guoren Wang
 
 Venue: Journal of Software (in Chinese), 2022.
 
-Links: [PDF](/assets/pdfs/jos2022-flink-resource-allocation.pdf)
+Links: [PDF](/papers/jos2022-flink-resource-allocation.pdf)

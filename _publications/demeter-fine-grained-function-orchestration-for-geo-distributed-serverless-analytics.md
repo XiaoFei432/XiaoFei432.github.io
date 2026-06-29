@@ -16,7 +16,7 @@ scholar:
     - "Xiaoming Fu"
   publication_date: "2024"
   venue: "IEEE International Conference on Computer Communications (INFOCOM)"
-  pdf_url: "/assets/pdfs/infocom2024-demeter.pdf"
+  pdf_url: "/papers/infocom2024-demeter.pdf"
 ---
 
 Demeter: Fine-grained Function Orchestration for Geo-distributed Serverless Analytics
@@ -25,4 +25,4 @@ Authors: Xiaofei Yue, Song Yang, Liehuang Zhu, Stojan Trajanovski, Xiaoming Fu
 
 Venue: IEEE International Conference on Computer Communications (INFOCOM), 2024.
 
-Links: [PDF](/assets/pdfs/infocom2024-demeter.pdf) | [Publisher Page](https://ieeexplore.ieee.org/abstract/document/10621303) | [Code](https://github.com/XiaoFei432/Demeter/tree/V1)
+Links: [PDF](/papers/infocom2024-demeter.pdf) | [Publisher Page](https://ieeexplore.ieee.org/abstract/document/10621303) | [Code](https://github.com/XiaoFei432/Demeter/tree/V1)

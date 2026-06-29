@@ -20,7 +20,7 @@ scholar:
     - "Jianwei Yin"
   publication_date: "2026"
   venue: "IEEE International Conference on Distributed Computing Systems (ICDCS)"
-  pdf_url: "/assets/pdfs/icdcs2026-qclink.pdf"
+  pdf_url: "/papers/icdcs2026-qclink.pdf"
 ---
 
 QCLink: Offloading Hybrid Quantum-Classical Computation to SmartNICs via RDMA
@@ -29,4 +29,4 @@ Authors: Xingdong Li, Yongzhuo Lu, Z Li, Xiaofei Yue, Junyu Chen, Yu Peng, Tingt
 
 Venue: IEEE International Conference on Distributed Computing Systems (ICDCS), 2026.
 
-Links: [PDF](/assets/pdfs/icdcs2026-qclink.pdf) | [Code](https://github.com/nonanalyzer/quantum-offload)
+Links: [PDF](/papers/icdcs2026-qclink.pdf) | [Code](https://github.com/nonanalyzer/quantum-offload)

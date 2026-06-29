@@ -24,7 +24,7 @@ scholar:
     - "Jianwei Yin"
   publication_date: "2026"
   venue: "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)"
-  pdf_url: "/assets/pdfs/kdd2026-qbench.pdf"
+  pdf_url: "/papers/kdd2026-qbench.pdf"
 ---
 
 Towards Quantum Program Bug Datasets and Benchmarking
@@ -33,4 +33,4 @@ Authors: Tingting Li, Jiongchi Yu, Zhikang Fan, Junqing Wang, Yao Zhai, Shenglon
 
 Venue: ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2026.
 
-Links: [PDF](/assets/pdfs/kdd2026-qbench.pdf) | [Code](https://github.com/Secbrain/QBench)
+Links: [PDF](/papers/kdd2026-qbench.pdf) | [Code](https://github.com/Secbrain/QBench)

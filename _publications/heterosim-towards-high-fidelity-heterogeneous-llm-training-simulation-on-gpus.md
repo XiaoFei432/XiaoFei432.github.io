@@ -17,7 +17,7 @@ scholar:
     - "Jianwei Yin"
   publication_date: "2026"
   venue: "The ACM Web Conference (WWW)"
-  pdf_url: "/assets/pdfs/www2026-heterosim.pdf"
+  pdf_url: "/papers/www2026-heterosim.pdf"
 ---
 
 HeteroSim: Towards High-Fidelity Heterogeneous LLM Training Simulation on GPUs
@@ -26,4 +26,4 @@ Authors: Xiaofei Yue, Fangming Zhao, Fulun Ye, Jiongchi Yu, Zhaoxuan Li, Ziming 
 
 Venue: The ACM Web Conference (WWW), 2026.
 
-Links: [PDF](/assets/pdfs/www2026-heterosim.pdf)
+Links: [PDF](/papers/www2026-heterosim.pdf)

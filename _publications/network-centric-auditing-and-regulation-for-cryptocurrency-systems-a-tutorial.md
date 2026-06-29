@@ -18,7 +18,7 @@ scholar:
     - "Nan Wang"
   publication_date: "2026"
   venue: "IEEE Transactions on Network Science and Engineering (TNSE)"
-  pdf_url: "/assets/pdfs/tnse2026-auditdc.pdf"
+  pdf_url: "/papers/tnse2026-auditdc.pdf"
 ---
 
 Network-Centric Auditing and Regulation for Cryptocurrency Systems: A Tutorial
@@ -27,4 +27,4 @@ Authors: Qingyang Ding, Qinnan Zhang, Xiaofei Yue, Jianbin Chen, Ziming Zhao, Zh
 
 Venue: IEEE Transactions on Network Science and Engineering (TNSE), 2026.
 
-Links: [PDF](/assets/pdfs/tnse2026-auditdc.pdf)
+Links: [PDF](/papers/tnse2026-auditdc.pdf)

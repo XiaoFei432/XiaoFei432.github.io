@@ -15,7 +15,7 @@ scholar:
     - "Hongwei Zheng"
   publication_date: "2025"
   venue: "IEEE Internet of Things Journal (IoTJ)"
-  pdf_url: "/assets/pdfs/iotj2025-bc2fl.pdf"
+  pdf_url: "/papers/iotj2025-bc2fl.pdf"
 ---
 
 Bc2FL: Double-Layer Blockchain-Driven Federated Learning Framework for Agricultural IoT
@@ -24,4 +24,4 @@ Authors: Qingyang Ding, Xiaofei Yue, Qinnan Zhang, Zehui Xiong, Jinping Chang, H
 
 Venue: IEEE Internet of Things Journal (IoTJ), 2025.
 
-Links: [PDF](/assets/pdfs/iotj2025-bc2fl.pdf)
+Links: [PDF](/papers/iotj2025-bc2fl.pdf)

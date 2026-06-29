@@ -44,7 +44,7 @@
       "links": [
         {
           "label": "PDF",
-          "url": "/assets/pdfs/infocom2026-rocket.pdf"
+          "url": "/papers/infocom2026-rocket.pdf"
         },
         {
           "label": "Code",
@@ -72,7 +72,7 @@
       "links": [
         {
           "label": "PDF",
-          "url": "/assets/pdfs/dac2026-smoe.pdf"
+          "url": "/papers/dac2026-smoe.pdf"
         },
         {
           "label": "Code",
@@ -99,7 +99,7 @@
       "links": [
         {
           "label": "PDF",
-          "url": "/assets/pdfs/tpds2026-hyfaas.pdf"
+          "url": "/papers/tpds2026-hyfaas.pdf"
         },
         {
           "label": "Paper",
@@ -131,7 +131,7 @@
       "links": [
         {
           "label": "PDF",
-          "url": "/assets/pdfs/www2026-heterosim.pdf"
+          "url": "/papers/www2026-heterosim.pdf"
         }
       ]
     },
@@ -152,7 +152,7 @@
       "links": [
         {
           "label": "PDF",
-          "url": "/assets/pdfs/acl2026-qrepair.pdf"
+          "url": "/papers/acl2026-qrepair.pdf"
         }
       ]
     },
@@ -174,7 +174,7 @@
       "links": [
         {
           "label": "PDF",
-          "url": "/assets/pdfs/acl2026-efficient-learned-data-compression.pdf"
+          "url": "/papers/acl2026-efficient-learned-data-compression.pdf"
         },
         {
           "label": "Code",
@@ -198,7 +198,7 @@
       "links": [
         {
           "label": "PDF",
-          "url": "/assets/pdfs/dac2026-time-aware-calibration.pdf"
+          "url": "/papers/dac2026-time-aware-calibration.pdf"
         }
       ]
     },
@@ -223,7 +223,7 @@
       "links": [
         {
           "label": "PDF",
-          "url": "/assets/pdfs/icdcs2026-qclink.pdf"
+          "url": "/papers/icdcs2026-qclink.pdf"
         },
         {
           "label": "Code",
@@ -256,7 +256,7 @@
       "links": [
         {
           "label": "PDF",
-          "url": "/assets/pdfs/kdd2026-qbench.pdf"
+          "url": "/papers/kdd2026-qbench.pdf"
         },
         {
           "label": "Code",
@@ -280,7 +280,7 @@
       "links": [
         {
           "label": "PDF",
-          "url": "/assets/pdfs/www2026-carbon-routing.pdf"
+          "url": "/papers/www2026-carbon-routing.pdf"
         }
       ]
     },
@@ -302,7 +302,7 @@
       "links": [
         {
           "label": "PDF",
-          "url": "/assets/pdfs/cvpr2026-learned-image-compression.pdf"
+          "url": "/papers/cvpr2026-learned-image-compression.pdf"
         },
         {
           "label": "Code",
@@ -326,7 +326,7 @@
       "links": [
         {
           "label": "PDF",
-          "url": "/assets/pdfs/ins2026-portray-learning.pdf"
+          "url": "/papers/ins2026-portray-learning.pdf"
         },
         {
           "label": "Code",
@@ -354,7 +354,7 @@
       "links": [
         {
           "label": "PDF",
-          "url": "/assets/pdfs/tnse2026-auditdc.pdf"
+          "url": "/papers/tnse2026-auditdc.pdf"
         }
       ]
     },
@@ -375,7 +375,7 @@
       "links": [
         {
           "label": "PDF",
-          "url": "/assets/pdfs/iotj2025-bc2fl.pdf"
+          "url": "/papers/iotj2025-bc2fl.pdf"
         }
       ]
     },
@@ -397,7 +397,7 @@
       "links": [
         {
           "label": "PDF",
-          "url": "/assets/pdfs/ton2025-wide-area-elasticity.pdf"
+          "url": "/papers/ton2025-wide-area-elasticity.pdf"
         },
         {
           "label": "Paper",
@@ -426,7 +426,7 @@
       "links": [
         {
           "label": "PDF",
-          "url": "/assets/pdfs/infocom2024-demeter.pdf"
+          "url": "/papers/infocom2024-demeter.pdf"
         },
         {
           "label": "Paper",
@@ -453,7 +453,7 @@
       "links": [
         {
           "label": "PDF",
-          "url": "/assets/pdfs/tjsc2024-timelink.pdf"
+          "url": "/papers/tjsc2024-timelink.pdf"
         },
         {
           "label": "Paper",
@@ -477,7 +477,7 @@
       "links": [
         {
           "label": "PDF",
-          "url": "/assets/pdfs/jos2022-flink-resource-allocation.pdf"
+          "url": "/papers/jos2022-flink-resource-allocation.pdf"
         }
       ]
     },
@@ -497,7 +497,7 @@
       "links": [
         {
           "label": "PDF",
-          "url": "/assets/pdfs/wisa2021-online-runtime-prediction.pdf"
+          "url": "/papers/wisa2021-online-runtime-prediction.pdf"
         },
         {
           "label": "Paper",

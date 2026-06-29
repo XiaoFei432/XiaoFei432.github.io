@@ -14,7 +14,7 @@ scholar:
     - "Jiongchi Yu"
   publication_date: "2026"
   venue: "The ACM Web Conference (WWW)"
-  pdf_url: "/assets/pdfs/www2026-carbon-routing.pdf"
+  pdf_url: "/papers/www2026-carbon-routing.pdf"
 ---
 
 Fair and Carbon-Aware LLM Routing for Web Services
@@ -23,4 +23,4 @@ Authors: Tingting Li, Ziming Zhao, Zhaoxuan Li, Xiaofei Yue, Jiongchi Yu
 
 Venue: The ACM Web Conference (WWW), 2026.
 
-Links: [PDF](/assets/pdfs/www2026-carbon-routing.pdf)
+Links: [PDF](/papers/www2026-carbon-routing.pdf)

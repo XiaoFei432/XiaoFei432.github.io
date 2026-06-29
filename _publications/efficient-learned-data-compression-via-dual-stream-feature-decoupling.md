@@ -17,7 +17,7 @@ scholar:
     - "Wentong Cai"
   publication_date: "2026"
   venue: "Annual Meeting of the Association for Computational Linguistics (ACL)"
-  pdf_url: "/assets/pdfs/acl2026-efficient-learned-data-compression.pdf"
+  pdf_url: "/papers/acl2026-efficient-learned-data-compression.pdf"
 ---
 
 Efficient Learned Data Compression via Dual-Stream Feature Decoupling
@@ -26,4 +26,4 @@ Authors: Huidong Ma, Xinyan Shi, Hui Sun, Xiaofei Yue, Xiaoguang Liu, Gang Wang,
 
 Venue: Annual Meeting of the Association for Computational Linguistics (ACL), 2026.
 
-Links: [PDF](/assets/pdfs/acl2026-efficient-learned-data-compression.pdf) | [Code](https://github.com/huidong-ma/FADE)
+Links: [PDF](/papers/acl2026-efficient-learned-data-compression.pdf) | [Code](https://github.com/huidong-ma/FADE)

@@ -15,7 +15,7 @@ scholar:
     - "Yu Wang"
   publication_date: "2026"
   venue: "IEEE International Conference on Computer Communications (INFOCOM)"
-  pdf_url: "/assets/pdfs/infocom2026-rocket.pdf"
+  pdf_url: "/papers/infocom2026-rocket.pdf"
 ---
 
 Rocket: Warming Serverless Inference via Hierarchical ML Artifact Pre-loading and Sharing
@@ -24,4 +24,4 @@ Authors: Xiaofei Yue, Song Yang, Fan Li, Youqi Li, Yu Wang
 
 Venue: IEEE International Conference on Computer Communications (INFOCOM), 2026.
 
-Links: [PDF](/assets/pdfs/infocom2026-rocket.pdf) | [Code](https://github.com/XiaoFei432/Rocket)
+Links: [PDF](/papers/infocom2026-rocket.pdf) | [Code](https://github.com/XiaoFei432/Rocket)

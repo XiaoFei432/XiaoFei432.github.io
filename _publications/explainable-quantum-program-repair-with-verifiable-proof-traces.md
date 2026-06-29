@@ -15,7 +15,7 @@ scholar:
     - "Jianwei Yin"
   publication_date: "2026"
   venue: "Annual Meeting of the Association for Computational Linguistics (ACL) Findings"
-  pdf_url: "/assets/pdfs/acl2026-qrepair.pdf"
+  pdf_url: "/papers/acl2026-qrepair.pdf"
 ---
 
 Explainable Quantum Program Repair with Verifiable Proof Traces
@@ -24,4 +24,4 @@ Authors: Tingting Li, Ziming Zhao, Zhaoxuan Li, Jiongchi Yu, Xiaofei Yue, Jianwe
 
 Venue: Annual Meeting of the Association for Computational Linguistics (ACL) Findings, 2026.
 
-Links: [PDF](/assets/pdfs/acl2026-qrepair.pdf)
+Links: [PDF](/papers/acl2026-qrepair.pdf)
