@@ -1,0 +1,33 @@
+{% if page.url == "/" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Xiaofei Yue",
+  "url": "{{ site.url }}{{ site.baseurl }}/",
+  "image": "{{ '/images/profile.jpg' | absolute_url }}",
+  "jobTitle": "Ph.D. Candidate",
+  "affiliation": {
+    "@type": "CollegeOrUniversity",
+    "name": "Beijing Institute of Technology"
+  },
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "Northeastern University"
+  },
+  "email": "mailto:xfyue@bit.edu.cn",
+  "knowsAbout": [
+    "AI infrastructure",
+    "Serverless computing",
+    "Quantum computing",
+    "Distributed systems"
+  ],
+  "sameAs": [
+    "https://scholar.google.com/citations?user=klVq7f0AAAAJ",
+    "https://dblp.uni-trier.de/pid/301/9802.html",
+    "https://orcid.org/0009-0003-3106-586X",
+    "https://github.com/XiaoFei432"
+  ]
+}
+</script>
+{% endif %}

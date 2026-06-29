@@ -8,7 +8,14 @@
   {% assign canonical_url = page.url | replace: "index.html", "" | prepend: site.url %}
 {% endif %}
 
-<title>{{ site.title }} - Homepage</title>
+{% assign seo_title = page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once %}
+{% if page.url == "/" %}
+  {% assign seo_title = site.title | append: " - Homepage" %}
+{% elsif seo_title != site.title %}
+  {% assign seo_title = seo_title | append: " | " | append: site.title %}
+{% endif %}
+
+<title>{{ seo_title }}</title>
 
 {% assign seo_description = page.description | default: page.excerpt | default: site.description %}
 {% if seo_description %}
@@ -31,7 +38,10 @@
 
 <meta property="og:locale" content="en">
 <meta property="og:site_name" content="{{ site.title }}">
-<meta property="og:title" content="{{ site.title }}">
+<meta property="og:title" content="{{ seo_title }}">
+{% if seo_description %}
+  <meta name="description" content="{{ seo_description }}">
+{% endif %}
 
 {% if seo_url %}
   <link rel="canonical" href="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
@@ -39,6 +49,8 @@
 {% endif %}
 
 {% if page.excerpt %}
+  <meta property="og:description" content="{{ seo_description }}">
+{% elsif seo_description %}
   <meta property="og:description" content="{{ seo_description }}">
 {% endif %}
 

@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<article class="publication-detail" itemscope itemtype="https://schema.org/ScholarlyArticle">
+  <meta itemprop="headline" content="{{ page.title | escape }}">
+  {% if page.scholar.publication_date %}
+    <meta itemprop="datePublished" content="{{ page.scholar.publication_date | escape }}">
+  {% endif %}
+
+  <h1>{{ page.title }}</h1>
+
+  {% if page.scholar.authors %}
+    <p class="publication-authors">
+      {% for author in page.scholar.authors %}
+        {% assign clean_author = author | replace: "†", "" | replace: "*", "" | strip %}
+        <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">{{ clean_author }}</span>
+        </span>{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+    </p>
+  {% endif %}
+
+  {% assign display_venue = page.display_venue | default: page.scholar.venue %}
+  {% if display_venue %}
+    <p class="publication-venue"><strong>Venue:</strong> {{ display_venue }}</p>
+  {% endif %}
+
+  {% if page.scholar.pdf_url or page.paper_url or page.code_url %}
+    <p class="publication-links">
+      {% if page.scholar.pdf_url %}
+        <a href="{{ page.scholar.pdf_url | relative_url }}" itemprop="url">PDF</a>
+      {% endif %}
+      {% if page.paper_url %}
+        {% if page.scholar.pdf_url %} · {% endif %}<a href="{{ page.paper_url }}">Publisher Page</a>
+      {% endif %}
+      {% if page.code_url %}
+        {% if page.scholar.pdf_url or page.paper_url %} · {% endif %}<a href="{{ page.code_url }}">Code</a>
+      {% endif %}
+    </p>
+  {% endif %}
+
+  <div itemprop="description">
+    {{ content }}
+  </div>
+</article>

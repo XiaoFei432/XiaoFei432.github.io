@@ -1,6 +1,8 @@
 <meta charset="utf-8">
 
 {% include seo.html %}
+{% include scholar-meta.html %}
+{% include person-jsonld.html %}
 
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
@@ -11,9 +13,7 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
 <meta http-equiv="cleartype" content="on">
-<head>
-  <base target="_blank">
-</head>
+<base target="_blank">

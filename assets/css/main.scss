@@ -341,3 +341,33 @@ h1:before, .anchor:before {
     color: #6f8190;
     font-size: 0.9rem;
 }
+
+.publication-detail {
+    max-width: 760px;
+}
+
+.publication-detail h1 {
+    margin-bottom: 0.72rem;
+    color: #233f52;
+    font-size: 1.62rem;
+    line-height: 1.32;
+}
+
+.publication-authors,
+.publication-venue,
+.publication-links {
+    margin: 0 0 0.58rem;
+    line-height: 1.55;
+}
+
+.publication-authors {
+    color: #424f59;
+}
+
+.publication-venue {
+    color: #5a6f7e;
+}
+
+.publication-links a {
+    font-weight: 700;
+}
