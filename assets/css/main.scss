@@ -249,36 +249,6 @@ h1:before, .anchor:before {
     white-space: nowrap;
 }
 
-.visitor-map {
-    margin-top: 1.15rem;
-    padding-top: 1rem;
-    border-top: 1px solid #e7ecef;
-    text-align: center;
-}
-
-.visitor-map__title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.35rem;
-    margin-bottom: 0.55rem;
-    color: #405261;
-    font-size: 0.86rem;
-    font-weight: 700;
-}
-
-.visitor-map__widget {
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-}
-
-.visitor-map iframe,
-.visitor-map img,
-.visitor-map canvas {
-    max-width: 100%;
-}
-
 .paper-link-button {
     display: inline-flex;
     align-items: center;
