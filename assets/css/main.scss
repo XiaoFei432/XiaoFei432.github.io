@@ -371,3 +371,21 @@ h1:before, .anchor:before {
 .publication-links a {
     font-weight: 700;
 }
+
+.publications-page h1 {
+    margin-bottom: 0.7rem;
+}
+
+.publications-page h2 {
+    margin: 0.8rem 0 0.18rem;
+    line-height: 1.28;
+}
+
+.publications-page p {
+    margin: 0 0 0.2rem;
+    line-height: 1.46;
+}
+
+.publications-page p:last-child {
+    margin-bottom: 0;
+}

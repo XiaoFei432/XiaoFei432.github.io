@@ -5,6 +5,8 @@ description: "Publications by Xiaofei Yue, including work on AI infrastructure, 
 author_profile: true
 ---
 
+<div class="publications-page" markdown="1">
+
 # Publications
 
 This page provides static publication links and metadata for search engines and Google Scholar.
@@ -160,3 +162,5 @@ Xiaofei Yue, Lan Shi, Yuhai Zhao, Hangxu Ji, Guoren Wang.
 Web Information Systems and Applications (WISA), 2021.
 
 [PDF]({{ '/papers/wisa2021-online-runtime-prediction.pdf' | relative_url }}) | [Publisher Page](https://link.springer.com/chapter/10.1007/978-3-030-87571-8_14)
+
+</div>
