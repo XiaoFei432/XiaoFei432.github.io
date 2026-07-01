@@ -203,7 +203,7 @@ h1:before, .anchor:before {
 }
 
 .paper-list-item {
-    padding: 1rem 0 0.94rem;
+    padding: 0.62rem 0 0.58rem;
     border-bottom: 1px solid #edf1f3;
 }
 
@@ -212,17 +212,17 @@ h1:before, .anchor:before {
 }
 
 .work-title {
-    margin: 0 0 0.34rem;
+    margin: 0 0 0.18rem;
     color: #2b5d7a;
     font-size: 1.14rem;
     font-weight: 700;
-    line-height: 1.34;
+    line-height: 1.26;
 }
 
 .work-authors {
-    margin: 0 0 0.38rem;
+    margin: 0 0 0.18rem;
     color: #555;
-    line-height: 1.58;
+    line-height: 1.42;
 }
 
 .work-authors strong {
@@ -230,8 +230,9 @@ h1:before, .anchor:before {
 }
 
 .work-meta {
-    margin: 0 0 0.48rem;
+    margin: 0 0 0.18rem;
     color: #667683;
+    line-height: 1.42;
 }
 
 .work-meta-links {
