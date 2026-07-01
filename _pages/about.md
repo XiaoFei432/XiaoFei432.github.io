@@ -58,6 +58,5 @@ redirect_from:
 - Kingsoft Scholarship, Beijing Institute of Technology, 2025
 - Outstanding Master's Thesis Award, Chinese Institute of Electronics (CIE), 2023
 - Outstanding Master's Thesis Award, Northeastern University, 2022
-- Best Paper Award, National Database Conference (NDBC), 2021
-- Outstanding Student Paper Award, NDBC, 2021
+- Best Paper Award & Outstanding Student Paper Award National Database Conference (NDBC), 2021
 - National Scholarship for Master's Students, 2020 and 2021
