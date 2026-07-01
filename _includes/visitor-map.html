@@ -1,17 +1,13 @@
-{% assign clustrmaps_id = site.visitor_map.clustrmaps_id | default: "" %}
+{% assign whosamungus_site_id = site.visitor_map.whosamungus_site_id | default: "xiaofei432" %}
+{% assign whosamungus_widget_id = site.visitor_map.whosamungus_widget_id | default: "xfy" %}
 <div class="visitor-map" aria-label="Visitor map">
   <div class="visitor-map__title">
     <i class="fas fa-globe-asia" aria-hidden="true"></i>
     <span>Visitors</span>
   </div>
 
-  {% if clustrmaps_id != "" %}
-    <div class="visitor-map__widget">
-      <script type="text/javascript" id="clustrmaps" src="https://cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=260&t=tt&d={{ clustrmaps_id }}"></script>
-    </div>
-  {% else %}
-    <div class="visitor-map__placeholder">
-      Map will appear after ClustrMaps ID is set.
-    </div>
-  {% endif %}
+  <div class="visitor-map__widget">
+    <script id="_wau{{ whosamungus_widget_id }}">var _wau = _wau || []; _wau.push(["map", "{{ whosamungus_site_id }}", "{{ whosamungus_widget_id }}", "250", "125", "classic", "star-blue"]);</script>
+    <script async src="https://waust.at/m.js"></script>
+  </div>
 </div>

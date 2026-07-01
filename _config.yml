@@ -18,7 +18,8 @@ google_analytics_id      :  # get google_analytics_id from https://analytics.goo
 
 # Visitor map
 visitor_map:
-  clustrmaps_id          :  # get clustrmaps_id from https://www.clustrmaps.com/
+  whosamungus_site_id   : "xiaofei432"
+  whosamungus_widget_id : "xfy"
 
 # SEO Related
 google_site_verification : "google72f8cb81a9990c1f.html" # get google_site_verification from https://search.google.com/search-console/about
