@@ -1,12 +1,17 @@
 {% assign clustrmaps_id = site.visitor_map.clustrmaps_id | default: "" %}
-{% if clustrmaps_id != "" %}
-  <div class="visitor-map" aria-label="Visitor map">
-    <div class="visitor-map__title">
-      <i class="fas fa-globe-asia" aria-hidden="true"></i>
-      <span>Visitors</span>
-    </div>
+<div class="visitor-map" aria-label="Visitor map">
+  <div class="visitor-map__title">
+    <i class="fas fa-globe-asia" aria-hidden="true"></i>
+    <span>Visitors</span>
+  </div>
+
+  {% if clustrmaps_id != "" %}
     <div class="visitor-map__widget">
       <script type="text/javascript" id="clustrmaps" src="https://cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=260&t=tt&d={{ clustrmaps_id }}"></script>
     </div>
-  </div>
-{% endif %}
+  {% else %}
+    <div class="visitor-map__placeholder">
+      Map will appear after ClustrMaps ID is set.
+    </div>
+  {% endif %}
+</div>
