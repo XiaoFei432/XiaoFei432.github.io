@@ -15,7 +15,9 @@ redirect_from:
 # 👋 Biography
 {: #biography }
 
-I am **Xiaofei Yue**, a Ph.D. candidate in the School of Computer Science and Technology, Beijing Institute of Technology (BIT), advised by [Prof. Song Yang](https://songyang-cs.github.io/). From 2025 to 2026, I am a visiting Ph.D. student at the [PDCL Lab](https://www.ntu.edu.sg/pdcl), College of Computing and Data Science (CCDS), Nanyang Technological University (NTU), working with [Prof. Xueyan Tang](https://personal.ntu.edu.sg/asxytang/). My research focuses on **AI infra.**, **serverless computing**, **quantum computing**, and their co-design. Please feel free to reach out if you are interested in my research.
+**Xiaofei Yue** is currently a Ph.D. candidate in the School of Computer Science and Technology, Beijing Institute of Technology (BIT), advised by [Prof. Song Yang](https://songyang-cs.github.io/). From 2025 to 2026, I am a visiting Ph.D. student at the [PDCL Lab](https://www.ntu.edu.sg/pdcl), College of Computing and Data Science (CCDS), Nanyang Technological University (NTU), working with [Prof. Xueyan Tang](https://personal.ntu.edu.sg/asxytang/). Prior to that, he received his B.Eng. degree in computer science department from Northeastern University (NEU) in 2022, advised by [Prof. Yuhai Zhao](http://www.cse.neu.edu.cn/_s131/2019/0313/c6641a157508/page.psp). My research focuses on **AI infra.**, **serverless computing**, **quantum computing**, and their co-design. He is selected for the <span style="color: red;"> Young S&T Talents Cultivation Project, China Association for Science and Technology (CAST). </span> 
+
+⭐️ Please feel free to reach out if you are interested in my research via Email (xfyue [at] bit [dot] edu [dot] cn) :)
 
 ---
 
@@ -50,7 +52,7 @@ I am **Xiaofei Yue**, a Ph.D. candidate in the School of Computer Science and Te
 {: #honors-and-awards }
 
 - BIT Outstanding Ph.D. Dissertation Cultivation Fund, 2026
-- Young Elite Scientists Sponsorship Program by CAST, Ph.D. Student Program, 2025
+- Doctoral Student Program of the Young S&T Talents Cultivation Project, CAST, 2025
 <!-- - Chinese Institute of Electronics Student Member Sponsorship Program, 2025 -->
 - National Scholarship for Ph.D. Students, 2025
 - Kingsoft Scholarship, Beijing Institute of Technology, 2025
