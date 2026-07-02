@@ -135,7 +135,28 @@
         }
       ]
     },
+    {
+      "title": "Explainable Quantum Program Repair with Verifiable Proof Traces",
+      "authors": [
+        "Tingting Li",
+        "Ziming Zhao",
+        "Zhaoxuan Li",
+        "Jiongchi Yu",
+        "Xiaofei Yue",
+        "Jianwei Yin"
+      ],
+      "venue": "Annual Meeting of the Association for Computational Linguistics (ACL) Findings, 2026. [CCF A]",
+      "tags": [
+        "quantum"
+      ],
+      "links": [
         {
+          "label": "PDF",
+          "url": "/papers/acl2026-qrepair.pdf"
+        }
+      ]
+    },
+    {
       "title": "End-to-End Modeling and Trace-Driven Replay for Hybrid Quantum-Classical Supercomputing",
       "authors": [
         "Ziming Zhao",
@@ -157,27 +178,6 @@
         {
           "label": "Code",
           "url": ""
-        }
-      ]
-    },
-    {
-      "title": "Explainable Quantum Program Repair with Verifiable Proof Traces",
-      "authors": [
-        "Tingting Li",
-        "Ziming Zhao",
-        "Zhaoxuan Li",
-        "Jiongchi Yu",
-        "Xiaofei Yue",
-        "Jianwei Yin"
-      ],
-      "venue": "Annual Meeting of the Association for Computational Linguistics (ACL) Findings, 2026. [CCF A]",
-      "tags": [
-        "quantum"
-      ],
-      "links": [
-        {
-          "label": "PDF",
-          "url": "/papers/acl2026-qrepair.pdf"
         }
       ]
     },
