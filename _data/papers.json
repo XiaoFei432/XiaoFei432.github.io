@@ -27,31 +27,6 @@
   ],
   "papers": [
     {
-      "title": "End-to-End Modeling and Trace-Driven Replay for Hybrid Quantum-Classical Supercomputing",
-      "authors": [
-        "Ziming Zhao",
-        "Tingting Li",
-        "Zhaoxuan Li",
-        "Xiaofei Yue",
-        "Jiongchi Yu",
-        "Jianwei Yin"
-      ],
-      "venue": "The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC), 2026. [CCF A]",
-      "tags": [
-        "quantum"
-      ],
-      "links": [
-        {
-          "label": "PDF",
-          "url": ""
-        },
-        {
-          "label": "Code",
-          "url": ""
-        }
-      ]
-    },
-    {
       "title": "Rocket: Warming Serverless Inference via Hierarchical ML Artifact Pre-loading and Sharing",
       "authors": [
         "Xiaofei Yue",
@@ -116,7 +91,7 @@
         "Zhen Feng",
         "Fernando A. Kuipers"
       ],
-      "venue": "IEEE Transactions on Parallel and Distributed Systems (TPDS), 2025. [CCF A]",
+      "venue": "IEEE Transactions on Parallel and Distributed Systems (TPDS), 2026. [CCF A]",
       "tags": [
         "first-author",
         "serverless"
@@ -157,6 +132,31 @@
         {
           "label": "PDF",
           "url": "/papers/www2026-heterosim.pdf"
+        }
+      ]
+    },
+        {
+      "title": "End-to-End Modeling and Trace-Driven Replay for Hybrid Quantum-Classical Supercomputing",
+      "authors": [
+        "Ziming Zhao",
+        "Tingting Li",
+        "Zhaoxuan Li",
+        "Xiaofei Yue",
+        "Jiongchi Yu",
+        "Jianwei Yin"
+      ],
+      "venue": "The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC), 2026. [CCF A]",
+      "tags": [
+        "quantum"
+      ],
+      "links": [
+        {
+          "label": "PDF",
+          "url": ""
+        },
+        {
+          "label": "Code",
+          "url": ""
         }
       ]
     },

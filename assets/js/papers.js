@@ -3,12 +3,10 @@
 
   var DATA_URL = '/data/papers.json';
   var paperData = null;
-  var DEFAULT_VISIBLE_COUNT = 8;
 
   // Active filter state
   var activeAuthorFilter = '';   // '' means "all"
   var activeTopicFilter  = '';   // '' means no topic filter
-  var showAllPapers = false;
 
   // ── Escaping ──
   function escapeHtml(text) {
@@ -166,22 +164,6 @@
     });
   }
 
-  function ensureCollapseControl(list) {
-    var btn = document.getElementById('paper-list-toggle');
-    if (btn) return btn;
-
-    btn = document.createElement('button');
-    btn.id = 'paper-list-toggle';
-    btn.className = 'paper-list-toggle';
-    btn.type = 'button';
-    btn.addEventListener('click', function () {
-      showAllPapers = !showAllPapers;
-      applyFilters();
-    });
-    list.insertAdjacentElement('afterend', btn);
-    return btn;
-  }
-
   // ── Update button active states ──
   function updateFilterButtons() {
     // Author buttons
@@ -203,9 +185,8 @@
   // ── Apply combined filters ──
   function applyFilters() {
     var items = Array.from(document.querySelectorAll('.paper-list-item[data-paper-tags]'));
+    var list = document.getElementById('paper-list');
     var emptyEl = document.getElementById('paper-filter-empty');
-    var toggleBtn = document.getElementById('paper-list-toggle');
-    var visible = 0;
     var matched = 0;
 
     items.forEach(function (item) {
@@ -219,19 +200,11 @@
       var match = authorMatch && topicMatch;
       if (match) matched++;
 
-      var collapsed = match && !showAllPapers && matched > DEFAULT_VISIBLE_COUNT;
-      item.hidden = !match || collapsed;
-      if (match && !collapsed) visible++;
+      item.hidden = !match;
     });
 
+    if (list) list.scrollTop = 0;
     if (emptyEl) emptyEl.hidden = matched !== 0;
-    if (toggleBtn) {
-      toggleBtn.hidden = matched <= DEFAULT_VISIBLE_COUNT;
-      toggleBtn.textContent = showAllPapers
-        ? 'Show fewer publications'
-        : 'Show all publications (' + matched + ')';
-      toggleBtn.setAttribute('aria-expanded', String(showAllPapers));
-    }
     updateFilterButtons();
   }
 
@@ -272,7 +245,6 @@
 
         renderFilterToolbar(toolbar, data.authorFilters, data.topicFilters, defaultFilter);
         renderPaperList(list, data.papers, data.highlightAuthor);
-        ensureCollapseControl(list);
         applyFilters();
       })
       .catch(function (err) {
