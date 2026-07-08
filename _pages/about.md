@@ -1,7 +1,8 @@
 ---
 permalink: /
-title: ""
-excerpt: ""
+title: "Xiaofei Yue - Homepage"
+description: "Homepage of Xiaofei Yue, Ph.D. candidate at Beijing Institute of Technology, working on AI infrastructure, serverless computing, quantum computing, and distributed systems."
+excerpt: "Homepage of Xiaofei Yue, Ph.D. candidate at Beijing Institute of Technology."
 author_profile: true
 redirect_from:
   - /about/
