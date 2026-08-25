@@ -27,6 +27,31 @@
   ],
   "papers": [
     {
+  "title": "Semantic Retrieval Speculative Decoding with Intermediate Representations",
+  "authors": [
+    "Fangming Zhao",
+    "Xiaofei Yue",
+    "Fulun Ye",
+    "Yu Peng",
+    "Ziming Zhao",
+    "Lewei Jin",
+    "Wei Wu",
+    "Tianxiang Chen",
+    "Tingting Li",
+    "Jianwei Yin"
+  ],
+  "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP), 2026.",
+  "tags": [
+    "ai-infra"
+  ],
+  "links": [
+    {
+      "label": "Code",
+      "url": "https://github.com/Secbrain/SRSD"
+    }
+  ]
+},
+    {
       "title": "Rocket: Warming Serverless Inference via Hierarchical ML Artifact Pre-loading and Sharing",
       "authors": [
         "Xiaofei Yue",
