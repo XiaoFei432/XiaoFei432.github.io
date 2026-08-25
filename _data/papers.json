@@ -40,11 +40,15 @@
     "Tingting Li",
     "Jianwei Yin"
   ],
-  "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP), 2026.",
+  "venue": "The Conference on Empirical Methods in Natural Language Processing (EMNLP), 2026.",
   "tags": [
     "ai-infra"
   ],
   "links": [
+    {
+          "label": "PDF",
+          "url": "/papers/emnlp2026-SRSD.pdf"
+    },
     {
       "label": "Code",
       "url": "https://github.com/Secbrain/SRSD"
