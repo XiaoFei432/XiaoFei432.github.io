@@ -29,8 +29,8 @@
     {
   "title": "Semantic Retrieval Speculative Decoding with Intermediate Representations",
   "authors": [
-    "Fangming Zhao",
-    "Xiaofei Yue",
+    "Fangming Zhao†",
+    "Xiaofei Yue†",
     "Fulun Ye",
     "Yu Peng",
     "Ziming Zhao",
@@ -42,6 +42,7 @@
   ],
   "venue": "The Conference on Empirical Methods in Natural Language Processing (EMNLP), 2026.",
   "tags": [
+    "first-author",
     "ai-infra"
   ],
   "links": [
@@ -351,7 +352,7 @@
       ],
       "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026. [CCF A]",
       "tags": [
-        "ai-infra"
+        ""
       ],
       "links": [
         {
