@@ -124,7 +124,6 @@
       venueLabel.textContent = venueLabelMatch[1].trim();
       links.appendChild(venueLabel);
     }
-    appendPaperLink(links, 'Paper', getPaperLink(paper, ['PDF', 'Paper']));
     appendPaperLink(links, 'Code', getPaperLink(paper, ['Code', 'GitHub']));
     container.appendChild(links);
   }
