@@ -19,10 +19,6 @@
     {
       "key": "serverless",
       "label": "Serverless Computing"
-    },
-    {
-      "key": "quantum",
-      "label": "Quantum Computing"
     }
   ],
   "papers": [
@@ -176,9 +172,7 @@
         "Jianwei Yin"
       ],
       "venue": "Annual Meeting of the Association for Computational Linguistics (ACL) Findings, 2026. [CCF A]",
-      "tags": [
-        "quantum"
-      ],
+      "tags": [],
       "links": [
         {
           "label": "PDF",
@@ -197,9 +191,7 @@
         "Jianwei Yin"
       ],
       "venue": "The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC), 2026. [CCF A]",
-      "tags": [
-        "quantum"
-      ],
+      "tags": [],
       "links": [
         {
           "label": "PDF",
@@ -247,9 +239,7 @@
         "Jianwei Yin"
       ],
       "venue": "ACM/IEEE Design Automation Conference (DAC), 2026. [CCF A]",
-      "tags": [
-        "quantum"
-      ],
+      "tags": [],
       "links": [
         {
           "label": "PDF",
@@ -272,9 +262,7 @@
         "Jianwei Yin"
       ],
       "venue": "IEEE International Conference on Distributed Computing Systems (ICDCS), 2026. [CCF B]",
-      "tags": [
-        "quantum"
-      ],
+      "tags": [],
       "links": [
         {
           "label": "PDF",
@@ -305,9 +293,7 @@
         "Jianwei Yin"
       ],
       "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2026. [CCF A]",
-      "tags": [
-        "quantum"
-      ],
+      "tags": [],
       "links": [
         {
           "label": "PDF",
