@@ -1,7 +1,7 @@
 ---
 permalink: /publications/
 title: "Publications"
-description: "Publications by Xiaofei Yue, including work on AI infrastructure, serverless computing, and distributed systems."
+description: "Publications by Xiaofei Yue, including work on AI infrastructure, serverless computing, and their co-designs."
 author_profile: true
 ---
 

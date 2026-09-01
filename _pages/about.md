@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Xiaofei Yue - Homepage"
-description: "Homepage of Xiaofei Yue, Ph.D. candidate at Beijing Institute of Technology, working on AI infrastructure, serverless computing, and distributed systems."
+description: "Homepage of Xiaofei Yue, Ph.D. candidate at Beijing Institute of Technology, working on AI infrastructure, serverless computing, and their co-designs."
 excerpt: "Homepage of Xiaofei Yue, Ph.D. candidate at Beijing Institute of Technology."
 author_profile: true
 redirect_from:
@@ -16,7 +16,7 @@ redirect_from:
 # 👋 Biography
 {: #biography }
 
-**Xiaofei Yue** is currently a Ph.D. candidate in the School of Computer Science and Technology, Beijing Institute of Technology (BIT), advised by [Prof. Song Yang](https://songyang-cs.github.io/). Prior to that, he received his M.Eng. degree from Northeastern University (NEU) in 2022, advised by [Prof. Yuhai Zhao](http://www.cse.neu.edu.cn/_s131/2019/0313/c6641a157508/page.psp). From 2025 to 2026, He is a visiting Ph.D. student at the [PDCL Lab](https://www.ntu.edu.sg/pdcl), College of Computing and Data Science (CCDS), Nanyang Technological University (NTU), working with [Prof. Xueyan Tang](https://personal.ntu.edu.sg/asxytang/). Meanwhile, he is selected for the <span style="color: #224b8d;"> Young S&T Talents Cultivation Project, China Association for Science and Technology (CAST). </span> His research focuses on **AI infra.**, **serverless computing**, and **distributed systems**.
+**Xiaofei Yue** is currently a Ph.D. candidate in the School of Computer Science and Technology, Beijing Institute of Technology (BIT), advised by [Prof. Song Yang](https://songyang-cs.github.io/). Prior to that, he received his M.Eng. degree from Northeastern University (NEU) in 2022, advised by [Prof. Yuhai Zhao](http://www.cse.neu.edu.cn/_s131/2019/0313/c6641a157508/page.psp). From 2025 to 2026, He is a visiting Ph.D. student at the [PDCL Lab](https://www.ntu.edu.sg/pdcl), College of Computing and Data Science (CCDS), Nanyang Technological University (NTU), working with [Prof. Xueyan Tang](https://personal.ntu.edu.sg/asxytang/). Meanwhile, he is selected for the <span style="color: #224b8d;"> Young S&T Talents Cultivation Project, China Association for Science and Technology (CAST). </span> His research focuses on **AI infra.**, **serverless computing**, and their co-designs.
 
 ⭐️ Please feel free to reach out if you are interested in my research via Email (xfyue [at] bit [dot] edu [dot] cn) <span style="color:red">:) </span>
 
