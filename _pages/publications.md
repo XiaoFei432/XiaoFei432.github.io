@@ -15,7 +15,7 @@ This page provides static publication links and metadata for search engines and 
 
 Fangming Zhao†, Xiaofei Yue†, Fulun Ye, Ziming Zhao, Yu Peng, Junyu Chen, Tingting Li.
 
-Advances in Neural Information Processing Systems (NeurIPS), 2026 (Poster).
+Advances in Neural Information Processing Systems (NeurIPS), 2026.
 
 ## [Rocket: Warming Serverless Inference via Hierarchical ML Artifact Pre-loading and Sharing]({{ '/papers/rocket-warming-serverless-inference-via-hierarchical-ml-artifact-pre-loading-and-sharing.html' | relative_url }})
 
