@@ -23,6 +23,24 @@
   ],
   "papers": [
     {
+      "title": "SpectralKV: Redundancy-Aware KV Cache Compression via Spectral Coreset Selection",
+      "authors": [
+        "Fangming Zhao†",
+        "Xiaofei Yue†",
+        "Fulun Ye",
+        "Ziming Zhao",
+        "Yu Peng",
+        "Junyu Chen",
+        "Tingting Li"
+      ],
+      "venue": "NeurIPS 2026 (Poster).",
+      "tags": [
+        "first-author",
+        "ai-infra"
+      ],
+      "links": []
+    },
+    {
   "title": "Semantic Retrieval Speculative Decoding with Intermediate Representations",
   "authors": [
     "Fangming Zhao†",
