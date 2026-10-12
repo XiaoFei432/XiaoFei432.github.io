@@ -3,6 +3,7 @@ title: "SpectralKV: Redundancy-Aware KV Cache Compression via Spectral Coreset S
 description: "SpectralKV: Redundancy-Aware KV Cache Compression via Spectral Coreset Selection. Fangming Zhao, Xiaofei Yue, Fulun Ye, Ziming Zhao, Yu Peng, Junyu Chen, Tingting Li. Advances in Neural Information Processing Systems (NeurIPS), 2026."
 display_venue: "Advances in Neural Information Processing Systems (NeurIPS), 2026."
 sitemap: true
+code_url: "https://github.com/Secbrain/SpectralKV"
 scholar:
   title: "SpectralKV: Redundancy-Aware KV Cache Compression via Spectral Coreset Selection"
   type: "conference"
@@ -23,3 +24,5 @@ SpectralKV: Redundancy-Aware KV Cache Compression via Spectral Coreset Selection
 Authors: Fangming Zhao, Xiaofei Yue, Fulun Ye, Ziming Zhao, Yu Peng, Junyu Chen, Tingting Li
 
 Venue: Advances in Neural Information Processing Systems (NeurIPS), 2026.
+
+Links: [Code](https://github.com/Secbrain/SpectralKV)

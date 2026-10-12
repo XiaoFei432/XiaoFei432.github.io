@@ -17,6 +17,8 @@ Fangming Zhao†, Xiaofei Yue†, Fulun Ye, Ziming Zhao, Yu Peng, Junyu Chen, Ti
 
 Advances in Neural Information Processing Systems (NeurIPS), 2026.
 
+[Code](https://github.com/Secbrain/SpectralKV)
+
 ## [Rocket: Warming Serverless Inference via Hierarchical ML Artifact Pre-loading and Sharing]({{ '/papers/rocket-warming-serverless-inference-via-hierarchical-ml-artifact-pre-loading-and-sharing.html' | relative_url }})
 
 Xiaofei Yue, Song Yang, Fan Li, Youqi Li, Yu Wang.

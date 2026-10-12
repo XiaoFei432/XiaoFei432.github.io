@@ -38,7 +38,12 @@
         "first-author",
         "ai-infra"
       ],
-      "links": []
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/Secbrain/SpectralKV"
+        }
+      ]
     },
     {
   "title": "Semantic Retrieval Speculative Decoding with Intermediate Representations",
